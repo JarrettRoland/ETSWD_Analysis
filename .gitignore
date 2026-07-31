@@ -1,0 +1,52 @@
+# ==========================================
+# Jupyter Lab & Notebook Specifics
+# ==========================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+**/.ipynb_checkpoints/**
+.jupyter_snapshots/
+
+# JupyterLab local workspace settings and UI state
+.jupyterlab_workspace/
+.jupyterlab_settings/
+
+# JupyterLab extensions cache
+.jupyterlab_extensions/
+.jupyterlab_templates_ignore
+
+# Inline plot/image/output exports (if you auto-save figures)
+.ipynb_checkpoints/
+.pytest_cache/
+
+# ==========================================
+# Python Standard (Caches and Environments)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# ==========================================
+# Data & Large Files 
+# ==========================================
+*.csv
+*.xlsx
+*.json
+*.sqlite
+*.db
+*.pkl
+*.pickle
+*.h5
+*.models/
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+.secrets

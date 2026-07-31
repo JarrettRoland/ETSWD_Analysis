@@ -1,0 +1,34 @@
+Preprocessing
+
+Data corrections
+
+1) Colville #5 correction on 2/28/2019 value is $-17966.70, comment says 12/13 - 01/16 correction. However the bill for 12/29/2018 is 4991.65 and the bill for 1/30/2019 is 714.49, which definitely do not add up to this number. Is this a correction for December 2013 to January 2016? Instead of dropping the value I subtracted it from the total value of this entry and the previous 12 entries and then repopulated those entries with the average.
+
+2) Abney #2 correction on 06/29/2021 value is $-5991, comment says 05/18-06/17 but this value was around 5400. Instead of dropping I subtracted it from the total value of this entry and previous 4 entries and took the average value of those entries.
+
+3) Colville #4 entry on 06/28/2019 is -5873 but no comment. Totaled the previous 11 months with this bill and then took the average across the 12 months.
+
+4) Williams #4 has been out of operation for 5 years. No need to include.
+
+5) Williams #7 entry on 8/27/21, comment says 07/12-08/01/ 7/29/2021 bill has a comment of 6/10-7/10. Took this to mean that 7/29 bill includes part of June and 8/27 is a correction for an overbill on 07/29. Added the three bills together and took the average.
+
+6) Sunkel #4 has an entry of -323.39 on 6/27/2020 with no comment. Used a six month average across 1/2020 - 6/2020 
+
+7) Albertson #4 Usage Month 12/2020 has two entries - now combined
+
+8) Kee #4 Usage Month 11/2023 has two entries - now combined
+
+9) Kee #5 Usage Month 3/2023 has two entries - now combined
+
+10) Moyar #2 Usage Month 3/2023 has two entries - now combined
+
+11) Moyar #3 Usage Month 3/2023 has two entries - now combined
+
+12) Suman #8 Usage Month 7/2022 has two entries - Bill Month was 8/2021 for one and Usage Month 7/2021 was missing, identified as a typo and corrected.
+
+13) Removed FM 850 - Silvey Booster. Not needed for analysis.
+
+
+Joining Notes
+
+- Join on the site name / service address instead of the account number, it is more accurate. 18162/18164 instead of 10260/18164.
