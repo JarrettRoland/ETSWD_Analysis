@@ -1,0 +1,1950 @@
+Hours explained by Billing KWH, Water Total, Metered DM, Power Factor | adj R² = 0.8079 | AIC = 83682.34
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.808
+Model:                            GLS   Adj. R-squared:                  0.808
+Method:                 Least Squares   F-statistic:                     7062.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -41836.
+No. Observations:                6716   AIC:                         8.368e+04
+Df Residuals:                    6711   BIC:                         8.372e+04
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const          104.9109     10.655      9.846      0.000      84.024     125.797
+Billing KWH      0.0006   5.11e-05     11.770      0.000       0.001       0.001
+Water Total      0.0013   1.36e-05     92.627      0.000       0.001       0.001
+Metered DM      -0.7587      0.030    -25.603      0.000      -0.817      -0.701
+Power Factor     0.7926      0.108      7.309      0.000       0.580       1.005
+==============================================================================
+Omnibus:                     5730.341   Durbin-Watson:                   0.459
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1721502.843
+Skew:                           3.197   Prob(JB):                         0.00
+Kurtosis:                      81.173   Cond. No.                     2.80e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.8e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by Billing KWH, Water Total, Fuel Rate, Metered DM, Power Factor | adj R² = 0.8071 | AIC = 82194.08
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.807
+Model:                            GLS   Adj. R-squared:                  0.807
+Method:                 Least Squares   F-statistic:                     5517.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -41091.
+No. Observations:                6591   AIC:                         8.219e+04
+Df Residuals:                    6585   BIC:                         8.223e+04
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const          123.3038     13.602      9.065      0.000      96.640     149.968
+Billing KWH      0.0006   5.18e-05     11.478      0.000       0.000       0.001
+Water Total      0.0013   1.38e-05     91.570      0.000       0.001       0.001
+Fuel Rate     -589.4280    258.220     -2.283      0.022   -1095.623     -83.233
+Metered DM      -0.7559      0.030    -25.256      0.000      -0.815      -0.697
+Power Factor     0.8026      0.110      7.329      0.000       0.588       1.017
+==============================================================================
+Omnibus:                     5582.458   Durbin-Watson:                   0.461
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1675132.652
+Skew:                           3.155   Prob(JB):                         0.00
+Kurtosis:                      80.845   Cond. No.                     6.68e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 6.68e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by Billing KWH, Water Total, Metered DM | adj R² = 0.8064 | AIC = 83733.58
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.807
+Model:                            GLS   Adj. R-squared:                  0.806
+Method:                 Least Squares   F-statistic:                     9326.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -41863.
+No. Observations:                6716   AIC:                         8.373e+04
+Df Residuals:                    6712   BIC:                         8.376e+04
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const         174.7808      4.722     37.011      0.000     165.523     184.038
+Billing KWH     0.0006   5.13e-05     11.854      0.000       0.001       0.001
+Water Total     0.0013   1.36e-05     93.128      0.000       0.001       0.001
+Metered DM     -0.7609      0.030    -25.580      0.000      -0.819      -0.703
+==============================================================================
+Omnibus:                     5651.537   Durbin-Watson:                   0.452
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1619623.909
+Skew:                           3.132   Prob(JB):                         0.00
+Kurtosis:                      78.819   Cond. No.                     1.24e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.24e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by Billing KWH, Water Total, Fuel Rate, Metered DM | adj R² = 0.8056 | AIC = 82245.62
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.806
+Model:                            GLS   Adj. R-squared:                  0.806
+Method:                 Least Squares   F-statistic:                     6828.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -41118.
+No. Observations:                6591   AIC:                         8.225e+04
+Df Residuals:                    6586   BIC:                         8.228e+04
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const         192.2006      9.870     19.474      0.000     172.853     211.548
+Billing KWH     0.0006    5.2e-05     11.583      0.000       0.001       0.001
+Water Total     0.0013   1.38e-05     91.998      0.000       0.001       0.001
+Fuel Rate    -531.5624    259.130     -2.051      0.040   -1039.542     -23.583
+Metered DM     -0.7586      0.030    -25.249      0.000      -0.818      -0.700
+==============================================================================
+Omnibus:                     5508.450   Durbin-Watson:                   0.454
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1574694.973
+Skew:                           3.094   Prob(JB):                         0.00
+Kurtosis:                      78.470   Cond. No.                     6.68e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 6.68e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by PSI, Billing KWH, Water Total, Metered DM, Power Factor | adj R² = 0.8054 | AIC = 82456.24
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.806
+Model:                            GLS   Adj. R-squared:                  0.805
+Method:                 Least Squares   F-statistic:                     5482.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -41222.
+No. Observations:                6624   AIC:                         8.246e+04
+Df Residuals:                    6618   BIC:                         8.250e+04
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const            6.6566     14.706      0.453      0.651     -22.171      35.484
+PSI              0.1423      0.013     11.104      0.000       0.117       0.167
+Billing KWH      0.0007   5.24e-05     12.984      0.000       0.001       0.001
+Water Total      0.0013    1.4e-05     89.550      0.000       0.001       0.001
+Metered DM      -0.8321      0.030    -27.371      0.000      -0.892      -0.773
+Power Factor     0.7173      0.110      6.540      0.000       0.502       0.932
+==============================================================================
+Omnibus:                     5817.773   Durbin-Watson:                   0.474
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1877514.148
+Skew:                           3.347   Prob(JB):                         0.00
+Kurtosis:                      85.206   Cond. No.                     3.89e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.89e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by PSI, Billing KWH, Water Total, Fuel Rate, Metered DM, Power Factor | adj R² = 0.8044 | AIC = 80971.76
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.805
+Model:                            GLS   Adj. R-squared:                  0.804
+Method:                 Least Squares   F-statistic:                     4456.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -40479.
+No. Observations:                6499   AIC:                         8.097e+04
+Df Residuals:                    6492   BIC:                         8.102e+04
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const           30.8340     16.677      1.849      0.065      -1.859      63.527
+PSI              0.1419      0.013     10.933      0.000       0.116       0.167
+Billing KWH      0.0007   5.32e-05     12.654      0.000       0.001       0.001
+Water Total      0.0013   1.43e-05     88.431      0.000       0.001       0.001
+Fuel Rate     -757.3198    259.044     -2.924      0.003   -1265.131    -249.509
+Metered DM      -0.8284      0.031    -26.964      0.000      -0.889      -0.768
+Power Factor     0.7283      0.111      6.571      0.000       0.511       0.946
+==============================================================================
+Omnibus:                     5658.363   Durbin-Watson:                   0.476
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1820829.023
+Skew:                           3.294   Prob(JB):                         0.00
+Kurtosis:                      84.736   Cond. No.                     6.74e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 6.74e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by Water Total, Metered DM, Power Factor | adj R² = 0.8042 | AIC = 83865.74
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.804
+Model:                            GLS   Adj. R-squared:                  0.804
+Method:                 Least Squares   F-statistic:                     9198.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -41929.
+No. Observations:                6720   AIC:                         8.387e+04
+Df Residuals:                    6716   BIC:                         8.389e+04
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const           69.4162     10.321      6.726      0.000      49.184      89.649
+Water Total      0.0014    8.8e-06    156.779      0.000       0.001       0.001
+Metered DM      -0.4854      0.019    -26.028      0.000      -0.522      -0.449
+Power Factor     0.8119      0.110      7.415      0.000       0.597       1.027
+==============================================================================
+Omnibus:                     5637.622   Durbin-Watson:                   0.400
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1554252.123
+Skew:                           3.127   Prob(JB):                         0.00
+Kurtosis:                      77.241   Cond. No.                     2.58e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.58e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by PSI, Billing KWH, Water Total, Metered DM | adj R² = 0.8041 | AIC = 82496.92
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.804
+Model:                            GLS   Adj. R-squared:                  0.804
+Method:                 Least Squares   F-statistic:                     6799.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -41243.
+No. Observations:                6624   AIC:                         8.250e+04
+Df Residuals:                    6619   BIC:                         8.253e+04
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const          69.3299     11.190      6.196      0.000      47.394      91.266
+PSI             0.1437      0.013     11.184      0.000       0.119       0.169
+Billing KWH     0.0007   5.25e-05     13.120      0.000       0.001       0.001
+Water Total     0.0013    1.4e-05     89.890      0.000       0.001       0.001
+Metered DM     -0.8366      0.030    -27.439      0.000      -0.896      -0.777
+==============================================================================
+Omnibus:                     5749.378   Durbin-Watson:                   0.469
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1781897.413
+Skew:                           3.288   Prob(JB):                         0.00
+Kurtosis:                      83.081   Cond. No.                     2.95e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.95e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by Water Total, Fuel Rate, Metered DM, Power Factor | adj R² = 0.8034 | AIC = 82347.30
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.804
+Model:                            GLS   Adj. R-squared:                  0.803
+Method:                 Least Squares   F-statistic:                     6736.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -41169.
+No. Observations:                6593   AIC:                         8.235e+04
+Df Residuals:                    6588   BIC:                         8.238e+04
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const           90.3626     13.427      6.730      0.000      64.041     116.684
+Water Total      0.0014   8.92e-06    155.028      0.000       0.001       0.001
+Fuel Rate     -657.4348    260.681     -2.522      0.012   -1168.454    -146.416
+Metered DM      -0.4872      0.019    -25.812      0.000      -0.524      -0.450
+Power Factor     0.8261      0.111      7.472      0.000       0.609       1.043
+==============================================================================
+Omnibus:                     5487.321   Durbin-Watson:                   0.403
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1514833.256
+Skew:                           3.081   Prob(JB):                         0.00
+Kurtosis:                      77.002   Cond. No.                     6.40e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 6.4e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by PSI, Billing KWH, Water Total, Fuel Rate, Metered DM | adj R² = 0.8032 | AIC = 81012.84
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.803
+Model:                            GLS   Adj. R-squared:                  0.803
+Method:                 Least Squares   F-statistic:                     5304.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -40500.
+No. Observations:                6499   AIC:                         8.101e+04
+Df Residuals:                    6493   BIC:                         8.105e+04
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const          92.3396     13.848      6.668      0.000      65.194     119.485
+PSI             0.1435      0.013     11.016      0.000       0.118       0.169
+Billing KWH     0.0007   5.33e-05     12.814      0.000       0.001       0.001
+Water Total     0.0013   1.43e-05     88.705      0.000       0.001       0.001
+Fuel Rate    -692.2853    259.694     -2.666      0.008   -1201.371    -183.200
+Metered DM     -0.8336      0.031    -27.053      0.000      -0.894      -0.773
+==============================================================================
+Omnibus:                     5594.963   Durbin-Watson:                   0.471
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1726838.597
+Skew:                           3.240   Prob(JB):                         0.00
+Kurtosis:                      82.593   Cond. No.                     6.73e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 6.73e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by Water Total, Metered DM | adj R² = 0.8026 | AIC = 83918.53
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.803
+Model:                            GLS   Adj. R-squared:                  0.803
+Method:                 Least Squares   F-statistic:                 1.366e+04
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -41956.
+No. Observations:                6720   AIC:                         8.392e+04
+Df Residuals:                    6717   BIC:                         8.394e+04
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const         140.6374      3.791     37.101      0.000     133.207     148.068
+Water Total     0.0014   8.75e-06    158.844      0.000       0.001       0.001
+Metered DM     -0.4847      0.019    -25.886      0.000      -0.521      -0.448
+==============================================================================
+Omnibus:                     5565.279   Durbin-Watson:                   0.392
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1458960.295
+Skew:                           3.070   Prob(JB):                         0.00
+Kurtosis:                      74.923   Cond. No.                     9.42e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 9.42e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by Water Total, Fuel Rate, Metered DM | adj R² = 0.8018 | AIC = 82400.94
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.802
+Model:                            GLS   Adj. R-squared:                  0.802
+Method:                 Least Squares   F-statistic:                     8889.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -41196.
+No. Observations:                6593   AIC:                         8.240e+04
+Df Residuals:                    6589   BIC:                         8.243e+04
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const         160.8817      9.591     16.775      0.000     142.081     179.682
+Water Total     0.0014   8.87e-06    156.955      0.000       0.001       0.001
+Fuel Rate    -598.9006    261.645     -2.289      0.022   -1111.810     -85.991
+Metered DM     -0.4865      0.019    -25.669      0.000      -0.524      -0.449
+==============================================================================
+Omnibus:                     5419.218   Durbin-Watson:                   0.395
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1419858.666
+Skew:                           3.029   Prob(JB):                         0.00
+Kurtosis:                      74.637   Cond. No.                     6.40e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 6.4e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by PSI, Water Total, Metered DM, Power Factor | adj R² = 0.8006 | AIC = 82669.66
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.801
+Model:                            GLS   Adj. R-squared:                  0.801
+Method:                 Least Squares   F-statistic:                     6653.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -41330.
+No. Observations:                6628   AIC:                         8.267e+04
+Df Residuals:                    6623   BIC:                         8.270e+04
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const          -29.1358     14.613     -1.994      0.046     -57.782      -0.489
+PSI              0.1349      0.013     10.413      0.000       0.109       0.160
+Water Total      0.0014   9.15e-06    152.579      0.000       0.001       0.001
+Metered DM      -0.5237      0.019    -27.193      0.000      -0.561      -0.486
+Power Factor     0.7518      0.111      6.774      0.000       0.534       0.969
+==============================================================================
+Omnibus:                     5696.135   Durbin-Watson:                   0.404
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1657807.455
+Skew:                           3.248   Prob(JB):                         0.00
+Kurtosis:                      80.206   Cond. No.                     3.66e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.66e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by PSI, Water Total, Fuel Rate, Metered DM, Power Factor | adj R² = 0.7998 | AIC = 81152.79
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.800
+Model:                            GLS   Adj. R-squared:                  0.800
+Method:                 Least Squares   F-statistic:                     5194.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -40570.
+No. Observations:                6501   AIC:                         8.115e+04
+Df Residuals:                    6495   BIC:                         8.119e+04
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const           -2.6069     16.668     -0.156      0.876     -35.281      30.067
+PSI              0.1353      0.013     10.303      0.000       0.110       0.161
+Water Total      0.0014   9.27e-06    150.857      0.000       0.001       0.001
+Fuel Rate     -837.4394    262.098     -3.195      0.001   -1351.237    -323.642
+Metered DM      -0.5251      0.019    -26.935      0.000      -0.563      -0.487
+Power Factor     0.7681      0.112      6.851      0.000       0.548       0.988
+==============================================================================
+Omnibus:                     5536.325   Durbin-Watson:                   0.408
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1612222.697
+Skew:                           3.194   Prob(JB):                         0.00
+Kurtosis:                      79.884   Cond. No.                     6.46e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 6.46e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by PSI, Water Total, Metered DM | adj R² = 0.7993 | AIC = 82713.42
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.799
+Model:                            GLS   Adj. R-squared:                  0.799
+Method:                 Least Squares   F-statistic:                     8796.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -41353.
+No. Observations:                6628   AIC:                         8.271e+04
+Df Residuals:                    6624   BIC:                         8.274e+04
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const          36.1095     11.027      3.275      0.001      14.493      57.726
+PSI             0.1363      0.013     10.490      0.000       0.111       0.162
+Water Total     0.0014    9.1e-06    154.334      0.000       0.001       0.001
+Metered DM     -0.5242      0.019    -27.125      0.000      -0.562      -0.486
+==============================================================================
+Omnibus:                     5632.200   Durbin-Watson:                   0.397
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1567026.662
+Skew:                           3.197   Prob(JB):                         0.00
+Kurtosis:                      78.056   Cond. No.                     2.75e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.75e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by PSI, Water Total, Fuel Rate, Metered DM | adj R² = 0.7984 | AIC = 81197.60
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.798
+Model:                            GLS   Adj. R-squared:                  0.798
+Method:                 Least Squares   F-statistic:                     6435.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -40594.
+No. Observations:                6501   AIC:                         8.120e+04
+Df Residuals:                    6496   BIC:                         8.123e+04
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const          61.7967     13.812      4.474      0.000      34.721      88.872
+PSI             0.1367      0.013     10.382      0.000       0.111       0.163
+Water Total     0.0014   9.22e-06    152.494      0.000       0.001       0.001
+Fuel Rate    -770.2260    262.838     -2.930      0.003   -1285.476    -254.976
+Metered DM     -0.5257      0.020    -26.869      0.000      -0.564      -0.487
+==============================================================================
+Omnibus:                     5476.877   Durbin-Watson:                   0.400
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1521607.782
+Skew:                           3.147   Prob(JB):                         0.00
+Kurtosis:                      77.684   Cond. No.                     6.45e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 6.45e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by Billing KWH, Water Total | adj R² = 0.7946 | AIC = 93105.14
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.795
+Model:                            GLS   Adj. R-squared:                  0.795
+Method:                 Least Squares   F-statistic:                 1.435e+04
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -46550.
+No. Observations:                7419   AIC:                         9.311e+04
+Df Residuals:                    7416   BIC:                         9.313e+04
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const          75.3189      2.903     25.943      0.000      69.628      81.010
+Billing KWH  7.563e-06   5.94e-07     12.724      0.000     6.4e-06    8.73e-06
+Water Total     0.0013   7.84e-06    166.290      0.000       0.001       0.001
+==============================================================================
+Omnibus:                     5548.599   Durbin-Watson:                   0.350
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1065511.098
+Skew:                           2.653   Prob(JB):                         0.00
+Kurtosis:                      61.470   Cond. No.                     5.13e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 5.13e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by Water Total | adj R² = 0.7929 | AIC = 94140.43
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.793
+Model:                            GLS   Adj. R-squared:                  0.793
+Method:                 Least Squares   F-statistic:                 2.868e+04
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -47068.
+No. Observations:                7493   AIC:                         9.414e+04
+Df Residuals:                    7491   BIC:                         9.415e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const          76.0379      2.888     26.330      0.000      70.377      81.699
+Water Total     0.0013   7.78e-06    169.356      0.000       0.001       0.001
+==============================================================================
+Omnibus:                     5457.703   Durbin-Watson:                   0.340
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           993273.658
+Skew:                           2.549   Prob(JB):                         0.00
+Kurtosis:                      59.173   Cond. No.                     7.17e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.17e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by Water Total, Fuel Rate | adj R² = 0.7913 | AIC = 84827.12
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.791
+Model:                            GLS   Adj. R-squared:                  0.791
+Method:                 Least Squares   F-statistic:                 1.279e+04
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -42411.
+No. Observations:                6743   AIC:                         8.483e+04
+Df Residuals:                    6740   BIC:                         8.485e+04
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const          92.6813      9.535      9.720      0.000      73.989     111.374
+Water Total     0.0013   8.17e-06    159.906      0.000       0.001       0.001
+Fuel Rate    -512.6868    269.489     -1.902      0.057   -1040.971      15.597
+==============================================================================
+Omnibus:                     5138.702   Durbin-Watson:                   0.357
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1031413.919
+Skew:                           2.724   Prob(JB):                         0.00
+Kurtosis:                      63.344   Cond. No.                     6.33e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 6.33e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by Billing KWH, Water Total, Fuel Rate | adj R² = 0.7904 | AIC = 84439.64
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.790
+Model:                            GLS   Adj. R-squared:                  0.790
+Method:                 Least Squares   F-statistic:                     8435.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -42216.
+No. Observations:                6711   AIC:                         8.444e+04
+Df Residuals:                    6707   BIC:                         8.447e+04
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const          92.9284      9.564      9.717      0.000      74.180     111.677
+Billing KWH -4.583e-05   1.28e-05     -3.580      0.000   -7.09e-05   -2.07e-05
+Water Total     0.0013   9.05e-06    145.800      0.000       0.001       0.001
+Fuel Rate    -507.5839    270.704     -1.875      0.061   -1038.250      23.083
+==============================================================================
+Omnibus:                     5130.531   Durbin-Watson:                   0.359
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1026047.990
+Skew:                           2.740   Prob(JB):                         0.00
+Kurtosis:                      63.327   Cond. No.                     6.66e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 6.66e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by Billing KWH, Water Total, Power Factor | adj R² = 0.7892 | AIC = 84306.25
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.789
+Model:                            GLS   Adj. R-squared:                  0.789
+Method:                 Least Squares   F-statistic:                     8381.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -42149.
+No. Observations:                6716   AIC:                         8.431e+04
+Df Residuals:                    6712   BIC:                         8.433e+04
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const            8.6574     10.444      0.829      0.407     -11.816      29.131
+Billing KWH     -0.0004   3.34e-05    -12.624      0.000      -0.000      -0.000
+Water Total      0.0014   1.28e-05    109.720      0.000       0.001       0.001
+Power Factor     0.8211      0.114      7.227      0.000       0.598       1.044
+==============================================================================
+Omnibus:                     5297.292   Durbin-Watson:                   0.373
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1156602.704
+Skew:                           2.868   Prob(JB):                         0.00
+Kurtosis:                      67.033   Cond. No.                     2.62e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.62e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by Billing KWH, Water Total, Fuel Rate, Power Factor | adj R² = 0.7885 | AIC = 82801.45
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.789
+Model:                            GLS   Adj. R-squared:                  0.788
+Method:                 Least Squares   F-statistic:                     6143.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -41396.
+No. Observations:                6591   AIC:                         8.280e+04
+Df Residuals:                    6586   BIC:                         8.284e+04
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const           30.0944     13.710      2.195      0.028       3.219      56.970
+Billing KWH     -0.0004   3.39e-05    -12.604      0.000      -0.000      -0.000
+Water Total      0.0014    1.3e-05    108.461      0.000       0.001       0.001
+Fuel Rate     -686.9397    270.387     -2.541      0.011   -1216.985    -156.894
+Power Factor     0.8375      0.115      7.303      0.000       0.613       1.062
+==============================================================================
+Omnibus:                     5156.421   Durbin-Watson:                   0.376
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1128002.608
+Skew:                           2.826   Prob(JB):                         0.00
+Kurtosis:                      66.840   Cond. No.                     6.68e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 6.68e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by PSI, Billing KWH, Water Total | adj R² = 0.7865 | AIC = 91319.54
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.787
+Model:                            GLS   Adj. R-squared:                  0.787
+Method:                 Least Squares   F-statistic:                     8936.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -45656.
+No. Observations:                7276   AIC:                         9.132e+04
+Df Residuals:                    7272   BIC:                         9.135e+04
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const          -9.3590     10.687     -0.876      0.381     -30.309      11.591
+PSI             0.1102      0.013      8.814      0.000       0.086       0.135
+Billing KWH  6.972e-06   5.98e-07     11.660      0.000     5.8e-06    8.14e-06
+Water Total     0.0013   8.12e-06    160.223      0.000       0.001       0.001
+==============================================================================
+Omnibus:                     5537.630   Durbin-Watson:                   0.354
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1090626.459
+Skew:                           2.726   Prob(JB):                         0.00
+Kurtosis:                      62.730   Cond. No.                     1.89e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.89e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by PSI, Water Total | adj R² = 0.7851 | AIC = 92247.04
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.785
+Model:                            GLS   Adj. R-squared:                  0.785
+Method:                 Least Squares   F-statistic:                 1.342e+04
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -46121.
+No. Observations:                7343   AIC:                         9.225e+04
+Df Residuals:                    7340   BIC:                         9.227e+04
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const         -18.7064     10.526     -1.777      0.076     -39.340       1.927
+PSI             0.1228      0.012      9.976      0.000       0.099       0.147
+Water Total     0.0013   8.04e-06    163.461      0.000       0.001       0.001
+==============================================================================
+Omnibus:                     5460.511   Durbin-Watson:                   0.346
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1029136.193
+Skew:                           2.631   Prob(JB):                         0.00
+Kurtosis:                      60.758   Cond. No.                     2.62e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.62e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by Water Total, Power Factor | adj R² = 0.7845 | AIC = 84521.24
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.785
+Model:                            GLS   Adj. R-squared:                  0.785
+Method:                 Least Squares   F-statistic:                 1.223e+04
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -42258.
+No. Observations:                6721   AIC:                         8.452e+04
+Df Residuals:                    6718   BIC:                         8.454e+04
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const           10.3850     10.563      0.983      0.326     -10.321      31.091
+Water Total      0.0013   8.38e-06    153.153      0.000       0.001       0.001
+Power Factor     0.7969      0.115      6.937      0.000       0.572       1.022
+==============================================================================
+Omnibus:                     5195.832   Durbin-Watson:                   0.371
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1076750.898
+Skew:                           2.784   Prob(JB):                         0.00
+Kurtosis:                      64.757   Cond. No.                     2.51e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.51e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by Water Total, Fuel Rate, Power Factor | adj R² = 0.7836 | AIC = 82992.15
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.784
+Model:                            GLS   Adj. R-squared:                  0.784
+Method:                 Least Squares   F-statistic:                     7961.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -41492.
+No. Observations:                6594   AIC:                         8.299e+04
+Df Residuals:                    6590   BIC:                         8.302e+04
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const           29.8237     13.868      2.151      0.032       2.638      57.010
+Water Total      0.0013    8.5e-06    151.410      0.000       0.001       0.001
+Fuel Rate     -622.8537    273.403     -2.278      0.023   -1158.812     -86.895
+Power Factor     0.8114      0.116      6.996      0.000       0.584       1.039
+==============================================================================
+Omnibus:                     5059.966   Durbin-Watson:                   0.375
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1048624.104
+Skew:                           2.747   Prob(JB):                         0.00
+Kurtosis:                      64.534   Cond. No.                     6.40e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 6.4e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by PSI, Billing KWH, Water Total, Power Factor | adj R² = 0.7834 | AIC = 83164.60
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.783
+Model:                            GLS   Adj. R-squared:                  0.783
+Method:                 Least Squares   F-statistic:                     5988.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -41577.
+No. Observations:                6624   AIC:                         8.316e+04
+Df Residuals:                    6619   BIC:                         8.320e+04
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const          -69.3361     15.235     -4.551      0.000     -99.203     -39.470
+PSI              0.1023      0.013      7.614      0.000       0.076       0.129
+Billing KWH     -0.0004   3.46e-05    -12.657      0.000      -0.001      -0.000
+Water Total      0.0014   1.35e-05    105.122      0.000       0.001       0.001
+Power Factor     0.7852      0.116      6.788      0.000       0.558       1.012
+==============================================================================
+Omnibus:                     5288.941   Durbin-Watson:                   0.373
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1178768.517
+Skew:                           2.924   Prob(JB):                         0.00
+Kurtosis:                      68.090   Cond. No.                     3.82e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.82e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by PSI, Water Total, Fuel Rate | adj R² = 0.7830 | AIC = 83251.58
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.783
+Model:                            GLS   Adj. R-squared:                  0.783
+Method:                 Least Squares   F-statistic:                     7958.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -41622.
+No. Observations:                6615   AIC:                         8.325e+04
+Df Residuals:                    6611   BIC:                         8.328e+04
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const          31.0845     14.211      2.187      0.029       3.225      58.944
+PSI             0.0891      0.013      6.622      0.000       0.063       0.115
+Water Total     0.0013   8.46e-06    153.811      0.000       0.001       0.001
+Fuel Rate    -687.5102    273.118     -2.517      0.012   -1222.910    -152.111
+==============================================================================
+Omnibus:                     5093.485   Durbin-Watson:                   0.358
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1032686.929
+Skew:                           2.770   Prob(JB):                         0.00
+Kurtosis:                      63.959   Cond. No.                     6.40e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 6.4e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by PSI, Billing KWH, Water Total, Fuel Rate, Power Factor | adj R² = 0.7826 | AIC = 81659.63
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.783
+Model:                            GLS   Adj. R-squared:                  0.783
+Method:                 Least Squares   F-statistic:                     4679.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -40824.
+No. Observations:                6499   AIC:                         8.166e+04
+Df Residuals:                    6493   BIC:                         8.170e+04
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const          -42.0858     17.352     -2.425      0.015     -76.102      -8.069
+PSI              0.1024      0.014      7.531      0.000       0.076       0.129
+Billing KWH     -0.0004   3.51e-05    -12.627      0.000      -0.001      -0.000
+Water Total      0.0014   1.37e-05    103.858      0.000       0.001       0.001
+Fuel Rate     -871.3775    273.107     -3.191      0.001   -1406.756    -335.999
+Power Factor     0.8049      0.117      6.890      0.000       0.576       1.034
+==============================================================================
+Omnibus:                     5140.557   Durbin-Watson:                   0.377
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1147562.596
+Skew:                           2.875   Prob(JB):                         0.00
+Kurtosis:                      67.844   Cond. No.                     6.74e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 6.74e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by PSI, Billing KWH, Water Total, Fuel Rate | adj R² = 0.7821 | AIC = 82887.03
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.782
+Model:                            GLS   Adj. R-squared:                  0.782
+Method:                 Least Squares   F-statistic:                     5910.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -41439.
+No. Observations:                6585   AIC:                         8.289e+04
+Df Residuals:                    6580   BIC:                         8.292e+04
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const          28.4872     14.284      1.994      0.046       0.486      56.488
+PSI             0.0922      0.014      6.816      0.000       0.066       0.119
+Billing KWH   -4.6e-05   1.29e-05     -3.566      0.000   -7.13e-05   -2.07e-05
+Water Total     0.0013   9.38e-06    140.239      0.000       0.001       0.001
+Fuel Rate    -678.5887    274.289     -2.474      0.013   -1216.285    -140.892
+==============================================================================
+Omnibus:                     5086.972   Durbin-Watson:                   0.360
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1029182.657
+Skew:                           2.787   Prob(JB):                         0.00
+Kurtosis:                      63.991   Cond. No.                     6.73e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 6.73e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by PSI, Water Total, Power Factor | adj R² = 0.7785 | AIC = 83380.79
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.779
+Model:                            GLS   Adj. R-squared:                  0.778
+Method:                 Least Squares   F-statistic:                     7764.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -41686.
+No. Observations:                6629   AIC:                         8.338e+04
+Df Residuals:                    6625   BIC:                         8.341e+04
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const          -55.7149     15.366     -3.626      0.000     -85.837     -25.593
+PSI              0.0890      0.014      6.577      0.000       0.062       0.115
+Water Total      0.0013   8.61e-06    149.138      0.000       0.001       0.001
+Power Factor     0.7624      0.117      6.517      0.000       0.533       0.992
+==============================================================================
+Omnibus:                     5184.215   Durbin-Watson:                   0.371
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1089588.304
+Skew:                           2.836   Prob(JB):                         0.00
+Kurtosis:                      65.551   Cond. No.                     3.65e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.65e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by PSI, Water Total, Fuel Rate, Power Factor | adj R² = 0.7775 | AIC = 81850.80
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.778
+Model:                            GLS   Adj. R-squared:                  0.778
+Method:                 Least Squares   F-statistic:                     5681.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -40920.
+No. Observations:                6502   AIC:                         8.185e+04
+Df Residuals:                    6497   BIC:                         8.188e+04
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const          -30.9180     17.536     -1.763      0.078     -65.294       3.458
+PSI              0.0895      0.014      6.530      0.000       0.063       0.116
+Water Total      0.0013   8.72e-06    147.438      0.000       0.001       0.001
+Fuel Rate     -802.1865    276.184     -2.905      0.004   -1343.597    -260.776
+Power Factor     0.7803      0.118      6.602      0.000       0.549       1.012
+==============================================================================
+Omnibus:                     5041.710   Durbin-Watson:                   0.375
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1059640.761
+Skew:                           2.793   Prob(JB):                         0.00
+Kurtosis:                      65.291   Cond. No.                     6.45e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 6.45e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by Billing KWH, Metered DM, Power Factor | adj R² = 0.5786 | AIC = 95959.17
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.579
+Model:                            GLS   Adj. R-squared:                  0.579
+Method:                 Least Squares   F-statistic:                     3286.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -47976.
+No. Observations:                7179   AIC:                         9.596e+04
+Df Residuals:                    7175   BIC:                         9.599e+04
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const           87.7391     13.086      6.705      0.000      62.086     113.392
+Billing KWH      0.0041   4.96e-05     83.226      0.000       0.004       0.004
+Metered DM      -1.6552      0.039    -42.356      0.000      -1.732      -1.579
+Power Factor     3.4305      0.145     23.686      0.000       3.147       3.714
+==============================================================================
+Omnibus:                     2114.270   Durbin-Watson:                   1.033
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           227453.631
+Skew:                          -0.331   Prob(JB):                         0.00
+Kurtosis:                      30.567   Cond. No.                     6.73e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 6.73e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by Billing KWH, Fuel Rate, Metered DM, Power Factor | adj R² = 0.5776 | AIC = 94262.25
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.578
+Model:                            GLS   Adj. R-squared:                  0.578
+Method:                 Least Squares   F-statistic:                     2410.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -47126.
+No. Observations:                7048   AIC:                         9.426e+04
+Df Residuals:                    7043   BIC:                         9.430e+04
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const           81.8167     18.444      4.436      0.000      45.661     117.973
+Billing KWH      0.0041   5.02e-05     82.422      0.000       0.004       0.004
+Fuel Rate      249.6598    396.559      0.630      0.529    -527.716    1027.035
+Metered DM      -1.6500      0.039    -41.860      0.000      -1.727      -1.573
+Power Factor     3.3863      0.146     23.153      0.000       3.100       3.673
+==============================================================================
+Omnibus:                     2056.238   Durbin-Watson:                   1.037
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           218485.556
+Skew:                          -0.313   Prob(JB):                         0.00
+Kurtosis:                      30.269   Cond. No.                     2.01e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.01e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by PSI, Billing KWH, Metered DM, Power Factor | adj R² = 0.5695 | AIC = 87729.33
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.570
+Model:                            GLS   Adj. R-squared:                  0.569
+Method:                 Least Squares   F-statistic:                     2192.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -43860.
+No. Observations:                6625   AIC:                         8.773e+04
+Df Residuals:                    6620   BIC:                         8.776e+04
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const          305.9748     21.294     14.369      0.000     264.231     347.718
+PSI              0.0408      0.019      2.152      0.031       0.004       0.078
+Billing KWH      0.0043   5.02e-05     84.972      0.000       0.004       0.004
+Metered DM      -1.9591      0.041    -47.633      0.000      -2.040      -1.878
+Power Factor     1.3790      0.163      8.481      0.000       1.060       1.698
+==============================================================================
+Omnibus:                     1943.055   Durbin-Watson:                   1.124
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           187258.651
+Skew:                           0.371   Prob(JB):                         0.00
+Kurtosis:                      29.035   Cond. No.                     1.16e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.16e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by PSI, Billing KWH, Fuel Rate, Metered DM, Power Factor | adj R² = 0.5689 | AIC = 86124.53
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.569
+Model:                            GLS   Adj. R-squared:                  0.569
+Method:                 Least Squares   F-statistic:                     1716.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -43056.
+No. Observations:                6500   AIC:                         8.612e+04
+Df Residuals:                    6494   BIC:                         8.617e+04
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const          310.8097     24.311     12.785      0.000     263.152     358.467
+PSI              0.0414      0.019      2.159      0.031       0.004       0.079
+Billing KWH      0.0043   5.07e-05     84.169      0.000       0.004       0.004
+Fuel Rate      -95.6646    384.545     -0.249      0.804    -849.498     658.169
+Metered DM      -1.9538      0.041    -47.089      0.000      -2.035      -1.872
+Power Factor     1.3395      0.164      8.163      0.000       1.018       1.661
+==============================================================================
+Omnibus:                     1909.475   Durbin-Watson:                   1.131
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           184953.767
+Skew:                           0.372   Prob(JB):                         0.00
+Kurtosis:                      29.122   Cond. No.                     2.06e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.06e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by PSI, Billing KWH, Metered DM | adj R² = 0.5649 | AIC = 87798.92
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.565
+Model:                            GLS   Adj. R-squared:                  0.565
+Method:                 Least Squares   F-statistic:                     2867.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -43895.
+No. Observations:                6625   AIC:                         8.780e+04
+Df Residuals:                    6621   BIC:                         8.783e+04
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const         429.8694     15.575     27.599      0.000     399.337     460.402
+PSI             0.0425      0.019      2.226      0.026       0.005       0.080
+Billing KWH     0.0043   5.01e-05     86.128      0.000       0.004       0.004
+Metered DM     -1.9777      0.041    -47.901      0.000      -2.059      -1.897
+==============================================================================
+Omnibus:                     1896.169   Durbin-Watson:                   1.116
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           173325.382
+Skew:                           0.341   Prob(JB):                         0.00
+Kurtosis:                      28.049   Cond. No.                     8.41e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 8.41e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by PSI, Billing KWH, Fuel Rate, Metered DM | adj R² = 0.5645 | AIC = 86188.88
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.565
+Model:                            GLS   Adj. R-squared:                  0.565
+Method:                 Least Squares   F-statistic:                     2107.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -43089.
+No. Observations:                6500   AIC:                         8.619e+04
+Df Residuals:                    6495   BIC:                         8.622e+04
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const         426.7984     19.825     21.528      0.000     387.935     465.662
+PSI             0.0432      0.019      2.239      0.025       0.005       0.081
+Billing KWH     0.0043   5.06e-05     85.301      0.000       0.004       0.004
+Fuel Rate      29.8382    386.173      0.077      0.938    -727.189     786.865
+Metered DM     -1.9723      0.042    -47.367      0.000      -2.054      -1.891
+==============================================================================
+Omnibus:                     1867.640   Durbin-Watson:                   1.123
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           172349.271
+Skew:                           0.344   Prob(JB):                         0.00
+Kurtosis:                      28.217   Cond. No.                     2.06e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.06e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by Billing KWH, Metered DM | adj R² = 0.5457 | AIC = 96497.63
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.546
+Model:                            GLS   Adj. R-squared:                  0.546
+Method:                 Least Squares   F-statistic:                     4313.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -48246.
+No. Observations:                7179   AIC:                         9.650e+04
+Df Residuals:                    7176   BIC:                         9.652e+04
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const         373.6536      5.247     71.214      0.000     363.368     383.939
+Billing KWH     0.0043   5.12e-05     83.021      0.000       0.004       0.004
+Metered DM     -1.5960      0.040    -39.416      0.000      -1.675      -1.517
+==============================================================================
+Omnibus:                     1607.650   Durbin-Watson:                   0.907
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            78021.190
+Skew:                          -0.054   Prob(JB):                         0.00
+Kurtosis:                      19.150   Cond. No.                     2.60e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.6e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by Billing KWH, Fuel Rate, Metered DM | adj R² = 0.5455 | AIC = 94777.27
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.546
+Model:                            GLS   Adj. R-squared:                  0.545
+Method:                 Least Squares   F-statistic:                     2820.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -47385.
+No. Observations:                7048   AIC:                         9.478e+04
+Df Residuals:                    7044   BIC:                         9.480e+04
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const         353.5143     14.760     23.951      0.000     324.580     382.449
+Billing KWH     0.0043   5.18e-05     82.249      0.000       0.004       0.004
+Fuel Rate     561.6162    411.108      1.366      0.172    -244.279    1367.511
+Metered DM     -1.5923      0.041    -39.023      0.000      -1.672      -1.512
+==============================================================================
+Omnibus:                     1584.812   Durbin-Watson:                   0.913
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            78256.240
+Skew:                          -0.041   Prob(JB):                         0.00
+Kurtosis:                      19.324   Cond. No.                     2.01e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.01e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by Billing KWH, Power Factor | adj R² = 0.4735 | AIC = 97572.01
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.474
+Model:                            GLS   Adj. R-squared:                  0.473
+Method:                 Least Squares   F-statistic:                     3229.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -48783.
+No. Observations:                7180   AIC:                         9.757e+04
+Df Residuals:                    7177   BIC:                         9.759e+04
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const          -30.3796     14.281     -2.127      0.033     -58.374      -2.385
+Billing KWH      0.0025   3.52e-05     71.150      0.000       0.002       0.003
+Power Factor     3.0401      0.161     18.830      0.000       2.724       3.357
+==============================================================================
+Omnibus:                     1529.213   Durbin-Watson:                   0.627
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            47530.638
+Skew:                          -0.304   Prob(JB):                         0.00
+Kurtosis:                      15.590   Cond. No.                     6.57e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 6.57e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by Billing KWH, Fuel Rate, Power Factor | adj R² = 0.4727 | AIC = 95838.88
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.473
+Model:                            GLS   Adj. R-squared:                  0.473
+Method:                 Least Squares   F-statistic:                     2107.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -47915.
+No. Observations:                7049   AIC:                         9.584e+04
+Df Residuals:                    7045   BIC:                         9.587e+04
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const          -34.3578     20.363     -1.687      0.092     -74.276       5.560
+Billing KWH      0.0025   3.56e-05     70.554      0.000       0.002       0.003
+Fuel Rate      188.2094    443.087      0.425      0.671    -680.375    1056.794
+Power Factor     3.0013      0.163     18.417      0.000       2.682       3.321
+==============================================================================
+Omnibus:                     1484.569   Durbin-Watson:                   0.631
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            45767.831
+Skew:                          -0.288   Prob(JB):                         0.00
+Kurtosis:                      15.470   Cond. No.                     2.01e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.01e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by PSI, Billing KWH, Power Factor | adj R² = 0.4220 | AIC = 89679.75
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.422
+Model:                            GLS   Adj. R-squared:                  0.422
+Method:                 Least Squares   F-statistic:                     1613.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -44836.
+No. Observations:                6625   AIC:                         8.968e+04
+Df Residuals:                    6621   BIC:                         8.971e+04
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const          198.6606     24.535      8.097      0.000     150.565     246.756
+PSI             -0.1084      0.022     -5.000      0.000      -0.151      -0.066
+Billing KWH      0.0024   3.57e-05     66.557      0.000       0.002       0.002
+Power Factor     1.7940      0.188      9.536      0.000       1.425       2.163
+==============================================================================
+Omnibus:                     1125.650   Durbin-Watson:                   0.611
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            24654.594
+Skew:                           0.029   Prob(JB):                         0.00
+Kurtosis:                      12.450   Cond. No.                     1.15e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.15e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by PSI, Billing KWH, Fuel Rate, Power Factor | adj R² = 0.4217 | AIC = 88031.93
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.422
+Model:                            GLS   Adj. R-squared:                  0.422
+Method:                 Least Squares   F-statistic:                     1186.
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
+Time:                        09:09:32   Log-Likelihood:                -44011.
+No. Observations:                6500   AIC:                         8.803e+04
+Df Residuals:                    6495   BIC:                         8.807e+04
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const          204.8135     28.034      7.306      0.000     149.858     259.769
+PSI             -0.1062      0.022     -4.843      0.000      -0.149      -0.063
+Billing KWH      0.0024   3.62e-05     66.005      0.000       0.002       0.002
+Fuel Rate     -180.0773    445.345     -0.404      0.686   -1053.099     692.945
+Power Factor     1.7615      0.190      9.283      0.000       1.390       2.134
+==============================================================================
+Omnibus:                     1105.440   Durbin-Watson:                   0.617
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            24203.401
+Skew:                           0.038   Prob(JB):                         0.00
+Kurtosis:                      12.453   Cond. No.                     2.06e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.06e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by Metered DM, Power Factor | adj R² = 0.1724 | AIC = 101017.23
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.173
+Model:                            GLS   Adj. R-squared:                  0.172
+Method:                 Least Squares   F-statistic:                     750.3
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):          1.17e-296
+Time:                        09:09:32   Log-Likelihood:                -50506.
+No. Observations:                7193   AIC:                         1.010e+05
+Df Residuals:                    7190   BIC:                         1.010e+05
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const         -107.1510     18.061     -5.933      0.000    -142.555     -71.747
+Metered DM       0.8691      0.035     25.046      0.000       0.801       0.937
+Power Factor     4.6587      0.202     23.077      0.000       4.263       5.054
+==============================================================================
+Omnibus:                     1729.634   Durbin-Watson:                   0.427
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            35681.542
+Skew:                          -0.637   Prob(JB):                         0.00
+Kurtosis:                      13.837   Cond. No.                     1.24e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.24e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by Fuel Rate, Metered DM, Power Factor | adj R² = 0.1706 | AIC = 99154.86
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.171
+Model:                            GLS   Adj. R-squared:                  0.171
+Method:                 Least Squares   F-statistic:                     484.8
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):          1.94e-286
+Time:                        09:09:32   Log-Likelihood:                -49573.
+No. Observations:                7057   AIC:                         9.915e+04
+Df Residuals:                    7053   BIC:                         9.918e+04
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const         -111.1195     25.655     -4.331      0.000    -161.411     -60.828
+Fuel Rate      220.6505    556.052      0.397      0.692    -869.379    1310.680
+Metered DM       0.8668      0.035     24.722      0.000       0.798       0.936
+Power Factor     4.6182      0.204     22.655      0.000       4.219       5.018
+==============================================================================
+Omnibus:                     1658.298   Durbin-Watson:                   0.431
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            33450.431
+Skew:                          -0.616   Prob(JB):                         0.00
+Kurtosis:                      13.595   Cond. No.                     3.79e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.79e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by Billing KWH, Fuel Rate | adj R² = 0.1594 | AIC = 104339.18
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.160
+Model:                            GLS   Adj. R-squared:                  0.159
+Method:                 Least Squares   F-statistic:                     701.6
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):          1.05e-279
+Time:                        09:09:32   Log-Likelihood:                -52167.
+No. Observations:                7391   AIC:                         1.043e+05
+Df Residuals:                    7388   BIC:                         1.044e+05
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const         331.2643     19.269     17.191      0.000     293.491     369.038
+Billing KWH     0.0009   2.45e-05     37.368      0.000       0.001       0.001
+Fuel Rate    1072.8445    562.962      1.906      0.057     -30.721    2176.410
+==============================================================================
+Omnibus:                     6813.178   Durbin-Watson:                   0.550
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          3594523.284
+Skew:                          -3.511   Prob(JB):                         0.00
+Kurtosis:                     110.809   Cond. No.                     2.75e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.75e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by PSI, Billing KWH, Fuel Rate | adj R² = 0.1313 | AIC = 92041.98
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.132
+Model:                            GLS   Adj. R-squared:                  0.131
+Method:                 Least Squares   F-statistic:                     332.9
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):          2.74e-201
+Time:                        09:09:32   Log-Likelihood:                -46017.
+No. Observations:                6588   AIC:                         9.204e+04
+Df Residuals:                    6584   BIC:                         9.207e+04
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const         567.0804     27.479     20.637      0.000     513.213     620.947
+PSI            -0.1808      0.027     -6.761      0.000      -0.233      -0.128
+Billing KWH     0.0007   2.34e-05     30.736      0.000       0.001       0.001
+Fuel Rate     224.3109    547.801      0.409      0.682    -849.557    1298.179
+==============================================================================
+Omnibus:                     4689.207   Durbin-Watson:                   0.557
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1016402.500
+Skew:                          -2.395   Prob(JB):                         0.00
+Kurtosis:                      63.661   Cond. No.                     2.87e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.87e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by Metered DM | adj R² = 0.1113 | AIC = 101529.20
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.111
+Model:                            GLS   Adj. R-squared:                  0.111
+Method:                 Least Squares   F-statistic:                     901.4
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):          1.13e-186
+Time:                        09:09:33   Log-Likelihood:                -50763.
+No. Observations:                7193   AIC:                         1.015e+05
+Df Residuals:                    7191   BIC:                         1.015e+05
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const        278.0237      7.150     38.884      0.000     264.007     292.040
+Metered DM     1.0513      0.035     30.023      0.000       0.983       1.120
+==============================================================================
+Omnibus:                      121.098   Durbin-Watson:                   0.320
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              218.271
+Skew:                          -0.109   Prob(JB):                     4.01e-48
+Kurtosis:                       3.825   Cond. No.                         441.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Hours explained by Fuel Rate, Metered DM | adj R² = 0.1104 | AIC = 99648.59
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.111
+Model:                            GLS   Adj. R-squared:                  0.110
+Method:                 Least Squares   F-statistic:                     438.8
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):          2.54e-180
+Time:                        09:09:33   Log-Likelihood:                -49821.
+No. Observations:                7057   AIC:                         9.965e+04
+Df Residuals:                    7054   BIC:                         9.967e+04
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const        256.2214     20.591     12.444      0.000     215.857     296.585
+Fuel Rate    644.9475    575.562      1.121      0.263    -483.327    1773.223
+Metered DM     1.0464      0.035     29.585      0.000       0.977       1.116
+==============================================================================
+Omnibus:                      118.783   Durbin-Watson:                   0.325
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              220.555
+Skew:                          -0.092   Prob(JB):                     1.28e-48
+Kurtosis:                       3.846   Cond. No.                     3.51e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.51e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by Power Factor | adj R² = 0.1004 | AIC = 101662.60
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.101
+Model:                            GLS   Adj. R-squared:                  0.100
+Method:                 Least Squares   F-statistic:                     804.1
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):          9.10e-168
+Time:                        09:09:33   Log-Likelihood:                -50829.
+No. Observations:                7196   AIC:                         1.017e+05
+Df Residuals:                    7194   BIC:                         1.017e+05
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const          -53.1871     18.682     -2.847      0.004     -89.810     -16.564
+Power Factor     5.8078      0.205     28.356      0.000       5.406       6.209
+==============================================================================
+Omnibus:                     2546.376   Durbin-Watson:                   0.419
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           106550.007
+Skew:                          -0.981   Prob(JB):                         0.00
+Kurtosis:                      21.749   Cond. No.                         511.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Hours explained by PSI, Metered DM, Power Factor | adj R² = 0.1003 | AIC = 92672.11
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.101
+Model:                            GLS   Adj. R-squared:                  0.100
+Method:                 Least Squares   F-statistic:                     247.3
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):          4.31e-152
+Time:                        09:09:33   Log-Likelihood:                -46332.
+No. Observations:                6629   AIC:                         9.267e+04
+Df Residuals:                    6625   BIC:                         9.270e+04
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const          264.3380     30.770      8.591      0.000     204.018     324.658
+PSI             -0.2327      0.027     -8.611      0.000      -0.286      -0.180
+Metered DM       0.7995      0.037     21.886      0.000       0.728       0.871
+Power Factor     3.0092      0.233     12.890      0.000       2.552       3.467
+==============================================================================
+Omnibus:                      698.108   Durbin-Watson:                   0.399
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             4349.045
+Skew:                          -0.302   Prob(JB):                         0.00
+Kurtosis:                       6.922   Cond. No.                     7.88e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.88e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by Fuel Rate, Power Factor | adj R² = 0.0989 | AIC = 99785.03
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.099
+Model:                            GLS   Adj. R-squared:                  0.099
+Method:                 Least Squares   F-statistic:                     388.4
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):          9.02e-161
+Time:                        09:09:33   Log-Likelihood:                -49890.
+No. Observations:                7060   AIC:                         9.979e+04
+Df Residuals:                    7057   BIC:                         9.981e+04
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const          -57.3873     26.632     -2.155      0.031    -109.593      -5.181
+Fuel Rate      247.9487    579.460      0.428      0.669    -887.968    1383.865
+Power Factor     5.7572      0.207     27.836      0.000       5.352       6.163
+==============================================================================
+Omnibus:                     2446.606   Durbin-Watson:                   0.422
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            99516.623
+Skew:                          -0.954   Prob(JB):                         0.00
+Kurtosis:                      21.294   Cond. No.                     1.57e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.57e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by PSI, Fuel Rate, Metered DM, Power Factor | adj R² = 0.0988 | AIC = 90947.67
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.099
+Model:                            GLS   Adj. R-squared:                  0.099
+Method:                 Least Squares   F-statistic:                     179.1
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):          8.90e-146
+Time:                        09:09:33   Log-Likelihood:                -45469.
+No. Observations:                6502   AIC:                         9.095e+04
+Df Residuals:                    6497   BIC:                         9.098e+04
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const          271.6657     35.152      7.728      0.000     202.757     340.575
+PSI             -0.2271      0.027     -8.296      0.000      -0.281      -0.173
+Fuel Rate     -242.5855    556.095     -0.436      0.663   -1332.714     847.543
+Metered DM       0.7998      0.037     21.659      0.000       0.727       0.872
+Power Factor     2.9638      0.236     12.577      0.000       2.502       3.426
+==============================================================================
+Omnibus:                      661.200   Durbin-Watson:                   0.402
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             4010.955
+Skew:                          -0.287   Prob(JB):                         0.00
+Kurtosis:                       6.805   Cond. No.                     1.41e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.41e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by PSI, Metered DM | adj R² = 0.0779 | AIC = 92834.32
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.078
+Model:                            GLS   Adj. R-squared:                  0.078
+Method:                 Least Squares   F-statistic:                     280.8
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):          8.65e-118
+Time:                        09:09:33   Log-Likelihood:                -46414.
+No. Observations:                6629   AIC:                         9.283e+04
+Df Residuals:                    6626   BIC:                         9.285e+04
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const        537.4738     22.588     23.795      0.000     493.194     581.754
+PSI           -0.2362      0.027     -8.632      0.000      -0.290      -0.183
+Metered DM     0.8300      0.037     22.492      0.000       0.758       0.902
+==============================================================================
+Omnibus:                      217.791   Durbin-Watson:                   0.355
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              519.096
+Skew:                          -0.158   Prob(JB):                    1.90e-113
+Kurtosis:                       4.334   Cond. No.                     5.68e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 5.68e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by PSI, Fuel Rate, Metered DM | adj R² = 0.0770 | AIC = 91102.09
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.077
+Model:                            GLS   Adj. R-squared:                  0.077
+Method:                 Least Squares   F-statistic:                     181.7
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):          4.11e-113
+Time:                        09:09:33   Log-Likelihood:                -45547.
+No. Observations:                6502   AIC:                         9.110e+04
+Df Residuals:                    6498   BIC:                         9.113e+04
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const        530.9862     28.812     18.429      0.000     474.505     587.468
+PSI           -0.2301      0.028     -8.305      0.000      -0.284      -0.176
+Fuel Rate     34.7890    562.338      0.062      0.951   -1067.578    1137.157
+Metered DM     0.8288      0.037     22.222      0.000       0.756       0.902
+==============================================================================
+Omnibus:                      210.057   Durbin-Watson:                   0.359
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              507.150
+Skew:                          -0.145   Prob(JB):                    7.48e-111
+Kurtosis:                       4.337   Cond. No.                     1.40e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.4e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by Billing KWH | adj R² = 0.0355 | AIC = 115405.98
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.036
+Model:                            GLS   Adj. R-squared:                  0.036
+Method:                 Least Squares   F-statistic:                     299.7
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):           5.83e-66
+Time:                        09:09:33   Log-Likelihood:                -57701.
+No. Observations:                8105   AIC:                         1.154e+05
+Df Residuals:                    8103   BIC:                         1.154e+05
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const         439.0719      3.448    127.350      0.000     432.313     445.830
+Billing KWH   2.37e-05   1.37e-06     17.312      0.000     2.1e-05    2.64e-05
+==============================================================================
+Omnibus:                        5.870   Durbin-Watson:                   0.262
+Prob(Omnibus):                  0.053   Jarque-Bera (JB):                5.700
+Skew:                          -0.045   Prob(JB):                       0.0579
+Kurtosis:                       2.906   Cond. No.                     2.61e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.61e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by PSI, Power Factor | adj R² = 0.0352 | AIC = 93149.76
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.035
+Model:                            GLS   Adj. R-squared:                  0.035
+Method:                 Least Squares   F-statistic:                     121.9
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):           1.06e-52
+Time:                        09:09:33   Log-Likelihood:                -46572.
+No. Observations:                6630   AIC:                         9.315e+04
+Df Residuals:                    6627   BIC:                         9.317e+04
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const          358.6880     31.538     11.373      0.000     296.863     420.513
+PSI             -0.1996      0.028     -7.145      0.000      -0.254      -0.145
+Power Factor     3.3372      0.241     13.832      0.000       2.864       3.810
+==============================================================================
+Omnibus:                      781.006   Durbin-Watson:                   0.372
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             4667.075
+Skew:                          -0.400   Prob(JB):                         0.00
+Kurtosis:                       7.032   Cond. No.                     7.59e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.59e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by PSI, Fuel Rate, Power Factor | adj R² = 0.0336 | AIC = 91415.73
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.034
+Model:                            GLS   Adj. R-squared:                  0.034
+Method:                 Least Squares   F-statistic:                     76.46
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):           1.34e-48
+Time:                        09:09:33   Log-Likelihood:                -45704.
+No. Observations:                6503   AIC:                         9.142e+04
+Df Residuals:                    6499   BIC:                         9.144e+04
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const          367.3312     36.113     10.172      0.000     296.539     438.124
+PSI             -0.1937      0.028     -6.846      0.000      -0.249      -0.138
+Fuel Rate     -252.1923    575.653     -0.438      0.661   -1380.661     876.277
+Power Factor     3.2801      0.244     13.467      0.000       2.803       3.758
+==============================================================================
+Omnibus:                      731.485   Durbin-Watson:                   0.375
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             4199.179
+Skew:                          -0.383   Prob(JB):                         0.00
+Kurtosis:                       6.861   Cond. No.                     1.37e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.37e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by PSI, Billing KWH | adj R² = 0.0332 | AIC = 102358.14
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.033
+Model:                            GLS   Adj. R-squared:                  0.033
+Method:                 Least Squares   F-statistic:                     125.9
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):           1.70e-54
+Time:                        09:09:33   Log-Likelihood:                -51176.
+No. Observations:                7279   AIC:                         1.024e+05
+Df Residuals:                    7276   BIC:                         1.024e+05
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const         632.3392     21.093     29.979      0.000     590.991     673.687
+PSI            -0.1769      0.026     -6.714      0.000      -0.229      -0.125
+Billing KWH  1.883e-05   1.26e-06     14.903      0.000    1.63e-05    2.13e-05
+==============================================================================
+Omnibus:                      139.036   Durbin-Watson:                   0.332
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              220.917
+Skew:                          -0.187   Prob(JB):                     1.07e-48
+Kurtosis:                       3.767   Cond. No.                     1.75e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.75e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by PSI, Fuel Rate | adj R² = 0.0069 | AIC = 93361.74
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.007
+Model:                            GLS   Adj. R-squared:                  0.007
+Method:                 Least Squares   F-statistic:                     23.96
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):           4.29e-11
+Time:                        09:09:33   Log-Likelihood:                -46678.
+No. Observations:                6618   AIC:                         9.336e+04
+Df Residuals:                    6615   BIC:                         9.338e+04
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const        648.4149     29.175     22.225      0.000     591.222     705.608
+PSI           -0.1973      0.029     -6.922      0.000      -0.253      -0.141
+Fuel Rate    224.5412    584.468      0.384      0.701    -921.204    1370.287
+==============================================================================
+Omnibus:                      122.044   Durbin-Watson:                   0.323
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              182.680
+Skew:                          -0.200   Prob(JB):                     2.15e-40
+Kurtosis:                       3.709   Cond. No.                     1.36e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.36e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by PSI | adj R² = 0.0032 | AIC = 103596.41
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.003
+Model:                            GLS   Adj. R-squared:                  0.003
+Method:                 Least Squares   F-statistic:                     24.47
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):           7.70e-07
+Time:                        09:09:33   Log-Likelihood:                -51796.
+No. Observations:                7348   AIC:                         1.036e+05
+Df Residuals:                    7346   BIC:                         1.036e+05
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const        606.9249     21.128     28.726      0.000     565.508     648.342
+PSI           -0.1302      0.026     -4.947      0.000      -0.182      -0.079
+==============================================================================
+Omnibus:                      144.209   Durbin-Watson:                   0.320
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              191.482
+Skew:                          -0.250   Prob(JB):                     2.63e-42
+Kurtosis:                       3.612   Cond. No.                     5.22e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 5.22e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Hours explained by Fuel Rate | adj R² = 0.0004 | AIC = 106555.36
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Hours   R-squared:                       0.001
+Model:                            GLS   Adj. R-squared:                  0.000
+Method:                 Least Squares   F-statistic:                     3.989
+Date:                Wed, 14 Oct 2026   Prob (F-statistic):             0.0458
+Time:                        09:09:33   Log-Likelihood:                -53276.
+No. Observations:                7454   AIC:                         1.066e+05
+Df Residuals:                    7452   BIC:                         1.066e+05
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const        403.3952     20.894     19.307      0.000     362.437     444.353
+Fuel Rate   1223.1532    612.454      1.997      0.046      22.571    2423.736
+==============================================================================
+Omnibus:                       15.527   Durbin-Watson:                   0.257
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               13.680
+Skew:                          -0.054   Prob(JB):                      0.00107
+Kurtosis:                       2.820   Cond. No.                         172.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
