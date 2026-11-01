@@ -86,7 +86,7 @@ def adj_R_squared(y_actual, y_predicted, x_df):
 def get_ls(
     endog_vars: pd.DataFrame | pd.Series, 
     exog_vars: pd.DataFrame | pd.Series, 
-    model_type: str | None = "gls"
+    model_type: str | None = "ols"
 ) -> RegressionResultsWrapper:
     """ Returns a fitted linear model (OLS or GLS) based on the regression of
     endog_vars by exog_vars. """

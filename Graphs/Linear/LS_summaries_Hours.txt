@@ -1,8 +1,8 @@
 Hours explained by Billing KWH, Water Total, Metered DM, Power Factor | adj R² = 0.8079 | AIC = 83682.34
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.808
-Model:                            GLS   Adj. R-squared:                  0.808
+Model:                            OLS   Adj. R-squared:                  0.808
 Method:                 Least Squares   F-statistic:                     7062.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -41836.
@@ -31,10 +31,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by Billing KWH, Water Total, Fuel Rate, Metered DM, Power Factor | adj R² = 0.8071 | AIC = 82194.08
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.807
-Model:                            GLS   Adj. R-squared:                  0.807
+Model:                            OLS   Adj. R-squared:                  0.807
 Method:                 Least Squares   F-statistic:                     5517.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -41091.
@@ -64,10 +64,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by Billing KWH, Water Total, Metered DM | adj R² = 0.8064 | AIC = 83733.58
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.807
-Model:                            GLS   Adj. R-squared:                  0.806
+Model:                            OLS   Adj. R-squared:                  0.806
 Method:                 Least Squares   F-statistic:                     9326.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -41863.
@@ -95,10 +95,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by Billing KWH, Water Total, Fuel Rate, Metered DM | adj R² = 0.8056 | AIC = 82245.62
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.806
-Model:                            GLS   Adj. R-squared:                  0.806
+Model:                            OLS   Adj. R-squared:                  0.806
 Method:                 Least Squares   F-statistic:                     6828.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -41118.
@@ -127,10 +127,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by PSI, Billing KWH, Water Total, Metered DM, Power Factor | adj R² = 0.8054 | AIC = 82456.24
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.806
-Model:                            GLS   Adj. R-squared:                  0.805
+Model:                            OLS   Adj. R-squared:                  0.805
 Method:                 Least Squares   F-statistic:                     5482.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -41222.
@@ -160,10 +160,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by PSI, Billing KWH, Water Total, Fuel Rate, Metered DM, Power Factor | adj R² = 0.8044 | AIC = 80971.76
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.805
-Model:                            GLS   Adj. R-squared:                  0.804
+Model:                            OLS   Adj. R-squared:                  0.804
 Method:                 Least Squares   F-statistic:                     4456.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -40479.
@@ -194,10 +194,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by Water Total, Metered DM, Power Factor | adj R² = 0.8042 | AIC = 83865.74
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.804
-Model:                            GLS   Adj. R-squared:                  0.804
+Model:                            OLS   Adj. R-squared:                  0.804
 Method:                 Least Squares   F-statistic:                     9198.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -41929.
@@ -225,10 +225,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by PSI, Billing KWH, Water Total, Metered DM | adj R² = 0.8041 | AIC = 82496.92
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.804
-Model:                            GLS   Adj. R-squared:                  0.804
+Model:                            OLS   Adj. R-squared:                  0.804
 Method:                 Least Squares   F-statistic:                     6799.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -41243.
@@ -257,10 +257,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by Water Total, Fuel Rate, Metered DM, Power Factor | adj R² = 0.8034 | AIC = 82347.30
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.804
-Model:                            GLS   Adj. R-squared:                  0.803
+Model:                            OLS   Adj. R-squared:                  0.803
 Method:                 Least Squares   F-statistic:                     6736.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -41169.
@@ -289,10 +289,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by PSI, Billing KWH, Water Total, Fuel Rate, Metered DM | adj R² = 0.8032 | AIC = 81012.84
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.803
-Model:                            GLS   Adj. R-squared:                  0.803
+Model:                            OLS   Adj. R-squared:                  0.803
 Method:                 Least Squares   F-statistic:                     5304.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -40500.
@@ -322,10 +322,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by Water Total, Metered DM | adj R² = 0.8026 | AIC = 83918.53
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.803
-Model:                            GLS   Adj. R-squared:                  0.803
+Model:                            OLS   Adj. R-squared:                  0.803
 Method:                 Least Squares   F-statistic:                 1.366e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -41956.
@@ -352,10 +352,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by Water Total, Fuel Rate, Metered DM | adj R² = 0.8018 | AIC = 82400.94
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.802
-Model:                            GLS   Adj. R-squared:                  0.802
+Model:                            OLS   Adj. R-squared:                  0.802
 Method:                 Least Squares   F-statistic:                     8889.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -41196.
@@ -383,10 +383,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by PSI, Water Total, Metered DM, Power Factor | adj R² = 0.8006 | AIC = 82669.66
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.801
-Model:                            GLS   Adj. R-squared:                  0.801
+Model:                            OLS   Adj. R-squared:                  0.801
 Method:                 Least Squares   F-statistic:                     6653.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -41330.
@@ -415,10 +415,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by PSI, Water Total, Fuel Rate, Metered DM, Power Factor | adj R² = 0.7998 | AIC = 81152.79
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.800
-Model:                            GLS   Adj. R-squared:                  0.800
+Model:                            OLS   Adj. R-squared:                  0.800
 Method:                 Least Squares   F-statistic:                     5194.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -40570.
@@ -448,10 +448,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by PSI, Water Total, Metered DM | adj R² = 0.7993 | AIC = 82713.42
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.799
-Model:                            GLS   Adj. R-squared:                  0.799
+Model:                            OLS   Adj. R-squared:                  0.799
 Method:                 Least Squares   F-statistic:                     8796.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -41353.
@@ -479,10 +479,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by PSI, Water Total, Fuel Rate, Metered DM | adj R² = 0.7984 | AIC = 81197.60
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.798
-Model:                            GLS   Adj. R-squared:                  0.798
+Model:                            OLS   Adj. R-squared:                  0.798
 Method:                 Least Squares   F-statistic:                     6435.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -40594.
@@ -511,10 +511,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by Billing KWH, Water Total | adj R² = 0.7946 | AIC = 93105.14
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.795
-Model:                            GLS   Adj. R-squared:                  0.795
+Model:                            OLS   Adj. R-squared:                  0.795
 Method:                 Least Squares   F-statistic:                 1.435e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -46550.
@@ -541,10 +541,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by Water Total | adj R² = 0.7929 | AIC = 94140.43
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.793
-Model:                            GLS   Adj. R-squared:                  0.793
+Model:                            OLS   Adj. R-squared:                  0.793
 Method:                 Least Squares   F-statistic:                 2.868e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -47068.
@@ -570,10 +570,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by Water Total, Fuel Rate | adj R² = 0.7913 | AIC = 84827.12
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.791
-Model:                            GLS   Adj. R-squared:                  0.791
+Model:                            OLS   Adj. R-squared:                  0.791
 Method:                 Least Squares   F-statistic:                 1.279e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -42411.
@@ -600,10 +600,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by Billing KWH, Water Total, Fuel Rate | adj R² = 0.7904 | AIC = 84439.64
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.790
-Model:                            GLS   Adj. R-squared:                  0.790
+Model:                            OLS   Adj. R-squared:                  0.790
 Method:                 Least Squares   F-statistic:                     8435.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -42216.
@@ -631,10 +631,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by Billing KWH, Water Total, Power Factor | adj R² = 0.7892 | AIC = 84306.25
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.789
-Model:                            GLS   Adj. R-squared:                  0.789
+Model:                            OLS   Adj. R-squared:                  0.789
 Method:                 Least Squares   F-statistic:                     8381.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -42149.
@@ -662,10 +662,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by Billing KWH, Water Total, Fuel Rate, Power Factor | adj R² = 0.7885 | AIC = 82801.45
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.789
-Model:                            GLS   Adj. R-squared:                  0.788
+Model:                            OLS   Adj. R-squared:                  0.788
 Method:                 Least Squares   F-statistic:                     6143.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -41396.
@@ -694,10 +694,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by PSI, Billing KWH, Water Total | adj R² = 0.7865 | AIC = 91319.54
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.787
-Model:                            GLS   Adj. R-squared:                  0.787
+Model:                            OLS   Adj. R-squared:                  0.787
 Method:                 Least Squares   F-statistic:                     8936.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -45656.
@@ -725,10 +725,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by PSI, Water Total | adj R² = 0.7851 | AIC = 92247.04
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.785
-Model:                            GLS   Adj. R-squared:                  0.785
+Model:                            OLS   Adj. R-squared:                  0.785
 Method:                 Least Squares   F-statistic:                 1.342e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -46121.
@@ -755,10 +755,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by Water Total, Power Factor | adj R² = 0.7845 | AIC = 84521.24
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.785
-Model:                            GLS   Adj. R-squared:                  0.785
+Model:                            OLS   Adj. R-squared:                  0.785
 Method:                 Least Squares   F-statistic:                 1.223e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -42258.
@@ -785,10 +785,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by Water Total, Fuel Rate, Power Factor | adj R² = 0.7836 | AIC = 82992.15
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.784
-Model:                            GLS   Adj. R-squared:                  0.784
+Model:                            OLS   Adj. R-squared:                  0.784
 Method:                 Least Squares   F-statistic:                     7961.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -41492.
@@ -816,10 +816,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by PSI, Billing KWH, Water Total, Power Factor | adj R² = 0.7834 | AIC = 83164.60
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.783
-Model:                            GLS   Adj. R-squared:                  0.783
+Model:                            OLS   Adj. R-squared:                  0.783
 Method:                 Least Squares   F-statistic:                     5988.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -41577.
@@ -848,10 +848,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by PSI, Water Total, Fuel Rate | adj R² = 0.7830 | AIC = 83251.58
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.783
-Model:                            GLS   Adj. R-squared:                  0.783
+Model:                            OLS   Adj. R-squared:                  0.783
 Method:                 Least Squares   F-statistic:                     7958.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -41622.
@@ -879,10 +879,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by PSI, Billing KWH, Water Total, Fuel Rate, Power Factor | adj R² = 0.7826 | AIC = 81659.63
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.783
-Model:                            GLS   Adj. R-squared:                  0.783
+Model:                            OLS   Adj. R-squared:                  0.783
 Method:                 Least Squares   F-statistic:                     4679.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -40824.
@@ -912,10 +912,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by PSI, Billing KWH, Water Total, Fuel Rate | adj R² = 0.7821 | AIC = 82887.03
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.782
-Model:                            GLS   Adj. R-squared:                  0.782
+Model:                            OLS   Adj. R-squared:                  0.782
 Method:                 Least Squares   F-statistic:                     5910.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -41439.
@@ -944,10 +944,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by PSI, Water Total, Power Factor | adj R² = 0.7785 | AIC = 83380.79
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.779
-Model:                            GLS   Adj. R-squared:                  0.778
+Model:                            OLS   Adj. R-squared:                  0.778
 Method:                 Least Squares   F-statistic:                     7764.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -41686.
@@ -975,10 +975,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by PSI, Water Total, Fuel Rate, Power Factor | adj R² = 0.7775 | AIC = 81850.80
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.778
-Model:                            GLS   Adj. R-squared:                  0.778
+Model:                            OLS   Adj. R-squared:                  0.778
 Method:                 Least Squares   F-statistic:                     5681.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -40920.
@@ -1007,10 +1007,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by Billing KWH, Metered DM, Power Factor | adj R² = 0.5786 | AIC = 95959.17
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.579
-Model:                            GLS   Adj. R-squared:                  0.579
+Model:                            OLS   Adj. R-squared:                  0.579
 Method:                 Least Squares   F-statistic:                     3286.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -47976.
@@ -1038,10 +1038,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by Billing KWH, Fuel Rate, Metered DM, Power Factor | adj R² = 0.5776 | AIC = 94262.25
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.578
-Model:                            GLS   Adj. R-squared:                  0.578
+Model:                            OLS   Adj. R-squared:                  0.578
 Method:                 Least Squares   F-statistic:                     2410.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -47126.
@@ -1070,10 +1070,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by PSI, Billing KWH, Metered DM, Power Factor | adj R² = 0.5695 | AIC = 87729.33
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.570
-Model:                            GLS   Adj. R-squared:                  0.569
+Model:                            OLS   Adj. R-squared:                  0.569
 Method:                 Least Squares   F-statistic:                     2192.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -43860.
@@ -1102,10 +1102,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by PSI, Billing KWH, Fuel Rate, Metered DM, Power Factor | adj R² = 0.5689 | AIC = 86124.53
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.569
-Model:                            GLS   Adj. R-squared:                  0.569
+Model:                            OLS   Adj. R-squared:                  0.569
 Method:                 Least Squares   F-statistic:                     1716.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -43056.
@@ -1135,10 +1135,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by PSI, Billing KWH, Metered DM | adj R² = 0.5649 | AIC = 87798.92
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.565
-Model:                            GLS   Adj. R-squared:                  0.565
+Model:                            OLS   Adj. R-squared:                  0.565
 Method:                 Least Squares   F-statistic:                     2867.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -43895.
@@ -1166,10 +1166,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by PSI, Billing KWH, Fuel Rate, Metered DM | adj R² = 0.5645 | AIC = 86188.88
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.565
-Model:                            GLS   Adj. R-squared:                  0.565
+Model:                            OLS   Adj. R-squared:                  0.565
 Method:                 Least Squares   F-statistic:                     2107.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -43089.
@@ -1198,10 +1198,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by Billing KWH, Metered DM | adj R² = 0.5457 | AIC = 96497.63
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.546
-Model:                            GLS   Adj. R-squared:                  0.546
+Model:                            OLS   Adj. R-squared:                  0.546
 Method:                 Least Squares   F-statistic:                     4313.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -48246.
@@ -1228,10 +1228,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by Billing KWH, Fuel Rate, Metered DM | adj R² = 0.5455 | AIC = 94777.27
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.546
-Model:                            GLS   Adj. R-squared:                  0.545
+Model:                            OLS   Adj. R-squared:                  0.545
 Method:                 Least Squares   F-statistic:                     2820.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -47385.
@@ -1259,10 +1259,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by Billing KWH, Power Factor | adj R² = 0.4735 | AIC = 97572.01
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.474
-Model:                            GLS   Adj. R-squared:                  0.473
+Model:                            OLS   Adj. R-squared:                  0.473
 Method:                 Least Squares   F-statistic:                     3229.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -48783.
@@ -1289,10 +1289,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by Billing KWH, Fuel Rate, Power Factor | adj R² = 0.4727 | AIC = 95838.88
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.473
-Model:                            GLS   Adj. R-squared:                  0.473
+Model:                            OLS   Adj. R-squared:                  0.473
 Method:                 Least Squares   F-statistic:                     2107.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -47915.
@@ -1320,10 +1320,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by PSI, Billing KWH, Power Factor | adj R² = 0.4220 | AIC = 89679.75
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.422
-Model:                            GLS   Adj. R-squared:                  0.422
+Model:                            OLS   Adj. R-squared:                  0.422
 Method:                 Least Squares   F-statistic:                     1613.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -44836.
@@ -1351,10 +1351,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by PSI, Billing KWH, Fuel Rate, Power Factor | adj R² = 0.4217 | AIC = 88031.93
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.422
-Model:                            GLS   Adj. R-squared:                  0.422
+Model:                            OLS   Adj. R-squared:                  0.422
 Method:                 Least Squares   F-statistic:                     1186.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -44011.
@@ -1383,10 +1383,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by Metered DM, Power Factor | adj R² = 0.1724 | AIC = 101017.23
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.173
-Model:                            GLS   Adj. R-squared:                  0.172
+Model:                            OLS   Adj. R-squared:                  0.172
 Method:                 Least Squares   F-statistic:                     750.3
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          1.17e-296
 Time:                        09:09:32   Log-Likelihood:                -50506.
@@ -1413,10 +1413,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by Fuel Rate, Metered DM, Power Factor | adj R² = 0.1706 | AIC = 99154.86
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.171
-Model:                            GLS   Adj. R-squared:                  0.171
+Model:                            OLS   Adj. R-squared:                  0.171
 Method:                 Least Squares   F-statistic:                     484.8
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          1.94e-286
 Time:                        09:09:32   Log-Likelihood:                -49573.
@@ -1444,10 +1444,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by Billing KWH, Fuel Rate | adj R² = 0.1594 | AIC = 104339.18
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.160
-Model:                            GLS   Adj. R-squared:                  0.159
+Model:                            OLS   Adj. R-squared:                  0.159
 Method:                 Least Squares   F-statistic:                     701.6
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          1.05e-279
 Time:                        09:09:32   Log-Likelihood:                -52167.
@@ -1474,10 +1474,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by PSI, Billing KWH, Fuel Rate | adj R² = 0.1313 | AIC = 92041.98
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.132
-Model:                            GLS   Adj. R-squared:                  0.131
+Model:                            OLS   Adj. R-squared:                  0.131
 Method:                 Least Squares   F-statistic:                     332.9
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          2.74e-201
 Time:                        09:09:32   Log-Likelihood:                -46017.
@@ -1505,10 +1505,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by Metered DM | adj R² = 0.1113 | AIC = 101529.20
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.111
-Model:                            GLS   Adj. R-squared:                  0.111
+Model:                            OLS   Adj. R-squared:                  0.111
 Method:                 Least Squares   F-statistic:                     901.4
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          1.13e-186
 Time:                        09:09:33   Log-Likelihood:                -50763.
@@ -1532,10 +1532,10 @@ Notes:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 
 Hours explained by Fuel Rate, Metered DM | adj R² = 0.1104 | AIC = 99648.59
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.111
-Model:                            GLS   Adj. R-squared:                  0.110
+Model:                            OLS   Adj. R-squared:                  0.110
 Method:                 Least Squares   F-statistic:                     438.8
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          2.54e-180
 Time:                        09:09:33   Log-Likelihood:                -49821.
@@ -1562,10 +1562,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by Power Factor | adj R² = 0.1004 | AIC = 101662.60
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.101
-Model:                            GLS   Adj. R-squared:                  0.100
+Model:                            OLS   Adj. R-squared:                  0.100
 Method:                 Least Squares   F-statistic:                     804.1
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          9.10e-168
 Time:                        09:09:33   Log-Likelihood:                -50829.
@@ -1589,10 +1589,10 @@ Notes:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 
 Hours explained by PSI, Metered DM, Power Factor | adj R² = 0.1003 | AIC = 92672.11
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.101
-Model:                            GLS   Adj. R-squared:                  0.100
+Model:                            OLS   Adj. R-squared:                  0.100
 Method:                 Least Squares   F-statistic:                     247.3
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          4.31e-152
 Time:                        09:09:33   Log-Likelihood:                -46332.
@@ -1620,10 +1620,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by Fuel Rate, Power Factor | adj R² = 0.0989 | AIC = 99785.03
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.099
-Model:                            GLS   Adj. R-squared:                  0.099
+Model:                            OLS   Adj. R-squared:                  0.099
 Method:                 Least Squares   F-statistic:                     388.4
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          9.02e-161
 Time:                        09:09:33   Log-Likelihood:                -49890.
@@ -1650,10 +1650,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by PSI, Fuel Rate, Metered DM, Power Factor | adj R² = 0.0988 | AIC = 90947.67
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.099
-Model:                            GLS   Adj. R-squared:                  0.099
+Model:                            OLS   Adj. R-squared:                  0.099
 Method:                 Least Squares   F-statistic:                     179.1
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          8.90e-146
 Time:                        09:09:33   Log-Likelihood:                -45469.
@@ -1682,10 +1682,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by PSI, Metered DM | adj R² = 0.0779 | AIC = 92834.32
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.078
-Model:                            GLS   Adj. R-squared:                  0.078
+Model:                            OLS   Adj. R-squared:                  0.078
 Method:                 Least Squares   F-statistic:                     280.8
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          8.65e-118
 Time:                        09:09:33   Log-Likelihood:                -46414.
@@ -1712,10 +1712,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by PSI, Fuel Rate, Metered DM | adj R² = 0.0770 | AIC = 91102.09
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.077
-Model:                            GLS   Adj. R-squared:                  0.077
+Model:                            OLS   Adj. R-squared:                  0.077
 Method:                 Least Squares   F-statistic:                     181.7
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          4.11e-113
 Time:                        09:09:33   Log-Likelihood:                -45547.
@@ -1743,10 +1743,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by Billing KWH | adj R² = 0.0355 | AIC = 115405.98
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.036
-Model:                            GLS   Adj. R-squared:                  0.036
+Model:                            OLS   Adj. R-squared:                  0.036
 Method:                 Least Squares   F-statistic:                     299.7
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           5.83e-66
 Time:                        09:09:33   Log-Likelihood:                -57701.
@@ -1772,10 +1772,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by PSI, Power Factor | adj R² = 0.0352 | AIC = 93149.76
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.035
-Model:                            GLS   Adj. R-squared:                  0.035
+Model:                            OLS   Adj. R-squared:                  0.035
 Method:                 Least Squares   F-statistic:                     121.9
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           1.06e-52
 Time:                        09:09:33   Log-Likelihood:                -46572.
@@ -1802,10 +1802,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by PSI, Fuel Rate, Power Factor | adj R² = 0.0336 | AIC = 91415.73
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.034
-Model:                            GLS   Adj. R-squared:                  0.034
+Model:                            OLS   Adj. R-squared:                  0.034
 Method:                 Least Squares   F-statistic:                     76.46
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           1.34e-48
 Time:                        09:09:33   Log-Likelihood:                -45704.
@@ -1833,10 +1833,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by PSI, Billing KWH | adj R² = 0.0332 | AIC = 102358.14
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.033
-Model:                            GLS   Adj. R-squared:                  0.033
+Model:                            OLS   Adj. R-squared:                  0.033
 Method:                 Least Squares   F-statistic:                     125.9
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           1.70e-54
 Time:                        09:09:33   Log-Likelihood:                -51176.
@@ -1863,10 +1863,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by PSI, Fuel Rate | adj R² = 0.0069 | AIC = 93361.74
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.007
-Model:                            GLS   Adj. R-squared:                  0.007
+Model:                            OLS   Adj. R-squared:                  0.007
 Method:                 Least Squares   F-statistic:                     23.96
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           4.29e-11
 Time:                        09:09:33   Log-Likelihood:                -46678.
@@ -1893,10 +1893,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by PSI | adj R² = 0.0032 | AIC = 103596.41
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.003
-Model:                            GLS   Adj. R-squared:                  0.003
+Model:                            OLS   Adj. R-squared:                  0.003
 Method:                 Least Squares   F-statistic:                     24.47
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           7.70e-07
 Time:                        09:09:33   Log-Likelihood:                -51796.
@@ -1922,10 +1922,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Hours explained by Fuel Rate | adj R² = 0.0004 | AIC = 106555.36
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  Hours   R-squared:                       0.001
-Model:                            GLS   Adj. R-squared:                  0.000
+Model:                            OLS   Adj. R-squared:                  0.000
 Method:                 Least Squares   F-statistic:                     3.989
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):             0.0458
 Time:                        09:09:33   Log-Likelihood:                -53276.

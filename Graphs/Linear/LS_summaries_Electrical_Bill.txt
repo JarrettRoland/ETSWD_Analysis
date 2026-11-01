@@ -1,8 +1,8 @@
 Electrical Bill explained by Billing KWH, Fuel Rate, Metered DM, Power Factor | adj R² = 0.9360 | AIC = 118269.61
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.936
-Model:                            GLS   Adj. R-squared:                  0.936
+Model:                            OLS   Adj. R-squared:                  0.936
 Method:                 Least Squares   F-statistic:                 2.575e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -59130.
@@ -31,10 +31,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Billing KWH, Fuel Rate, Metered DM | adj R² = 0.9354 | AIC = 118329.35
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.935
-Model:                            GLS   Adj. R-squared:                  0.935
+Model:                            OLS   Adj. R-squared:                  0.935
 Method:                 Least Squares   F-statistic:                 3.402e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -59161.
@@ -62,10 +62,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Billing KWH, Water Total, Fuel Rate, Metered DM, Power Factor | adj R² = 0.9326 | AIC = 110715.46
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.933
-Model:                            GLS   Adj. R-squared:                  0.933
+Model:                            OLS   Adj. R-squared:                  0.933
 Method:                 Least Squares   F-statistic:                 1.824e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -55352.
@@ -95,10 +95,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Billing KWH, Water Total, Fuel Rate, Metered DM | adj R² = 0.9323 | AIC = 110749.90
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.932
-Model:                            GLS   Adj. R-squared:                  0.932
+Model:                            OLS   Adj. R-squared:                  0.932
 Method:                 Least Squares   F-statistic:                 2.267e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -55370.
@@ -127,10 +127,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Billing KWH, Hours, Water Total, Fuel Rate, Metered DM, Power Factor | adj R² = 0.9321 | AIC = 108966.03
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.932
-Model:                            GLS   Adj. R-squared:                  0.932
+Model:                            OLS   Adj. R-squared:                  0.932
 Method:                 Least Squares   F-statistic:                 1.484e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -54476.
@@ -161,10 +161,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Billing KWH, Water Total, Fuel Rate, Metered DM, Power Factor | adj R² = 0.9320 | AIC = 109169.61
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.932
-Model:                            GLS   Adj. R-squared:                  0.932
+Model:                            OLS   Adj. R-squared:                  0.932
 Method:                 Least Squares   F-statistic:                 1.483e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -54578.
@@ -195,10 +195,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Billing KWH, Hours, Water Total, Fuel Rate, Metered DM, Power Factor | adj R² = 0.9319 | AIC = 108345.25
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.932
-Model:                            GLS   Adj. R-squared:                  0.932
+Model:                            OLS   Adj. R-squared:                  0.932
 Method:                 Least Squares   F-statistic:                 1.261e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -54165.
@@ -230,10 +230,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Billing KWH, Hours, Water Total, Fuel Rate, Metered DM | adj R² = 0.9317 | AIC = 108997.02
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.932
-Model:                            GLS   Adj. R-squared:                  0.932
+Model:                            OLS   Adj. R-squared:                  0.932
 Method:                 Least Squares   F-statistic:                 1.771e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -54493.
@@ -263,10 +263,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Billing KWH, Water Total, Fuel Rate, Metered DM | adj R² = 0.9316 | AIC = 109201.34
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.932
-Model:                            GLS   Adj. R-squared:                  0.932
+Model:                            OLS   Adj. R-squared:                  0.932
 Method:                 Least Squares   F-statistic:                 1.770e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -54595.
@@ -296,10 +296,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Billing KWH, Hours, Fuel Rate, Metered DM, Power Factor | adj R² = 0.9316 | AIC = 109186.28
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.932
-Model:                            GLS   Adj. R-squared:                  0.932
+Model:                            OLS   Adj. R-squared:                  0.932
 Method:                 Least Squares   F-statistic:                 1.769e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -54587.
@@ -329,10 +329,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Billing KWH, Hours, Water Total, Fuel Rate, Metered DM | adj R² = 0.9316 | AIC = 108375.92
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.932
-Model:                            GLS   Adj. R-squared:                  0.932
+Model:                            OLS   Adj. R-squared:                  0.932
 Method:                 Least Squares   F-statistic:                 1.463e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -54181.
@@ -363,10 +363,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Billing KWH, Hours, Fuel Rate, Metered DM, Power Factor | adj R² = 0.9314 | AIC = 108413.87
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.931
-Model:                            GLS   Adj. R-squared:                  0.931
+Model:                            OLS   Adj. R-squared:                  0.931
 Method:                 Least Squares   F-statistic:                 1.458e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -54200.
@@ -397,10 +397,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Billing KWH, Hours, Fuel Rate, Metered DM | adj R² = 0.9312 | AIC = 109221.26
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.931
-Model:                            GLS   Adj. R-squared:                  0.931
+Model:                            OLS   Adj. R-squared:                  0.931
 Method:                 Least Squares   F-statistic:                 2.198e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -54606.
@@ -429,10 +429,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Billing KWH, Hours, Fuel Rate, Metered DM | adj R² = 0.9310 | AIC = 108447.12
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.931
-Model:                            GLS   Adj. R-squared:                  0.931
+Model:                            OLS   Adj. R-squared:                  0.931
 Method:                 Least Squares   F-statistic:                 1.740e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -54218.
@@ -462,10 +462,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Billing KWH, Fuel Rate, Metered DM, Power Factor | adj R² = 0.9305 | AIC = 109321.53
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.931
-Model:                            GLS   Adj. R-squared:                  0.931
+Model:                            OLS   Adj. R-squared:                  0.931
 Method:                 Least Squares   F-statistic:                 1.741e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -54655.
@@ -495,10 +495,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Billing KWH, Fuel Rate, Metered DM | adj R² = 0.9303 | AIC = 109345.19
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.930
-Model:                            GLS   Adj. R-squared:                  0.930
+Model:                            OLS   Adj. R-squared:                  0.930
 Method:                 Least Squares   F-statistic:                 2.167e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -54668.
@@ -527,10 +527,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Billing KWH, Fuel Rate, Power Factor | adj R² = 0.9149 | AIC = 120293.35
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.915
-Model:                            GLS   Adj. R-squared:                  0.915
+Model:                            OLS   Adj. R-squared:                  0.915
 Method:                 Least Squares   F-statistic:                 2.524e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -60143.
@@ -558,10 +558,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Billing KWH, Hours, Water Total, Fuel Rate, Power Factor | adj R² = 0.9131 | AIC = 109914.70
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.913
-Model:                            GLS   Adj. R-squared:                  0.913
+Model:                            OLS   Adj. R-squared:                  0.913
 Method:                 Least Squares   F-statistic:                 1.130e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -54950.
@@ -592,10 +592,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Billing KWH, Hours, Water Total, Fuel Rate, Power Factor | adj R² = 0.9130 | AIC = 110570.35
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.913
-Model:                            GLS   Adj. R-squared:                  0.913
+Model:                            OLS   Adj. R-squared:                  0.913
 Method:                 Least Squares   F-statistic:                 1.362e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -55279.
@@ -625,10 +625,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Billing KWH, Hours, Fuel Rate, Power Factor | adj R² = 0.9126 | AIC = 110778.68
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.913
-Model:                            GLS   Adj. R-squared:                  0.913
+Model:                            OLS   Adj. R-squared:                  0.913
 Method:                 Least Squares   F-statistic:                 1.695e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -55384.
@@ -657,10 +657,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Billing KWH, Hours, Fuel Rate, Power Factor | adj R² = 0.9124 | AIC = 109988.80
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.912
-Model:                            GLS   Adj. R-squared:                  0.912
+Model:                            OLS   Adj. R-squared:                  0.912
 Method:                 Least Squares   F-statistic:                 1.343e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -54988.
@@ -690,10 +690,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Billing KWH, Water Total, Fuel Rate, Power Factor | adj R² = 0.9106 | AIC = 110942.98
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.911
-Model:                            GLS   Adj. R-squared:                  0.911
+Model:                            OLS   Adj. R-squared:                  0.911
 Method:                 Least Squares   F-statistic:                 1.324e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -55465.
@@ -723,10 +723,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Billing KWH, Water Total, Fuel Rate, Power Factor | adj R² = 0.9103 | AIC = 112599.25
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.910
-Model:                            GLS   Adj. R-squared:                  0.910
+Model:                            OLS   Adj. R-squared:                  0.910
 Method:                 Least Squares   F-statistic:                 1.672e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -56295.
@@ -755,10 +755,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Billing KWH, Fuel Rate, Power Factor | adj R² = 0.9100 | AIC = 111002.18
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.910
-Model:                            GLS   Adj. R-squared:                  0.910
+Model:                            OLS   Adj. R-squared:                  0.910
 Method:                 Least Squares   F-statistic:                 1.643e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -55496.
@@ -787,10 +787,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Billing KWH, Metered DM, Power Factor | adj R² = 0.9018 | AIC = 123500.60
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.902
-Model:                            GLS   Adj. R-squared:                  0.902
+Model:                            OLS   Adj. R-squared:                  0.902
 Method:                 Least Squares   F-statistic:                 2.197e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -61746.
@@ -818,10 +818,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Billing KWH, Metered DM | adj R² = 0.9015 | AIC = 123518.33
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.902
-Model:                            GLS   Adj. R-squared:                  0.902
+Model:                            OLS   Adj. R-squared:                  0.902
 Method:                 Least Squares   F-statistic:                 3.286e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -61756.
@@ -848,10 +848,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Billing KWH, Water Total, Metered DM, Power Factor | adj R² = 0.8949 | AIC = 115763.91
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.895
-Model:                            GLS   Adj. R-squared:                  0.895
+Model:                            OLS   Adj. R-squared:                  0.895
 Method:                 Least Squares   F-statistic:                 1.430e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -57877.
@@ -880,10 +880,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Billing KWH, Water Total, Metered DM | adj R² = 0.8948 | AIC = 115772.74
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.895
-Model:                            GLS   Adj. R-squared:                  0.895
+Model:                            OLS   Adj. R-squared:                  0.895
 Method:                 Least Squares   F-statistic:                 1.904e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -57882.
@@ -911,10 +911,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Billing KWH, Hours, Water Total, Metered DM, Power Factor | adj R² = 0.8938 | AIC = 113988.04
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.894
-Model:                            GLS   Adj. R-squared:                  0.894
+Model:                            OLS   Adj. R-squared:                  0.894
 Method:                 Least Squares   F-statistic:                 1.113e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -56988.
@@ -944,10 +944,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Billing KWH, Water Total, Metered DM, Power Factor | adj R² = 0.8937 | AIC = 114189.25
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.894
-Model:                            GLS   Adj. R-squared:                  0.894
+Model:                            OLS   Adj. R-squared:                  0.894
 Method:                 Least Squares   F-statistic:                 1.114e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -57089.
@@ -977,10 +977,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Billing KWH, Hours, Water Total, Metered DM | adj R² = 0.8937 | AIC = 113993.09
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.894
-Model:                            GLS   Adj. R-squared:                  0.894
+Model:                            OLS   Adj. R-squared:                  0.894
 Method:                 Least Squares   F-statistic:                 1.390e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -56992.
@@ -1009,10 +1009,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Billing KWH, Hours, Water Total, Metered DM, Power Factor | adj R² = 0.8936 | AIC = 113342.79
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.894
-Model:                            GLS   Adj. R-squared:                  0.894
+Model:                            OLS   Adj. R-squared:                  0.894
 Method:                 Least Squares   F-statistic:                     9206.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -56664.
@@ -1043,10 +1043,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Billing KWH, Water Total, Metered DM | adj R² = 0.8936 | AIC = 114195.12
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.894
-Model:                            GLS   Adj. R-squared:                  0.894
+Model:                            OLS   Adj. R-squared:                  0.894
 Method:                 Least Squares   F-statistic:                 1.391e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -57093.
@@ -1075,10 +1075,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Billing KWH, Hours, Water Total, Metered DM | adj R² = 0.8936 | AIC = 113347.25
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.894
-Model:                            GLS   Adj. R-squared:                  0.894
+Model:                            OLS   Adj. R-squared:                  0.894
 Method:                 Least Squares   F-statistic:                 1.104e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -56668.
@@ -1108,10 +1108,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Billing KWH, Hours, Metered DM, Power Factor | adj R² = 0.8928 | AIC = 114245.52
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.893
-Model:                            GLS   Adj. R-squared:                  0.893
+Model:                            OLS   Adj. R-squared:                  0.893
 Method:                 Least Squares   F-statistic:                 1.379e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -57118.
@@ -1140,10 +1140,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Billing KWH, Hours, Metered DM | adj R² = 0.8927 | AIC = 114252.26
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.893
-Model:                            GLS   Adj. R-squared:                  0.893
+Model:                            OLS   Adj. R-squared:                  0.893
 Method:                 Least Squares   F-statistic:                 1.836e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -57122.
@@ -1171,10 +1171,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Billing KWH, Hours, Metered DM, Power Factor | adj R² = 0.8923 | AIC = 113442.44
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.892
-Model:                            GLS   Adj. R-squared:                  0.892
+Model:                            OLS   Adj. R-squared:                  0.892
 Method:                 Least Squares   F-statistic:                 1.089e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -56715.
@@ -1204,10 +1204,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Billing KWH, Hours, Metered DM | adj R² = 0.8922 | AIC = 113448.13
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.892
-Model:                            GLS   Adj. R-squared:                  0.892
+Model:                            OLS   Adj. R-squared:                  0.892
 Method:                 Least Squares   F-statistic:                 1.360e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -56719.
@@ -1236,10 +1236,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Billing KWH, Metered DM, Power Factor | adj R² = 0.8915 | AIC = 114343.22
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.892
-Model:                            GLS   Adj. R-squared:                  0.892
+Model:                            OLS   Adj. R-squared:                  0.892
 Method:                 Least Squares   F-statistic:                 1.361e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -57167.
@@ -1268,10 +1268,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Billing KWH, Metered DM | adj R² = 0.8915 | AIC = 114345.32
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.892
-Model:                            GLS   Adj. R-squared:                  0.891
+Model:                            OLS   Adj. R-squared:                  0.891
 Method:                 Least Squares   F-statistic:                 1.814e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -57169.
@@ -1299,10 +1299,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Billing KWH, Power Factor | adj R² = 0.8805 | AIC = 124924.18
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.881
-Model:                            GLS   Adj. R-squared:                  0.881
+Model:                            OLS   Adj. R-squared:                  0.881
 Method:                 Least Squares   F-statistic:                 2.646e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -62459.
@@ -1329,10 +1329,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Billing KWH, Hours, Water Total, Power Factor | adj R² = 0.8746 | AIC = 114422.41
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.875
-Model:                            GLS   Adj. R-squared:                  0.875
+Model:                            OLS   Adj. R-squared:                  0.875
 Method:                 Least Squares   F-statistic:                     9173.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -57205.
@@ -1362,10 +1362,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Billing KWH, Hours, Water Total, Power Factor | adj R² = 0.8740 | AIC = 115116.25
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.874
-Model:                            GLS   Adj. R-squared:                  0.874
+Model:                            OLS   Adj. R-squared:                  0.874
 Method:                 Least Squares   F-statistic:                 1.147e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -57553.
@@ -1394,10 +1394,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Billing KWH, Hours, Power Factor | adj R² = 0.8730 | AIC = 115367.48
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.873
-Model:                            GLS   Adj. R-squared:                  0.873
+Model:                            OLS   Adj. R-squared:                  0.873
 Method:                 Least Squares   F-statistic:                 1.517e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -57680.
@@ -1425,10 +1425,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Billing KWH, Hours, Power Factor | adj R² = 0.8730 | AIC = 114527.46
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.873
-Model:                            GLS   Adj. R-squared:                  0.873
+Model:                            OLS   Adj. R-squared:                  0.873
 Method:                 Least Squares   F-statistic:                 1.129e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -57259.
@@ -1457,10 +1457,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Billing KWH, Water Total, Power Factor | adj R² = 0.8714 | AIC = 117122.48
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.871
-Model:                            GLS   Adj. R-squared:                  0.871
+Model:                            OLS   Adj. R-squared:                  0.871
 Method:                 Least Squares   F-statistic:                 1.516e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -58557.
@@ -1488,10 +1488,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Billing KWH, Water Total, Power Factor | adj R² = 0.8710 | AIC = 115470.91
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.871
-Model:                            GLS   Adj. R-squared:                  0.871
+Model:                            OLS   Adj. R-squared:                  0.871
 Method:                 Least Squares   F-statistic:                 1.118e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -57730.
@@ -1520,10 +1520,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Billing KWH, Power Factor | adj R² = 0.8708 | AIC = 115499.72
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.871
-Model:                            GLS   Adj. R-squared:                  0.871
+Model:                            OLS   Adj. R-squared:                  0.871
 Method:                 Least Squares   F-statistic:                 1.488e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -57746.
@@ -1551,10 +1551,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Hours, Water Total, Fuel Rate, Metered DM, Power Factor | adj R² = 0.8622 | AIC = 112926.61
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.862
-Model:                            GLS   Adj. R-squared:                  0.862
+Model:                            OLS   Adj. R-squared:                  0.862
 Method:                 Least Squares   F-statistic:                     6727.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -56456.
@@ -1585,10 +1585,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Hours, Water Total, Fuel Rate, Metered DM | adj R² = 0.8620 | AIC = 112933.37
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.862
-Model:                            GLS   Adj. R-squared:                  0.862
+Model:                            OLS   Adj. R-squared:                  0.862
 Method:                 Least Squares   F-statistic:                     8061.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -56461.
@@ -1618,10 +1618,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Hours, Water Total, Fuel Rate, Metered DM, Power Factor | adj R² = 0.8620 | AIC = 113600.00
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.862
-Model:                            GLS   Adj. R-squared:                  0.862
+Model:                            OLS   Adj. R-squared:                  0.862
 Method:                 Least Squares   F-statistic:                     8107.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -56794.
@@ -1651,10 +1651,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Hours, Water Total, Fuel Rate, Metered DM | adj R² = 0.8618 | AIC = 113606.58
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.862
-Model:                            GLS   Adj. R-squared:                  0.862
+Model:                            OLS   Adj. R-squared:                  0.862
 Method:                 Least Squares   F-statistic:                 1.012e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -56798.
@@ -1683,10 +1683,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Water Total, Fuel Rate, Metered DM, Power Factor | adj R² = 0.8598 | AIC = 113903.90
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.860
-Model:                            GLS   Adj. R-squared:                  0.860
+Model:                            OLS   Adj. R-squared:                  0.860
 Method:                 Least Squares   F-statistic:                     7973.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -56946.
@@ -1716,10 +1716,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Water Total, Fuel Rate, Metered DM | adj R² = 0.8597 | AIC = 113907.27
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.860
-Model:                            GLS   Adj. R-squared:                  0.860
+Model:                            OLS   Adj. R-squared:                  0.860
 Method:                 Least Squares   F-statistic:                     9958.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -56949.
@@ -1748,10 +1748,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Water Total, Fuel Rate, Metered DM, Power Factor | adj R² = 0.8567 | AIC = 115724.33
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.857
-Model:                            GLS   Adj. R-squared:                  0.857
+Model:                            OLS   Adj. R-squared:                  0.857
 Method:                 Least Squares   F-statistic:                     9854.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -57857.
@@ -1780,10 +1780,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Water Total, Fuel Rate, Metered DM | adj R² = 0.8565 | AIC = 115730.93
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.857
-Model:                            GLS   Adj. R-squared:                  0.857
+Model:                            OLS   Adj. R-squared:                  0.857
 Method:                 Least Squares   F-statistic:                 1.312e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -57861.
@@ -1811,10 +1811,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Hours, Fuel Rate, Metered DM, Power Factor | adj R² = 0.8476 | AIC = 113594.51
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.848
-Model:                            GLS   Adj. R-squared:                  0.848
+Model:                            OLS   Adj. R-squared:                  0.848
 Method:                 Least Squares   F-statistic:                     7175.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -56791.
@@ -1844,10 +1844,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Hours, Fuel Rate, Metered DM | adj R² = 0.8473 | AIC = 113604.95
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.847
-Model:                            GLS   Adj. R-squared:                  0.847
+Model:                            OLS   Adj. R-squared:                  0.847
 Method:                 Least Squares   F-statistic:                     8950.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -56797.
@@ -1876,10 +1876,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Hours, Fuel Rate, Metered DM, Power Factor | adj R² = 0.8455 | AIC = 114513.13
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.846
-Model:                            GLS   Adj. R-squared:                  0.846
+Model:                            OLS   Adj. R-squared:                  0.846
 Method:                 Least Squares   F-statistic:                     8892.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -57252.
@@ -1908,10 +1908,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Hours, Fuel Rate, Metered DM | adj R² = 0.8452 | AIC = 114524.77
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.845
-Model:                            GLS   Adj. R-squared:                  0.845
+Model:                            OLS   Adj. R-squared:                  0.845
 Method:                 Least Squares   F-statistic:                 1.183e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -57258.
@@ -1939,10 +1939,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Hours, Water Total, Metered DM, Power Factor | adj R² = 0.8289 | AIC = 117213.97
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.829
-Model:                            GLS   Adj. R-squared:                  0.829
+Model:                            OLS   Adj. R-squared:                  0.829
 Method:                 Least Squares   F-statistic:                     8013.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -58602.
@@ -1971,10 +1971,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Hours, Water Total, Metered DM | adj R² = 0.8289 | AIC = 117213.61
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.829
-Model:                            GLS   Adj. R-squared:                  0.829
+Model:                            OLS   Adj. R-squared:                  0.829
 Method:                 Least Squares   F-statistic:                 1.068e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -58603.
@@ -2002,10 +2002,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Hours, Water Total, Metered DM, Power Factor | adj R² = 0.8288 | AIC = 116544.60
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.829
-Model:                            GLS   Adj. R-squared:                  0.829
+Model:                            OLS   Adj. R-squared:                  0.829
 Method:                 Least Squares   F-statistic:                     6370.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -58266.
@@ -2035,10 +2035,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Hours, Water Total, Metered DM | adj R² = 0.8288 | AIC = 116544.11
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.829
-Model:                            GLS   Adj. R-squared:                  0.829
+Model:                            OLS   Adj. R-squared:                  0.829
 Method:                 Least Squares   F-statistic:                     7962.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -58267.
@@ -2067,10 +2067,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Water Total, Metered DM | adj R² = 0.8274 | AIC = 117474.34
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.827
-Model:                            GLS   Adj. R-squared:                  0.827
+Model:                            OLS   Adj. R-squared:                  0.827
 Method:                 Least Squares   F-statistic:                 1.059e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:30   Log-Likelihood:                -58733.
@@ -2098,10 +2098,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Water Total, Metered DM, Power Factor | adj R² = 0.8274 | AIC = 117475.61
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.827
-Model:                            GLS   Adj. R-squared:                  0.827
+Model:                            OLS   Adj. R-squared:                  0.827
 Method:                 Least Squares   F-statistic:                     7942.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -58733.
@@ -2130,10 +2130,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Water Total, Metered DM, Power Factor | adj R² = 0.8248 | AIC = 119273.07
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.825
-Model:                            GLS   Adj. R-squared:                  0.825
+Model:                            OLS   Adj. R-squared:                  0.825
 Method:                 Least Squares   F-statistic:                 1.054e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -59633.
@@ -2161,10 +2161,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Water Total, Metered DM | adj R² = 0.8247 | AIC = 119273.73
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.825
-Model:                            GLS   Adj. R-squared:                  0.825
+Model:                            OLS   Adj. R-squared:                  0.825
 Method:                 Least Squares   F-statistic:                 1.581e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -59634.
@@ -2191,10 +2191,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Hours, Metered DM, Power Factor | adj R² = 0.8118 | AIC = 117186.58
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.812
-Model:                            GLS   Adj. R-squared:                  0.812
+Model:                            OLS   Adj. R-squared:                  0.812
 Method:                 Least Squares   F-statistic:                     7094.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -58588.
@@ -2223,10 +2223,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Hours, Metered DM | adj R² = 0.8117 | AIC = 117187.66
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.812
-Model:                            GLS   Adj. R-squared:                  0.812
+Model:                            OLS   Adj. R-squared:                  0.812
 Method:                 Least Squares   F-statistic:                     9454.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -58590.
@@ -2254,10 +2254,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Hours, Metered DM, Power Factor | adj R² = 0.8107 | AIC = 118084.09
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.811
-Model:                            GLS   Adj. R-squared:                  0.811
+Model:                            OLS   Adj. R-squared:                  0.811
 Method:                 Least Squares   F-statistic:                     9460.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -59038.
@@ -2285,10 +2285,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Hours, Metered DM | adj R² = 0.8106 | AIC = 118086.06
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.811
-Model:                            GLS   Adj. R-squared:                  0.811
+Model:                            OLS   Adj. R-squared:                  0.811
 Method:                 Least Squares   F-statistic:                 1.418e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -59040.
@@ -2315,10 +2315,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Fuel Rate, Metered DM, Power Factor | adj R² = 0.7159 | AIC = 118513.38
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.716
-Model:                            GLS   Adj. R-squared:                  0.716
+Model:                            OLS   Adj. R-squared:                  0.716
 Method:                 Least Squares   F-statistic:                     4096.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -59252.
@@ -2347,10 +2347,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Fuel Rate, Metered DM | adj R² = 0.7145 | AIC = 118544.91
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.715
-Model:                            GLS   Adj. R-squared:                  0.714
+Model:                            OLS   Adj. R-squared:                  0.714
 Method:                 Least Squares   F-statistic:                     5423.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -59268.
@@ -2378,10 +2378,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Fuel Rate, Metered DM, Power Factor | adj R² = 0.7135 | AIC = 128997.69
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.714
-Model:                            GLS   Adj. R-squared:                  0.713
+Model:                            OLS   Adj. R-squared:                  0.713
 Method:                 Least Squares   F-statistic:                     5857.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -64495.
@@ -2409,10 +2409,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Fuel Rate, Metered DM | adj R² = 0.7128 | AIC = 129012.32
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.713
-Model:                            GLS   Adj. R-squared:                  0.713
+Model:                            OLS   Adj. R-squared:                  0.713
 Method:                 Least Squares   F-statistic:                     8758.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -64503.
@@ -2439,10 +2439,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Metered DM, Power Factor | adj R² = 0.6850 | AIC = 132131.45
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.685
-Model:                            GLS   Adj. R-squared:                  0.685
+Model:                            OLS   Adj. R-squared:                  0.685
 Method:                 Least Squares   F-statistic:                     7820.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -66063.
@@ -2469,10 +2469,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Metered DM | adj R² = 0.6839 | AIC = 132154.28
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.684
-Model:                            GLS   Adj. R-squared:                  0.684
+Model:                            OLS   Adj. R-squared:                  0.684
 Method:                 Least Squares   F-statistic:                 1.556e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -66075.
@@ -2496,10 +2496,10 @@ Notes:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 
 Electrical Bill explained by PSI, Metered DM, Power Factor | adj R² = 0.6832 | AIC = 121517.34
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.683
-Model:                            GLS   Adj. R-squared:                  0.683
+Model:                            OLS   Adj. R-squared:                  0.683
 Method:                 Least Squares   F-statistic:                     4767.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -60755.
@@ -2527,10 +2527,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Metered DM | adj R² = 0.6812 | AIC = 121559.78
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.681
-Model:                            GLS   Adj. R-squared:                  0.681
+Model:                            OLS   Adj. R-squared:                  0.681
 Method:                 Least Squares   F-statistic:                     7081.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -60777.
@@ -2557,10 +2557,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Billing KWH, Hours, Water Total, Fuel Rate | adj R² = 0.6044 | AIC = 121288.95
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.605
-Model:                            GLS   Adj. R-squared:                  0.604
+Model:                            OLS   Adj. R-squared:                  0.604
 Method:                 Least Squares   F-statistic:                     1996.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -60638.
@@ -2590,10 +2590,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Billing KWH, Hours, Water Total, Fuel Rate | adj R² = 0.6016 | AIC = 122058.31
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.602
-Model:                            GLS   Adj. R-squared:                  0.602
+Model:                            OLS   Adj. R-squared:                  0.602
 Method:                 Least Squares   F-statistic:                     2481.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -61024.
@@ -2622,10 +2622,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Billing KWH, Hours, Water Total | adj R² = 0.5993 | AIC = 134601.90
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.600
-Model:                            GLS   Adj. R-squared:                  0.599
+Model:                            OLS   Adj. R-squared:                  0.599
 Method:                 Least Squares   F-statistic:                     2699.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -67296.
@@ -2654,10 +2654,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Billing KWH, Hours, Water Total | adj R² = 0.5943 | AIC = 135427.77
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.594
-Model:                            GLS   Adj. R-squared:                  0.594
+Model:                            OLS   Adj. R-squared:                  0.594
 Method:                 Least Squares   F-statistic:                     3543.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -67710.
@@ -2685,10 +2685,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Billing KWH, Water Total, Fuel Rate | adj R² = 0.5850 | AIC = 122578.91
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.585
-Model:                            GLS   Adj. R-squared:                  0.585
+Model:                            OLS   Adj. R-squared:                  0.585
 Method:                 Least Squares   F-statistic:                     2321.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -61284.
@@ -2717,10 +2717,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Billing KWH, Water Total | adj R² = 0.5789 | AIC = 136073.79
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.579
-Model:                            GLS   Adj. R-squared:                  0.579
+Model:                            OLS   Adj. R-squared:                  0.579
 Method:                 Least Squares   F-statistic:                     3335.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -68033.
@@ -2748,10 +2748,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Billing KWH, Water Total, Fuel Rate | adj R² = 0.5720 | AIC = 125212.06
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.572
-Model:                            GLS   Adj. R-squared:                  0.572
+Model:                            OLS   Adj. R-squared:                  0.572
 Method:                 Least Squares   F-statistic:                     2990.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -62602.
@@ -2779,10 +2779,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Hours, Water Total, Fuel Rate | adj R² = 0.5690 | AIC = 122410.82
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.569
-Model:                            GLS   Adj. R-squared:                  0.569
+Model:                            OLS   Adj. R-squared:                  0.569
 Method:                 Least Squares   F-statistic:                     2166.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -61200.
@@ -2811,10 +2811,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Hours, Water Total, Fuel Rate | adj R² = 0.5649 | AIC = 123198.68
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.565
-Model:                            GLS   Adj. R-squared:                  0.565
+Model:                            OLS   Adj. R-squared:                  0.565
 Method:                 Least Squares   F-statistic:                     2857.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -61595.
@@ -2842,10 +2842,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Billing KWH, Water Total | adj R² = 0.5627 | AIC = 139091.91
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.563
-Model:                            GLS   Adj. R-squared:                  0.563
+Model:                            OLS   Adj. R-squared:                  0.563
 Method:                 Least Squares   F-statistic:                     4773.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -69543.
@@ -2872,10 +2872,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Hours, Water Total, Fuel Rate, Power Factor | adj R² = 0.5623 | AIC = 120399.86
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.563
-Model:                            GLS   Adj. R-squared:                  0.562
+Model:                            OLS   Adj. R-squared:                  0.562
 Method:                 Least Squares   F-statistic:                     1659.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -60194.
@@ -2905,10 +2905,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Hours, Water Total, Fuel Rate, Power Factor | adj R² = 0.5580 | AIC = 121173.02
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.558
-Model:                            GLS   Adj. R-squared:                  0.558
+Model:                            OLS   Adj. R-squared:                  0.558
 Method:                 Least Squares   F-statistic:                     2049.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -60582.
@@ -2937,10 +2937,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Water Total, Fuel Rate | adj R² = 0.5468 | AIC = 123721.74
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.547
-Model:                            GLS   Adj. R-squared:                  0.547
+Model:                            OLS   Adj. R-squared:                  0.547
 Method:                 Least Squares   F-statistic:                     2661.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -61857.
@@ -2968,10 +2968,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Water Total, Fuel Rate, Power Factor | adj R² = 0.5391 | AIC = 121658.36
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.539
-Model:                            GLS   Adj. R-squared:                  0.539
+Model:                            OLS   Adj. R-squared:                  0.539
 Method:                 Least Squares   F-statistic:                     1902.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -60824.
@@ -3000,10 +3000,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Hours, Water Total, Power Factor | adj R² = 0.5376 | AIC = 123099.22
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.538
-Model:                            GLS   Adj. R-squared:                  0.538
+Model:                            OLS   Adj. R-squared:                  0.538
 Method:                 Least Squares   F-statistic:                     1913.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -61545.
@@ -3032,10 +3032,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Hours, Water Total, Power Factor | adj R² = 0.5315 | AIC = 123897.27
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.532
-Model:                            GLS   Adj. R-squared:                  0.531
+Model:                            OLS   Adj. R-squared:                  0.531
 Method:                 Least Squares   F-statistic:                     2503.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -61945.
@@ -3063,10 +3063,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Water Total, Fuel Rate | adj R² = 0.5284 | AIC = 126466.12
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.529
-Model:                            GLS   Adj. R-squared:                  0.528
+Model:                            OLS   Adj. R-squared:                  0.528
 Method:                 Least Squares   F-statistic:                     3778.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -63230.
@@ -3093,10 +3093,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Water Total, Fuel Rate, Power Factor | adj R² = 0.5166 | AIC = 123758.91
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.517
-Model:                            GLS   Adj. R-squared:                  0.517
+Model:                            OLS   Adj. R-squared:                  0.517
 Method:                 Least Squares   F-statistic:                     2350.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -61875.
@@ -3124,10 +3124,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Water Total, Power Factor | adj R² = 0.5121 | AIC = 124381.40
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.512
-Model:                            GLS   Adj. R-squared:                  0.512
+Model:                            OLS   Adj. R-squared:                  0.512
 Method:                 Least Squares   F-statistic:                     2320.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -62187.
@@ -3155,10 +3155,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Water Total, Power Factor | adj R² = 0.4902 | AIC = 126468.05
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.490
-Model:                            GLS   Adj. R-squared:                  0.490
+Model:                            OLS   Adj. R-squared:                  0.490
 Method:                 Least Squares   F-statistic:                     3231.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -63231.
@@ -3185,10 +3185,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Hours, Water Total | adj R² = 0.4626 | AIC = 137869.63
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.463
-Model:                            GLS   Adj. R-squared:                  0.463
+Model:                            OLS   Adj. R-squared:                  0.463
 Method:                 Least Squares   F-statistic:                     2089.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -68931.
@@ -3216,10 +3216,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Hours, Water Total | adj R² = 0.4619 | AIC = 138625.86
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.462
-Model:                            GLS   Adj. R-squared:                  0.462
+Model:                            OLS   Adj. R-squared:                  0.462
 Method:                 Least Squares   F-statistic:                     3142.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -69310.
@@ -3246,10 +3246,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Billing KWH, Hours, Fuel Rate | adj R² = 0.4538 | AIC = 124323.41
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.454
-Model:                            GLS   Adj. R-squared:                  0.454
+Model:                            OLS   Adj. R-squared:                  0.454
 Method:                 Least Squares   F-statistic:                     1823.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -62158.
@@ -3277,10 +3277,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Billing KWH, Hours, Fuel Rate | adj R² = 0.4503 | AIC = 123456.56
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.451
-Model:                            GLS   Adj. R-squared:                  0.450
+Model:                            OLS   Adj. R-squared:                  0.450
 Method:                 Least Squares   F-statistic:                     1338.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -61723.
@@ -3309,10 +3309,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Water Total | adj R² = 0.4262 | AIC = 139596.66
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.426
-Model:                            GLS   Adj. R-squared:                  0.426
+Model:                            OLS   Adj. R-squared:                  0.426
 Method:                 Least Squares   F-statistic:                     2728.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -69795.
@@ -3339,10 +3339,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Water Total | adj R² = 0.4177 | AIC = 142621.87
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.418
-Model:                            GLS   Adj. R-squared:                  0.418
+Model:                            OLS   Adj. R-squared:                  0.418
 Method:                 Least Squares   F-statistic:                     5375.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -71309.
@@ -3368,10 +3368,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Billing KWH, Hours | adj R² = 0.4123 | AIC = 138326.28
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.412
-Model:                            GLS   Adj. R-squared:                  0.412
+Model:                            OLS   Adj. R-squared:                  0.412
 Method:                 Least Squares   F-statistic:                     2550.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -69160.
@@ -3398,10 +3398,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Billing KWH, Hours | adj R² = 0.4100 | AIC = 137412.23
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.410
-Model:                            GLS   Adj. R-squared:                  0.410
+Model:                            OLS   Adj. R-squared:                  0.410
 Method:                 Least Squares   F-statistic:                     1672.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -68702.
@@ -3429,10 +3429,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Hours, Fuel Rate | adj R² = 0.3699 | AIC = 125836.73
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.370
-Model:                            GLS   Adj. R-squared:                  0.370
+Model:                            OLS   Adj. R-squared:                  0.370
 Method:                 Least Squares   F-statistic:                     1941.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -62915.
@@ -3459,10 +3459,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Hours, Fuel Rate | adj R² = 0.3661 | AIC = 124960.78
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.366
-Model:                            GLS   Adj. R-squared:                  0.366
+Model:                            OLS   Adj. R-squared:                  0.366
 Method:                 Least Squares   F-statistic:                     1264.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -62476.
@@ -3490,10 +3490,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Hours, Fuel Rate, Power Factor | adj R² = 0.3591 | AIC = 123778.60
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.359
-Model:                            GLS   Adj. R-squared:                  0.359
+Model:                            OLS   Adj. R-squared:                  0.359
 Method:                 Least Squares   F-statistic:                     1215.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -61885.
@@ -3521,10 +3521,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Hours, Fuel Rate, Power Factor | adj R² = 0.3551 | AIC = 122920.19
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.355
-Model:                            GLS   Adj. R-squared:                  0.355
+Model:                            OLS   Adj. R-squared:                  0.355
 Method:                 Least Squares   F-statistic:                     889.0
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -61455.
@@ -3553,10 +3553,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Hours, Power Factor | adj R² = 0.3290 | AIC = 126489.00
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.329
-Model:                            GLS   Adj. R-squared:                  0.329
+Model:                            OLS   Adj. R-squared:                  0.329
 Method:                 Least Squares   F-statistic:                     1626.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -63242.
@@ -3583,10 +3583,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Hours, Power Factor | adj R² = 0.3252 | AIC = 125605.14
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.326
-Model:                            GLS   Adj. R-squared:                  0.325
+Model:                            OLS   Adj. R-squared:                  0.325
 Method:                 Least Squares   F-statistic:                     1058.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -62799.
@@ -3614,10 +3614,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Billing KWH, Fuel Rate | adj R² = 0.2944 | AIC = 141903.48
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.295
-Model:                            GLS   Adj. R-squared:                  0.294
+Model:                            OLS   Adj. R-squared:                  0.294
 Method:                 Least Squares   F-statistic:                     1543.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -70949.
@@ -3644,10 +3644,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Billing KWH, Fuel Rate | adj R² = 0.2605 | AIC = 126441.88
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.261
-Model:                            GLS   Adj. R-squared:                  0.260
+Model:                            OLS   Adj. R-squared:                  0.260
 Method:                 Least Squares   F-statistic:                     774.3
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -63217.
@@ -3675,10 +3675,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Hours | adj R² = 0.2530 | AIC = 141298.08
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.253
-Model:                            GLS   Adj. R-squared:                  0.253
+Model:                            OLS   Adj. R-squared:                  0.253
 Method:                 Least Squares   F-statistic:                     2484.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -70647.
@@ -3704,10 +3704,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Hours | adj R² = 0.2506 | AIC = 140308.21
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.251
-Model:                            GLS   Adj. R-squared:                  0.251
+Model:                            OLS   Adj. R-squared:                  0.251
 Method:                 Least Squares   F-statistic:                     1218.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -70151.
@@ -3734,10 +3734,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Billing KWH | adj R² = 0.1010 | AIC = 141650.71
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.101
-Model:                            GLS   Adj. R-squared:                  0.101
+Model:                            OLS   Adj. R-squared:                  0.101
 Method:                 Least Squares   F-statistic:                     409.7
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          2.55e-169
 Time:                        09:09:31   Log-Likelihood:                -70822.
@@ -3764,10 +3764,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Billing KWH | adj R² = 0.0711 | AIC = 158160.82
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.071
-Model:                            GLS   Adj. R-squared:                  0.071
+Model:                            OLS   Adj. R-squared:                  0.071
 Method:                 Least Squares   F-statistic:                     621.3
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          3.33e-132
 Time:                        09:09:31   Log-Likelihood:                -79078.
@@ -3793,10 +3793,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Fuel Rate, Power Factor | adj R² = 0.0699 | AIC = 137365.48
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.070
-Model:                            GLS   Adj. R-squared:                  0.070
+Model:                            OLS   Adj. R-squared:                  0.070
 Method:                 Least Squares   F-statistic:                     266.1
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          3.81e-112
 Time:                        09:09:31   Log-Likelihood:                -68680.
@@ -3823,10 +3823,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Power Factor | adj R² = 0.0484 | AIC = 140141.38
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.049
-Model:                            GLS   Adj. R-squared:                  0.048
+Model:                            OLS   Adj. R-squared:                  0.048
 Method:                 Least Squares   F-statistic:                     367.3
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           6.88e-80
 Time:                        09:09:31   Log-Likelihood:                -70069.
@@ -3850,10 +3850,10 @@ Notes:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 
 Electrical Bill explained by PSI, Fuel Rate, Power Factor | adj R² = 0.0341 | AIC = 126488.49
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.035
-Model:                            GLS   Adj. R-squared:                  0.034
+Model:                            OLS   Adj. R-squared:                  0.034
 Method:                 Least Squares   F-statistic:                     77.58
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           2.65e-49
 Time:                        09:09:31   Log-Likelihood:                -63240.
@@ -3881,10 +3881,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI, Fuel Rate | adj R² = 0.0261 | AIC = 128841.84
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.026
-Model:                            GLS   Adj. R-squared:                  0.026
+Model:                            OLS   Adj. R-squared:                  0.026
 Method:                 Least Squares   F-statistic:                     89.58
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           4.11e-39
 Time:                        09:09:31   Log-Likelihood:                -64418.
@@ -3911,10 +3911,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by Fuel Rate | adj R² = 0.0238 | AIC = 145540.80
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.024
-Model:                            GLS   Adj. R-squared:                  0.024
+Model:                            OLS   Adj. R-squared:                  0.024
 Method:                 Least Squares   F-statistic:                     182.7
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           3.74e-41
 Time:                        09:09:31   Log-Likelihood:                -72768.
@@ -3938,10 +3938,10 @@ Notes:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 
 Electrical Bill explained by PSI, Power Factor | adj R² = 0.0104 | AIC = 129087.93
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.011
-Model:                            GLS   Adj. R-squared:                  0.010
+Model:                            OLS   Adj. R-squared:                  0.010
 Method:                 Least Squares   F-statistic:                     35.90
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           3.11e-16
 Time:                        09:09:31   Log-Likelihood:                -64541.
@@ -3968,10 +3968,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Electrical Bill explained by PSI | adj R² = 0.0036 | AIC = 143747.68
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:        Electrical Bill   R-squared:                       0.004
-Model:                            GLS   Adj. R-squared:                  0.004
+Model:                            OLS   Adj. R-squared:                  0.004
 Method:                 Least Squares   F-statistic:                     27.67
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           1.48e-07
 Time:                        09:09:31   Log-Likelihood:                -71872.

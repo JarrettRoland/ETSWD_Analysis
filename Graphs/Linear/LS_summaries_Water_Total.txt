@@ -1,8 +1,8 @@
 Water Total explained by PSI, Billing KWH, Hours, Fuel Rate, Metered DM, Power Factor | adj R² = 0.8746 | AIC = 161675.68
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.875
-Model:                            GLS   Adj. R-squared:                  0.875
+Model:                            OLS   Adj. R-squared:                  0.875
 Method:                 Least Squares   F-statistic:                     7499.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -80831.
@@ -33,10 +33,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by PSI, Billing KWH, Hours, Fuel Rate, Metered DM | adj R² = 0.8745 | AIC = 161679.25
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.875
-Model:                            GLS   Adj. R-squared:                  0.875
+Model:                            OLS   Adj. R-squared:                  0.875
 Method:                 Least Squares   F-statistic:                     8991.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -80834.
@@ -66,10 +66,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by PSI, Billing KWH, Hours, Fuel Rate, Power Factor | adj R² = 0.8745 | AIC = 161679.57
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.875
-Model:                            GLS   Adj. R-squared:                  0.875
+Model:                            OLS   Adj. R-squared:                  0.875
 Method:                 Least Squares   F-statistic:                     8991.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -80834.
@@ -99,10 +99,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by PSI, Billing KWH, Hours, Metered DM, Power Factor | adj R² = 0.8742 | AIC = 164820.00
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.874
-Model:                            GLS   Adj. R-squared:                  0.874
+Model:                            OLS   Adj. R-squared:                  0.874
 Method:                 Least Squares   F-statistic:                     9138.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -82404.
@@ -132,10 +132,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by PSI, Billing KWH, Hours, Metered DM | adj R² = 0.8741 | AIC = 164821.83
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.874
-Model:                            GLS   Adj. R-squared:                  0.874
+Model:                            OLS   Adj. R-squared:                  0.874
 Method:                 Least Squares   F-statistic:                 1.142e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -82406.
@@ -164,10 +164,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by PSI, Billing KWH, Hours, Power Factor | adj R² = 0.8741 | AIC = 164824.36
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.874
-Model:                            GLS   Adj. R-squared:                  0.874
+Model:                            OLS   Adj. R-squared:                  0.874
 Method:                 Least Squares   F-statistic:                 1.141e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -82407.
@@ -196,10 +196,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by Billing KWH, Hours, Fuel Rate, Power Factor | adj R² = 0.8727 | AIC = 163011.56
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.873
-Model:                            GLS   Adj. R-squared:                  0.873
+Model:                            OLS   Adj. R-squared:                  0.873
 Method:                 Least Squares   F-statistic:                 1.113e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -81501.
@@ -228,10 +228,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by Billing KWH, Hours, Fuel Rate, Metered DM, Power Factor | adj R² = 0.8726 | AIC = 163013.34
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.873
-Model:                            GLS   Adj. R-squared:                  0.873
+Model:                            OLS   Adj. R-squared:                  0.873
 Method:                 Least Squares   F-statistic:                     8903.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -81501.
@@ -261,10 +261,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by Billing KWH, Hours, Fuel Rate, Metered DM | adj R² = 0.8726 | AIC = 163016.60
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.873
-Model:                            GLS   Adj. R-squared:                  0.873
+Model:                            OLS   Adj. R-squared:                  0.873
 Method:                 Least Squares   F-statistic:                 1.112e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -81503.
@@ -293,10 +293,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by Billing KWH, Hours, Power Factor | adj R² = 0.8723 | AIC = 166183.52
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.872
-Model:                            GLS   Adj. R-squared:                  0.872
+Model:                            OLS   Adj. R-squared:                  0.872
 Method:                 Least Squares   F-statistic:                 1.508e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -83088.
@@ -324,10 +324,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by Billing KWH, Hours, Metered DM, Power Factor | adj R² = 0.8723 | AIC = 166185.24
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.872
-Model:                            GLS   Adj. R-squared:                  0.872
+Model:                            OLS   Adj. R-squared:                  0.872
 Method:                 Least Squares   F-statistic:                 1.131e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -83088.
@@ -356,10 +356,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by Billing KWH, Hours, Metered DM | adj R² = 0.8722 | AIC = 166186.82
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.872
-Model:                            GLS   Adj. R-squared:                  0.872
+Model:                            OLS   Adj. R-squared:                  0.872
 Method:                 Least Squares   F-statistic:                 1.507e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -83089.
@@ -387,10 +387,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by PSI, Hours, Fuel Rate, Metered DM, Power Factor | adj R² = 0.8585 | AIC = 162509.89
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.859
-Model:                            GLS   Adj. R-squared:                  0.858
+Model:                            OLS   Adj. R-squared:                  0.858
 Method:                 Least Squares   F-statistic:                     7827.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -81249.
@@ -420,10 +420,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by PSI, Hours, Fuel Rate, Metered DM | adj R² = 0.8584 | AIC = 162511.93
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.858
-Model:                            GLS   Adj. R-squared:                  0.858
+Model:                            OLS   Adj. R-squared:                  0.858
 Method:                 Least Squares   F-statistic:                     9778.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -81251.
@@ -452,10 +452,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by PSI, Hours, Metered DM, Power Factor | adj R² = 0.8584 | AIC = 165703.20
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.858
-Model:                            GLS   Adj. R-squared:                  0.858
+Model:                            OLS   Adj. R-squared:                  0.858
 Method:                 Least Squares   F-statistic:                     9967.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -82847.
@@ -484,10 +484,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by PSI, Hours, Metered DM | adj R² = 0.8583 | AIC = 165703.95
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.858
-Model:                            GLS   Adj. R-squared:                  0.858
+Model:                            OLS   Adj. R-squared:                  0.858
 Method:                 Least Squares   F-statistic:                 1.329e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -82848.
@@ -515,10 +515,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by Hours, Fuel Rate, Metered DM, Power Factor | adj R² = 0.8544 | AIC = 163934.54
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.855
-Model:                            GLS   Adj. R-squared:                  0.854
+Model:                            OLS   Adj. R-squared:                  0.854
 Method:                 Least Squares   F-statistic:                     9535.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -81962.
@@ -547,10 +547,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by Hours, Fuel Rate, Metered DM | adj R² = 0.8544 | AIC = 163936.44
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.854
-Model:                            GLS   Adj. R-squared:                  0.854
+Model:                            OLS   Adj. R-squared:                  0.854
 Method:                 Least Squares   F-statistic:                 1.271e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -81964.
@@ -578,10 +578,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by Hours, Metered DM, Power Factor | adj R² = 0.8544 | AIC = 167157.66
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.854
-Model:                            GLS   Adj. R-squared:                  0.854
+Model:                            OLS   Adj. R-squared:                  0.854
 Method:                 Least Squares   F-statistic:                 1.296e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -83575.
@@ -609,10 +609,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by Hours, Metered DM | adj R² = 0.8543 | AIC = 167158.36
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.854
-Model:                            GLS   Adj. R-squared:                  0.854
+Model:                            OLS   Adj. R-squared:                  0.854
 Method:                 Least Squares   F-statistic:                 1.943e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -83576.
@@ -639,10 +639,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by PSI, Billing KWH, Hours, Fuel Rate | adj R² = 0.8265 | AIC = 165986.12
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.827
-Model:                            GLS   Adj. R-squared:                  0.826
+Model:                            OLS   Adj. R-squared:                  0.826
 Method:                 Least Squares   F-statistic:                     7778.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -82988.
@@ -671,10 +671,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by Billing KWH, Hours, Fuel Rate | adj R² = 0.8252 | AIC = 167308.58
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.825
-Model:                            GLS   Adj. R-squared:                  0.825
+Model:                            OLS   Adj. R-squared:                  0.825
 Method:                 Least Squares   F-statistic:                 1.036e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -83650.
@@ -702,10 +702,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by PSI, Hours, Fuel Rate | adj R² = 0.8170 | AIC = 167111.85
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.817
-Model:                            GLS   Adj. R-squared:                  0.817
+Model:                            OLS   Adj. R-squared:                  0.817
 Method:                 Least Squares   F-statistic:                     9769.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -83552.
@@ -733,10 +733,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by Hours, Fuel Rate | adj R² = 0.8161 | AIC = 168421.15
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.816
-Model:                            GLS   Adj. R-squared:                  0.816
+Model:                            OLS   Adj. R-squared:                  0.816
 Method:                 Least Squares   F-statistic:                 1.467e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -84208.
@@ -763,10 +763,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by PSI, Hours | adj R² = 0.8159 | AIC = 185146.54
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.816
-Model:                            GLS   Adj. R-squared:                  0.816
+Model:                            OLS   Adj. R-squared:                  0.816
 Method:                 Least Squares   F-statistic:                 1.612e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -92570.
@@ -793,10 +793,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by PSI, Billing KWH, Hours | adj R² = 0.8150 | AIC = 183601.01
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.815
-Model:                            GLS   Adj. R-squared:                  0.815
+Model:                            OLS   Adj. R-squared:                  0.815
 Method:                 Least Squares   F-statistic:                 1.060e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -91797.
@@ -824,10 +824,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by Hours | adj R² = 0.8134 | AIC = 186660.39
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.813
-Model:                            GLS   Adj. R-squared:                  0.813
+Model:                            OLS   Adj. R-squared:                  0.813
 Method:                 Least Squares   F-statistic:                 3.195e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -93328.
@@ -853,10 +853,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by Billing KWH, Hours | adj R² = 0.8127 | AIC = 185025.30
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.813
-Model:                            GLS   Adj. R-squared:                  0.813
+Model:                            OLS   Adj. R-squared:                  0.813
 Method:                 Least Squares   F-statistic:                 1.577e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -92510.
@@ -883,10 +883,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by PSI, Hours, Power Factor | adj R² = 0.8115 | AIC = 167608.94
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.812
-Model:                            GLS   Adj. R-squared:                  0.812
+Model:                            OLS   Adj. R-squared:                  0.812
 Method:                 Least Squares   F-statistic:                     9443.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -83800.
@@ -914,10 +914,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by PSI, Hours, Fuel Rate, Power Factor | adj R² = 0.8114 | AIC = 164388.10
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.812
-Model:                            GLS   Adj. R-squared:                  0.811
+Model:                            OLS   Adj. R-squared:                  0.811
 Method:                 Least Squares   F-statistic:                     6941.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -82189.
@@ -946,10 +946,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by Hours, Power Factor | adj R² = 0.8107 | AIC = 168922.33
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.811
-Model:                            GLS   Adj. R-squared:                  0.811
+Model:                            OLS   Adj. R-squared:                  0.811
 Method:                 Least Squares   F-statistic:                 1.419e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -84458.
@@ -976,10 +976,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by Hours, Fuel Rate, Power Factor | adj R² = 0.8105 | AIC = 165674.45
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.811
-Model:                            GLS   Adj. R-squared:                  0.810
+Model:                            OLS   Adj. R-squared:                  0.810
 Method:                 Least Squares   F-statistic:                     9266.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -82833.
@@ -1007,10 +1007,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by PSI, Billing KWH, Fuel Rate, Metered DM, Power Factor | adj R² = 0.6833 | AIC = 168988.47
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.684
-Model:                            GLS   Adj. R-squared:                  0.683
+Model:                            OLS   Adj. R-squared:                  0.683
 Method:                 Least Squares   F-statistic:                     2805.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -84488.
@@ -1040,10 +1040,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by Billing KWH, Fuel Rate, Metered DM, Power Factor | adj R² = 0.6832 | AIC = 184105.39
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.683
-Model:                            GLS   Adj. R-squared:                  0.683
+Model:                            OLS   Adj. R-squared:                  0.683
 Method:                 Least Squares   F-statistic:                     3801.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -92048.
@@ -1072,10 +1072,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by Billing KWH, Metered DM, Power Factor | adj R² = 0.6829 | AIC = 187527.03
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.683
-Model:                            GLS   Adj. R-squared:                  0.683
+Model:                            OLS   Adj. R-squared:                  0.683
 Method:                 Least Squares   F-statistic:                     5154.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -93760.
@@ -1103,10 +1103,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by PSI, Billing KWH, Metered DM, Power Factor | adj R² = 0.6824 | AIC = 172244.46
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.683
-Model:                            GLS   Adj. R-squared:                  0.682
+Model:                            OLS   Adj. R-squared:                  0.682
 Method:                 Least Squares   F-statistic:                     3559.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -86117.
@@ -1135,10 +1135,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by PSI, Billing KWH, Fuel Rate, Metered DM | adj R² = 0.6821 | AIC = 169011.19
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.682
-Model:                            GLS   Adj. R-squared:                  0.682
+Model:                            OLS   Adj. R-squared:                  0.682
 Method:                 Least Squares   F-statistic:                     3488.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -84501.
@@ -1167,10 +1167,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by PSI, Billing KWH, Metered DM | adj R² = 0.6811 | AIC = 172271.93
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.681
-Model:                            GLS   Adj. R-squared:                  0.681
+Model:                            OLS   Adj. R-squared:                  0.681
 Method:                 Least Squares   F-statistic:                     4716.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -86132.
@@ -1198,10 +1198,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by Billing KWH, Fuel Rate, Metered DM | adj R² = 0.6687 | AIC = 184420.42
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.669
-Model:                            GLS   Adj. R-squared:                  0.669
+Model:                            OLS   Adj. R-squared:                  0.669
 Method:                 Least Squares   F-statistic:                     4742.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -92206.
@@ -1229,10 +1229,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by Billing KWH, Metered DM | adj R² = 0.6677 | AIC = 187863.32
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.668
-Model:                            GLS   Adj. R-squared:                  0.668
+Model:                            OLS   Adj. R-squared:                  0.668
 Method:                 Least Squares   F-statistic:                     7211.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -93929.
@@ -1259,10 +1259,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by Billing KWH, Fuel Rate, Power Factor | adj R² = 0.6286 | AIC = 185253.63
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.629
-Model:                            GLS   Adj. R-squared:                  0.629
+Model:                            OLS   Adj. R-squared:                  0.629
 Method:                 Least Squares   F-statistic:                     3977.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -92623.
@@ -1290,10 +1290,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by Billing KWH, Power Factor | adj R² = 0.6281 | AIC = 188699.27
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.628
-Model:                            GLS   Adj. R-squared:                  0.628
+Model:                            OLS   Adj. R-squared:                  0.628
 Method:                 Least Squares   F-statistic:                     6062.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -94347.
@@ -1320,10 +1320,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by PSI, Billing KWH, Fuel Rate, Power Factor | adj R² = 0.6175 | AIC = 170213.87
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.618
-Model:                            GLS   Adj. R-squared:                  0.618
+Model:                            OLS   Adj. R-squared:                  0.618
 Method:                 Least Squares   F-statistic:                     2624.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -85102.
@@ -1352,10 +1352,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by PSI, Billing KWH, Power Factor | adj R² = 0.6166 | AIC = 173491.71
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.617
-Model:                            GLS   Adj. R-squared:                  0.617
+Model:                            OLS   Adj. R-squared:                  0.617
 Method:                 Least Squares   F-statistic:                     3552.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -86742.
@@ -1383,10 +1383,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by Metered DM, Power Factor | adj R² = 0.2645 | AIC = 193958.24
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.265
-Model:                            GLS   Adj. R-squared:                  0.265
+Model:                            OLS   Adj. R-squared:                  0.265
 Method:                 Least Squares   F-statistic:                     1294.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -96976.
@@ -1413,10 +1413,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by Fuel Rate, Metered DM, Power Factor | adj R² = 0.2632 | AIC = 190306.59
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.264
-Model:                            GLS   Adj. R-squared:                  0.263
+Model:                            OLS   Adj. R-squared:                  0.263
 Method:                 Least Squares   F-statistic:                     841.2
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -95149.
@@ -1444,10 +1444,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by PSI, Metered DM, Power Factor | adj R² = 0.2358 | AIC = 178172.39
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.236
-Model:                            GLS   Adj. R-squared:                  0.236
+Model:                            OLS   Adj. R-squared:                  0.236
 Method:                 Least Squares   F-statistic:                     682.6
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -89082.
@@ -1475,10 +1475,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by PSI, Fuel Rate, Metered DM, Power Factor | adj R² = 0.2343 | AIC = 174782.18
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.235
-Model:                            GLS   Adj. R-squared:                  0.234
+Model:                            OLS   Adj. R-squared:                  0.234
 Method:                 Least Squares   F-statistic:                     498.4
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -87386.
@@ -1507,10 +1507,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by Metered DM | adj R² = 0.2280 | AIC = 194305.37
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.228
-Model:                            GLS   Adj. R-squared:                  0.228
+Model:                            OLS   Adj. R-squared:                  0.228
 Method:                 Least Squares   F-statistic:                     2126.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -97151.
@@ -1534,10 +1534,10 @@ Notes:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 
 Water Total explained by Fuel Rate, Metered DM | adj R² = 0.2278 | AIC = 190636.66
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.228
-Model:                            GLS   Adj. R-squared:                  0.228
+Model:                            OLS   Adj. R-squared:                  0.228
 Method:                 Least Squares   F-statistic:                     1042.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -95315.
@@ -1564,10 +1564,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by PSI, Metered DM | adj R² = 0.2221 | AIC = 178288.88
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.222
-Model:                            GLS   Adj. R-squared:                  0.222
+Model:                            OLS   Adj. R-squared:                  0.222
 Method:                 Least Squares   F-statistic:                     947.2
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -89141.
@@ -1594,10 +1594,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by PSI, Fuel Rate, Metered DM | adj R² = 0.2214 | AIC = 174890.34
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.222
-Model:                            GLS   Adj. R-squared:                  0.221
+Model:                            OLS   Adj. R-squared:                  0.221
 Method:                 Least Squares   F-statistic:                     617.0
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -87441.
@@ -1625,10 +1625,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by Billing KWH, Fuel Rate | adj R² = 0.2082 | AIC = 200177.66
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.208
-Model:                            GLS   Adj. R-squared:                  0.208
+Model:                            OLS   Adj. R-squared:                  0.208
 Method:                 Least Squares   F-statistic:                     972.5
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:            -1.0009e+05
@@ -1655,10 +1655,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by PSI, Billing KWH, Fuel Rate | adj R² = 0.1937 | AIC = 177546.45
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.194
-Model:                            GLS   Adj. R-squared:                  0.194
+Model:                            OLS   Adj. R-squared:                  0.194
 Method:                 Least Squares   F-statistic:                     528.6
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          8.24e-308
 Time:                        09:09:32   Log-Likelihood:                -88769.
@@ -1686,10 +1686,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by Power Factor | adj R² = 0.0869 | AIC = 195598.29
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.087
-Model:                            GLS   Adj. R-squared:                  0.087
+Model:                            OLS   Adj. R-squared:                  0.087
 Method:                 Least Squares   F-statistic:                     685.6
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          2.00e-144
 Time:                        09:09:32   Log-Likelihood:                -97797.
@@ -1713,10 +1713,10 @@ Notes:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 
 Water Total explained by Fuel Rate, Power Factor | adj R² = 0.0854 | AIC = 191915.92
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.086
-Model:                            GLS   Adj. R-squared:                  0.085
+Model:                            OLS   Adj. R-squared:                  0.085
 Method:                 Least Squares   F-statistic:                     330.7
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          5.23e-138
 Time:                        09:09:32   Log-Likelihood:                -95955.
@@ -1743,10 +1743,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by PSI, Power Factor | adj R² = 0.0413 | AIC = 179702.80
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.042
-Model:                            GLS   Adj. R-squared:                  0.041
+Model:                            OLS   Adj. R-squared:                  0.041
 Method:                 Least Squares   F-statistic:                     143.9
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           6.74e-62
 Time:                        09:09:32   Log-Likelihood:                -89848.
@@ -1773,10 +1773,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by PSI, Fuel Rate, Power Factor | adj R² = 0.0393 | AIC = 176285.34
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.040
-Model:                            GLS   Adj. R-squared:                  0.039
+Model:                            OLS   Adj. R-squared:                  0.039
 Method:                 Least Squares   F-statistic:                     89.59
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           8.36e-57
 Time:                        09:09:32   Log-Likelihood:                -88139.
@@ -1804,10 +1804,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by PSI, Billing KWH | adj R² = 0.0322 | AIC = 197281.68
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.032
-Model:                            GLS   Adj. R-squared:                  0.032
+Model:                            OLS   Adj. R-squared:                  0.032
 Method:                 Least Squares   F-statistic:                     122.2
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           6.36e-53
 Time:                        09:09:32   Log-Likelihood:                -98638.
@@ -1834,10 +1834,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by Billing KWH | adj R² = 0.0197 | AIC = 221006.48
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.020
-Model:                            GLS   Adj. R-squared:                  0.020
+Model:                            OLS   Adj. R-squared:                  0.020
 Method:                 Least Squares   F-statistic:                     163.9
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           3.70e-37
 Time:                        09:09:32   Log-Likelihood:            -1.1050e+05
@@ -1863,10 +1863,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by PSI, Fuel Rate | adj R² = 0.0190 | AIC = 179669.70
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.019
-Model:                            GLS   Adj. R-squared:                  0.019
+Model:                            OLS   Adj. R-squared:                  0.019
 Method:                 Least Squares   F-statistic:                     64.98
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           1.13e-28
 Time:                        09:09:32   Log-Likelihood:                -89832.
@@ -1893,10 +1893,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by PSI | adj R² = 0.0156 | AIC = 199318.46
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.016
-Model:                            GLS   Adj. R-squared:                  0.016
+Model:                            OLS   Adj. R-squared:                  0.016
 Method:                 Least Squares   F-statistic:                     117.6
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           3.34e-27
 Time:                        09:09:32   Log-Likelihood:                -99657.
@@ -1922,10 +1922,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Water Total explained by Fuel Rate | adj R² = 0.0010 | AIC = 203649.26
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Water Total   R-squared:                       0.001
-Model:                            GLS   Adj. R-squared:                  0.001
+Model:                            OLS   Adj. R-squared:                  0.001
 Method:                 Least Squares   F-statistic:                     8.208
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):            0.00418
 Time:                        09:09:32   Log-Likelihood:            -1.0182e+05

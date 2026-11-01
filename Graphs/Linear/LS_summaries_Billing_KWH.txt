@@ -1,8 +1,8 @@
 Billing KWH explained by PSI, Hours, Water Total, Metered DM, Power Factor | adj R² = 0.8509 | AIC = 153486.98
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.851
-Model:                            GLS   Adj. R-squared:                  0.851
+Model:                            OLS   Adj. R-squared:                  0.851
 Method:                 Least Squares   F-statistic:                     7508.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -76737.
@@ -32,10 +32,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by PSI, Hours, Water Total, Metered DM | adj R² = 0.8509 | AIC = 153486.55
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.851
-Model:                            GLS   Adj. R-squared:                  0.851
+Model:                            OLS   Adj. R-squared:                  0.851
 Method:                 Least Squares   F-statistic:                     9383.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -76738.
@@ -64,10 +64,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by PSI, Hours, Water Total, Fuel Rate, Metered DM, Power Factor | adj R² = 0.8507 | AIC = 150537.25
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.851
-Model:                            GLS   Adj. R-squared:                  0.851
+Model:                            OLS   Adj. R-squared:                  0.851
 Method:                 Least Squares   F-statistic:                     6126.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -75262.
@@ -98,10 +98,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by PSI, Hours, Water Total, Fuel Rate, Metered DM | adj R² = 0.8507 | AIC = 150537.47
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.851
-Model:                            GLS   Adj. R-squared:                  0.851
+Model:                            OLS   Adj. R-squared:                  0.851
 Method:                 Least Squares   F-statistic:                     7349.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -75263.
@@ -131,10 +131,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by Hours, Water Total, Metered DM, Power Factor | adj R² = 0.8506 | AIC = 154389.73
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.851
-Model:                            GLS   Adj. R-squared:                  0.851
+Model:                            OLS   Adj. R-squared:                  0.851
 Method:                 Least Squares   F-statistic:                     9415.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -77190.
@@ -163,10 +163,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by Hours, Water Total, Metered DM | adj R² = 0.8506 | AIC = 154389.46
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.851
-Model:                            GLS   Adj. R-squared:                  0.851
+Model:                            OLS   Adj. R-squared:                  0.851
 Method:                 Least Squares   F-statistic:                 1.255e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -77191.
@@ -194,10 +194,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by Hours, Water Total, Fuel Rate, Metered DM, Power Factor | adj R² = 0.8504 | AIC = 151438.64
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.851
-Model:                            GLS   Adj. R-squared:                  0.850
+Model:                            OLS   Adj. R-squared:                  0.850
 Method:                 Least Squares   F-statistic:                     7377.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -75713.
@@ -227,10 +227,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by Hours, Water Total, Fuel Rate, Metered DM | adj R² = 0.8504 | AIC = 151439.02
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.850
-Model:                            GLS   Adj. R-squared:                  0.850
+Model:                            OLS   Adj. R-squared:                  0.850
 Method:                 Least Squares   F-statistic:                     9218.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -75715.
@@ -259,10 +259,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by PSI, Water Total, Metered DM, Power Factor | adj R² = 0.8462 | AIC = 154858.13
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.846
-Model:                            GLS   Adj. R-squared:                  0.846
+Model:                            OLS   Adj. R-squared:                  0.846
 Method:                 Least Squares   F-statistic:                     9117.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -77424.
@@ -291,10 +291,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by PSI, Water Total, Fuel Rate, Metered DM, Power Factor | adj R² = 0.8462 | AIC = 151897.42
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.846
-Model:                            GLS   Adj. R-squared:                  0.846
+Model:                            OLS   Adj. R-squared:                  0.846
 Method:                 Least Squares   F-statistic:                     7151.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -75943.
@@ -324,10 +324,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by PSI, Water Total, Metered DM | adj R² = 0.8461 | AIC = 154860.83
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.846
-Model:                            GLS   Adj. R-squared:                  0.846
+Model:                            OLS   Adj. R-squared:                  0.846
 Method:                 Least Squares   F-statistic:                 1.215e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -77426.
@@ -355,10 +355,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by PSI, Water Total, Fuel Rate, Metered DM | adj R² = 0.8460 | AIC = 151901.25
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.846
-Model:                            GLS   Adj. R-squared:                  0.846
+Model:                            OLS   Adj. R-squared:                  0.846
 Method:                 Least Squares   F-statistic:                     8931.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -75946.
@@ -387,10 +387,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by Water Total, Metered DM, Power Factor | adj R² = 0.8402 | AIC = 157325.34
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.840
-Model:                            GLS   Adj. R-squared:                  0.840
+Model:                            OLS   Adj. R-squared:                  0.840
 Method:                 Least Squares   F-statistic:                 1.178e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -78659.
@@ -418,10 +418,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by Water Total, Metered DM | adj R² = 0.8402 | AIC = 157325.43
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.840
-Model:                            GLS   Adj. R-squared:                  0.840
+Model:                            OLS   Adj. R-squared:                  0.840
 Method:                 Least Squares   F-statistic:                 1.766e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -78660.
@@ -448,10 +448,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by Water Total, Fuel Rate, Metered DM, Power Factor | adj R² = 0.8400 | AIC = 154365.39
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.840
-Model:                            GLS   Adj. R-squared:                  0.840
+Model:                            OLS   Adj. R-squared:                  0.840
 Method:                 Least Squares   F-statistic:                     8653.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -77178.
@@ -480,10 +480,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by Water Total, Fuel Rate, Metered DM | adj R² = 0.8400 | AIC = 154366.15
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.840
-Model:                            GLS   Adj. R-squared:                  0.840
+Model:                            OLS   Adj. R-squared:                  0.840
 Method:                 Least Squares   F-statistic:                 1.153e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -77179.
@@ -511,10 +511,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by PSI, Hours, Metered DM | adj R² = 0.8318 | AIC = 154299.90
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.832
-Model:                            GLS   Adj. R-squared:                  0.832
+Model:                            OLS   Adj. R-squared:                  0.832
 Method:                 Least Squares   F-statistic:                 1.085e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -77146.
@@ -542,10 +542,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by PSI, Hours, Metered DM, Power Factor | adj R² = 0.8318 | AIC = 154301.63
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.832
-Model:                            GLS   Adj. R-squared:                  0.832
+Model:                            OLS   Adj. R-squared:                  0.832
 Method:                 Least Squares   F-statistic:                     8135.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -77146.
@@ -574,10 +574,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by PSI, Hours, Fuel Rate, Metered DM | adj R² = 0.8312 | AIC = 151349.87
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.831
-Model:                            GLS   Adj. R-squared:                  0.831
+Model:                            OLS   Adj. R-squared:                  0.831
 Method:                 Least Squares   F-statistic:                     7944.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -75670.
@@ -606,10 +606,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by PSI, Hours, Fuel Rate, Metered DM, Power Factor | adj R² = 0.8312 | AIC = 151351.49
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.831
-Model:                            GLS   Adj. R-squared:                  0.831
+Model:                            OLS   Adj. R-squared:                  0.831
 Method:                 Least Squares   F-statistic:                     6354.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -75670.
@@ -639,10 +639,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by Hours, Metered DM | adj R² = 0.8289 | AIC = 155548.72
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.829
-Model:                            GLS   Adj. R-squared:                  0.829
+Model:                            OLS   Adj. R-squared:                  0.829
 Method:                 Least Squares   F-statistic:                 1.605e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -77771.
@@ -669,10 +669,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by Hours, Metered DM, Power Factor | adj R² = 0.8289 | AIC = 155550.60
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.829
-Model:                            GLS   Adj. R-squared:                  0.829
+Model:                            OLS   Adj. R-squared:                  0.829
 Method:                 Least Squares   F-statistic:                 1.070e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -77771.
@@ -700,10 +700,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by Hours, Fuel Rate, Metered DM | adj R² = 0.8284 | AIC = 152568.12
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.828
-Model:                            GLS   Adj. R-squared:                  0.828
+Model:                            OLS   Adj. R-squared:                  0.828
 Method:                 Least Squares   F-statistic:                 1.046e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -76280.
@@ -731,10 +731,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by Hours, Fuel Rate, Metered DM, Power Factor | adj R² = 0.8284 | AIC = 152569.90
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.828
-Model:                            GLS   Adj. R-squared:                  0.828
+Model:                            OLS   Adj. R-squared:                  0.828
 Method:                 Least Squares   F-statistic:                     7842.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -76280.
@@ -763,10 +763,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by PSI, Metered DM, Power Factor | adj R² = 0.6296 | AIC = 160708.14
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.630
-Model:                            GLS   Adj. R-squared:                  0.630
+Model:                            OLS   Adj. R-squared:                  0.630
 Method:                 Least Squares   F-statistic:                     3756.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -80350.
@@ -794,10 +794,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by PSI, Fuel Rate, Metered DM, Power Factor | adj R² = 0.6278 | AIC = 157664.56
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.628
-Model:                            GLS   Adj. R-squared:                  0.628
+Model:                            OLS   Adj. R-squared:                  0.628
 Method:                 Least Squares   F-statistic:                     2743.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -78827.
@@ -826,10 +826,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by PSI, Metered DM | adj R² = 0.6244 | AIC = 160799.68
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.625
-Model:                            GLS   Adj. R-squared:                  0.624
+Model:                            OLS   Adj. R-squared:                  0.624
 Method:                 Least Squares   F-statistic:                     5510.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -80397.
@@ -856,10 +856,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by PSI, Fuel Rate, Metered DM | adj R² = 0.6226 | AIC = 157753.58
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.623
-Model:                            GLS   Adj. R-squared:                  0.623
+Model:                            OLS   Adj. R-squared:                  0.623
 Method:                 Least Squares   F-statistic:                     3577.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -78873.
@@ -887,10 +887,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by Metered DM, Power Factor | adj R² = 0.6214 | AIC = 174857.18
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.622
-Model:                            GLS   Adj. R-squared:                  0.621
+Model:                            OLS   Adj. R-squared:                  0.621
 Method:                 Least Squares   F-statistic:                     5904.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -87426.
@@ -917,10 +917,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by Fuel Rate, Metered DM, Power Factor | adj R² = 0.6200 | AIC = 171581.72
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.620
-Model:                            GLS   Adj. R-squared:                  0.620
+Model:                            OLS   Adj. R-squared:                  0.620
 Method:                 Least Squares   F-statistic:                     3838.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -85787.
@@ -948,10 +948,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by PSI, Hours, Water Total, Fuel Rate, Power Factor | adj R² = 0.6191 | AIC = 156603.33
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.619
-Model:                            GLS   Adj. R-squared:                  0.619
+Model:                            OLS   Adj. R-squared:                  0.619
 Method:                 Least Squares   F-statistic:                     2098.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -78296.
@@ -981,10 +981,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by PSI, Hours, Water Total, Power Factor | adj R² = 0.6174 | AIC = 159709.51
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.618
-Model:                            GLS   Adj. R-squared:                  0.617
+Model:                            OLS   Adj. R-squared:                  0.617
 Method:                 Least Squares   F-statistic:                     2655.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -79850.
@@ -1013,10 +1013,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by Metered DM | adj R² = 0.6172 | AIC = 174935.54
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.617
-Model:                            GLS   Adj. R-squared:                  0.617
+Model:                            OLS   Adj. R-squared:                  0.617
 Method:                 Least Squares   F-statistic:                 1.160e+04
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -87466.
@@ -1040,10 +1040,10 @@ Notes:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 
 Billing KWH explained by Hours, Water Total, Fuel Rate, Power Factor | adj R² = 0.6171 | AIC = 157560.99
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.617
-Model:                            GLS   Adj. R-squared:                  0.617
+Model:                            OLS   Adj. R-squared:                  0.617
 Method:                 Least Squares   F-statistic:                     2615.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -78775.
@@ -1072,10 +1072,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by Fuel Rate, Metered DM | adj R² = 0.6158 | AIC = 171657.57
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.616
-Model:                            GLS   Adj. R-squared:                  0.616
+Model:                            OLS   Adj. R-squared:                  0.616
 Method:                 Least Squares   F-statistic:                     5656.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -85826.
@@ -1102,10 +1102,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by Hours, Water Total, Power Factor | adj R² = 0.6154 | AIC = 160668.13
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.616
-Model:                            GLS   Adj. R-squared:                  0.615
+Model:                            OLS   Adj. R-squared:                  0.615
 Method:                 Least Squares   F-statistic:                     3530.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -80330.
@@ -1133,10 +1133,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by PSI, Water Total, Fuel Rate, Power Factor | adj R² = 0.6092 | AIC = 157982.89
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.609
-Model:                            GLS   Adj. R-squared:                  0.609
+Model:                            OLS   Adj. R-squared:                  0.609
 Method:                 Least Squares   F-statistic:                     2534.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -78986.
@@ -1165,10 +1165,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by PSI, Water Total, Power Factor | adj R² = 0.6078 | AIC = 161087.90
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.608
-Model:                            GLS   Adj. R-squared:                  0.608
+Model:                            OLS   Adj. R-squared:                  0.608
 Method:                 Least Squares   F-statistic:                     3424.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -80540.
@@ -1196,10 +1196,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by Water Total, Fuel Rate, Power Factor | adj R² = 0.5902 | AIC = 160589.28
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.590
-Model:                            GLS   Adj. R-squared:                  0.590
+Model:                            OLS   Adj. R-squared:                  0.590
 Method:                 Least Squares   F-statistic:                     3167.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -80291.
@@ -1227,10 +1227,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by Water Total, Power Factor | adj R² = 0.5890 | AIC = 163696.09
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.589
-Model:                            GLS   Adj. R-squared:                  0.589
+Model:                            OLS   Adj. R-squared:                  0.589
 Method:                 Least Squares   F-statistic:                     4817.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -81845.
@@ -1257,10 +1257,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by Hours, Fuel Rate, Power Factor | adj R² = 0.4310 | AIC = 160384.28
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.431
-Model:                            GLS   Adj. R-squared:                  0.431
+Model:                            OLS   Adj. R-squared:                  0.431
 Method:                 Least Squares   F-statistic:                     1642.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -80188.
@@ -1288,10 +1288,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by Hours, Power Factor | adj R² = 0.4307 | AIC = 163541.92
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.431
-Model:                            GLS   Adj. R-squared:                  0.431
+Model:                            OLS   Adj. R-squared:                  0.431
 Method:                 Least Squares   F-statistic:                     2508.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -81768.
@@ -1318,10 +1318,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by PSI, Hours, Fuel Rate, Power Factor | adj R² = 0.4270 | AIC = 159262.11
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.427
-Model:                            GLS   Adj. R-squared:                  0.427
+Model:                            OLS   Adj. R-squared:                  0.427
 Method:                 Least Squares   F-statistic:                     1203.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -79626.
@@ -1350,10 +1350,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by PSI, Hours, Power Factor | adj R² = 0.4266 | AIC = 162396.01
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.427
-Model:                            GLS   Adj. R-squared:                  0.427
+Model:                            OLS   Adj. R-squared:                  0.427
 Method:                 Least Squares   F-statistic:                     1633.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:31   Log-Likelihood:                -81194.
@@ -1381,10 +1381,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by PSI, Hours, Water Total, Fuel Rate | adj R² = 0.1792 | AIC = 172670.41
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.180
-Model:                            GLS   Adj. R-squared:                  0.179
+Model:                            OLS   Adj. R-squared:                  0.179
 Method:                 Least Squares   F-statistic:                     359.1
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          5.69e-280
 Time:                        09:09:31   Log-Likelihood:                -86330.
@@ -1413,10 +1413,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by PSI, Water Total, Fuel Rate | adj R² = 0.1789 | AIC = 174028.92
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.179
-Model:                            GLS   Adj. R-squared:                  0.179
+Model:                            OLS   Adj. R-squared:                  0.179
 Method:                 Least Squares   F-statistic:                     481.3
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          7.38e-283
 Time:                        09:09:31   Log-Likelihood:                -87010.
@@ -1444,10 +1444,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by Hours, Water Total, Fuel Rate | adj R² = 0.1786 | AIC = 173673.07
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.179
-Model:                            GLS   Adj. R-squared:                  0.179
+Model:                            OLS   Adj. R-squared:                  0.179
 Method:                 Least Squares   F-statistic:                     479.4
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          8.56e-282
 Time:                        09:09:31   Log-Likelihood:                -86833.
@@ -1475,10 +1475,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by Water Total, Fuel Rate | adj R² = 0.1775 | AIC = 177337.29
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.178
-Model:                            GLS   Adj. R-squared:                  0.178
+Model:                            OLS   Adj. R-squared:                  0.178
 Method:                 Least Squares   F-statistic:                     728.7
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          3.17e-287
 Time:                        09:09:31   Log-Likelihood:                -88666.
@@ -1505,10 +1505,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by Hours, Fuel Rate | adj R² = 0.1315 | AIC = 174298.60
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.132
-Model:                            GLS   Adj. R-squared:                  0.131
+Model:                            OLS   Adj. R-squared:                  0.131
 Method:                 Least Squares   F-statistic:                     501.4
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          1.86e-203
 Time:                        09:09:31   Log-Likelihood:                -87146.
@@ -1535,10 +1535,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by PSI, Hours, Fuel Rate | adj R² = 0.1296 | AIC = 173079.80
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.130
-Model:                            GLS   Adj. R-squared:                  0.130
+Model:                            OLS   Adj. R-squared:                  0.130
 Method:                 Least Squares   F-statistic:                     326.8
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          8.84e-198
 Time:                        09:09:31   Log-Likelihood:                -86536.
@@ -1566,10 +1566,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by Power Factor | adj R² = 0.0586 | AIC = 181485.91
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.059
-Model:                            GLS   Adj. R-squared:                  0.059
+Model:                            OLS   Adj. R-squared:                  0.059
 Method:                 Least Squares   F-statistic:                     448.9
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           1.09e-96
 Time:                        09:09:31   Log-Likelihood:                -90741.
@@ -1593,10 +1593,10 @@ Notes:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 
 Billing KWH explained by Fuel Rate, Power Factor | adj R² = 0.0578 | AIC = 178064.93
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.058
-Model:                            GLS   Adj. R-squared:                  0.058
+Model:                            OLS   Adj. R-squared:                  0.058
 Method:                 Least Squares   F-statistic:                     217.7
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           1.80e-92
 Time:                        09:09:31   Log-Likelihood:                -89029.
@@ -1623,10 +1623,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by PSI, Hours, Water Total | adj R² = 0.0412 | AIC = 235039.60
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.042
-Model:                            GLS   Adj. R-squared:                  0.041
+Model:                            OLS   Adj. R-squared:                  0.041
 Method:                 Least Squares   F-statistic:                     105.2
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           1.06e-66
 Time:                        09:09:31   Log-Likelihood:            -1.1752e+05
@@ -1654,10 +1654,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by PSI, Hours | adj R² = 0.0367 | AIC = 235104.09
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.037
-Model:                            GLS   Adj. R-squared:                  0.037
+Model:                            OLS   Adj. R-squared:                  0.037
 Method:                 Least Squares   F-statistic:                     139.7
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           3.05e-60
 Time:                        09:09:31   Log-Likelihood:            -1.1755e+05
@@ -1684,10 +1684,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by Hours, Water Total | adj R² = 0.0344 | AIC = 236345.10
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.035
-Model:                            GLS   Adj. R-squared:                  0.034
+Model:                            OLS   Adj. R-squared:                  0.034
 Method:                 Least Squares   F-statistic:                     131.4
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           8.23e-57
 Time:                        09:09:31   Log-Likelihood:            -1.1817e+05
@@ -1714,10 +1714,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by Hours | adj R² = 0.0277 | AIC = 236834.55
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.028
-Model:                            GLS   Adj. R-squared:                  0.028
+Model:                            OLS   Adj. R-squared:                  0.028
 Method:                 Least Squares   F-statistic:                     209.7
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           7.01e-47
 Time:                        09:09:31   Log-Likelihood:            -1.1842e+05
@@ -1743,10 +1743,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by PSI, Water Total | adj R² = 0.0224 | AIC = 237251.88
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.023
-Model:                            GLS   Adj. R-squared:                  0.022
+Model:                            OLS   Adj. R-squared:                  0.022
 Method:                 Least Squares   F-statistic:                     84.99
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           3.25e-37
 Time:                        09:09:31   Log-Likelihood:            -1.1862e+05
@@ -1773,10 +1773,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by PSI, Power Factor | adj R² = 0.0189 | AIC = 167190.11
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.019
-Model:                            GLS   Adj. R-squared:                  0.019
+Model:                            OLS   Adj. R-squared:                  0.019
 Method:                 Least Squares   F-statistic:                     64.92
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           1.20e-28
 Time:                        09:09:31   Log-Likelihood:                -83592.
@@ -1803,10 +1803,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by PSI, Fuel Rate, Power Factor | adj R² = 0.0180 | AIC = 163997.88
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.018
-Model:                            GLS   Adj. R-squared:                  0.018
+Model:                            OLS   Adj. R-squared:                  0.018
 Method:                 Least Squares   F-statistic:                     40.83
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           3.96e-26
 Time:                        09:09:31   Log-Likelihood:                -81995.
@@ -1834,10 +1834,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by Water Total | adj R² = 0.0137 | AIC = 242023.12
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.014
-Model:                            GLS   Adj. R-squared:                  0.014
+Model:                            OLS   Adj. R-squared:                  0.014
 Method:                 Least Squares   F-statistic:                     105.4
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           1.48e-24
 Time:                        09:09:31   Log-Likelihood:            -1.2101e+05
@@ -1863,10 +1863,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by PSI | adj R² = 0.0071 | AIC = 237521.43
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.007
-Model:                            GLS   Adj. R-squared:                  0.007
+Model:                            OLS   Adj. R-squared:                  0.007
 Method:                 Least Squares   F-statistic:                     53.83
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           2.42e-13
 Time:                        09:09:31   Log-Likelihood:            -1.1876e+05
@@ -1892,10 +1892,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by PSI, Fuel Rate | adj R² = 0.0001 | AIC = 175408.58
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.000
-Model:                            GLS   Adj. R-squared:                  0.000
+Model:                            OLS   Adj. R-squared:                  0.000
 Method:                 Least Squares   F-statistic:                     1.479
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):              0.228
 Time:                        09:09:31   Log-Likelihood:                -87701.
@@ -1922,10 +1922,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Billing KWH explained by Fuel Rate | adj R² = 0.0001 | AIC = 197072.77
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            Billing KWH   R-squared:                       0.000
-Model:                            GLS   Adj. R-squared:                  0.000
+Model:                            OLS   Adj. R-squared:                  0.000
 Method:                 Least Squares   F-statistic:                     1.833
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):              0.176
 Time:                        09:09:31   Log-Likelihood:                -98534.

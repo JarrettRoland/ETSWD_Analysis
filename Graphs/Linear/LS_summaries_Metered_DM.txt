@@ -1,8 +1,8 @@
 Metered DM explained by PSI, Billing KWH, Hours, Water Total, Power Factor | adj R² = 0.7288 | AIC = 69032.41
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.729
-Model:                            GLS   Adj. R-squared:                  0.729
+Model:                            OLS   Adj. R-squared:                  0.729
 Method:                 Least Squares   F-statistic:                     3533.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -34510.
@@ -32,10 +32,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by PSI, Billing KWH, Hours, Power Factor | adj R² = 0.7283 | AIC = 69056.70
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.728
-Model:                            GLS   Adj. R-squared:                  0.728
+Model:                            OLS   Adj. R-squared:                  0.728
 Method:                 Least Squares   F-statistic:                     4407.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -34523.
@@ -64,10 +64,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by PSI, Billing KWH, Hours, Water Total, Fuel Rate, Power Factor | adj R² = 0.7276 | AIC = 67784.39
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.728
-Model:                            GLS   Adj. R-squared:                  0.728
+Model:                            OLS   Adj. R-squared:                  0.728
 Method:                 Least Squares   F-statistic:                     2872.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -33885.
@@ -98,10 +98,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by PSI, Billing KWH, Hours, Fuel Rate, Power Factor | adj R² = 0.7272 | AIC = 67808.14
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.727
-Model:                            GLS   Adj. R-squared:                  0.727
+Model:                            OLS   Adj. R-squared:                  0.727
 Method:                 Least Squares   F-statistic:                     3439.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -33898.
@@ -131,10 +131,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by Billing KWH, Hours, Water Total, Power Factor | adj R² = 0.7219 | AIC = 69569.53
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.722
-Model:                            GLS   Adj. R-squared:                  0.722
+Model:                            OLS   Adj. R-squared:                  0.722
 Method:                 Least Squares   F-statistic:                     4292.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -34780.
@@ -163,10 +163,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by Billing KWH, Hours, Water Total, Fuel Rate, Power Factor | adj R² = 0.7208 | AIC = 68316.66
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.721
-Model:                            GLS   Adj. R-squared:                  0.721
+Model:                            OLS   Adj. R-squared:                  0.721
 Method:                 Least Squares   F-statistic:                     3350.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -34152.
@@ -196,10 +196,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by Billing KWH, Hours, Power Factor | adj R² = 0.7206 | AIC = 69738.12
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.721
-Model:                            GLS   Adj. R-squared:                  0.721
+Model:                            OLS   Adj. R-squared:                  0.721
 Method:                 Least Squares   F-statistic:                     5694.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -34865.
@@ -227,10 +227,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by Billing KWH, Hours, Fuel Rate, Power Factor | adj R² = 0.7196 | AIC = 68468.23
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.720
-Model:                            GLS   Adj. R-squared:                  0.720
+Model:                            OLS   Adj. R-squared:                  0.720
 Method:                 Least Squares   F-statistic:                     4169.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -34229.
@@ -259,10 +259,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by PSI, Billing KWH, Water Total, Power Factor | adj R² = 0.6893 | AIC = 70458.30
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.690
-Model:                            GLS   Adj. R-squared:                  0.689
+Model:                            OLS   Adj. R-squared:                  0.689
 Method:                 Least Squares   F-statistic:                     3675.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -35224.
@@ -291,10 +291,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by PSI, Billing KWH, Water Total, Fuel Rate, Power Factor | adj R² = 0.6882 | AIC = 69188.06
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.688
-Model:                            GLS   Adj. R-squared:                  0.688
+Model:                            OLS   Adj. R-squared:                  0.688
 Method:                 Least Squares   F-statistic:                     2870.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -34588.
@@ -324,10 +324,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by Billing KWH, Water Total, Power Factor | adj R² = 0.6807 | AIC = 71768.31
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.681
-Model:                            GLS   Adj. R-squared:                  0.681
+Model:                            OLS   Adj. R-squared:                  0.681
 Method:                 Least Squares   F-statistic:                     4773.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -35880.
@@ -355,10 +355,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by Billing KWH, Water Total, Fuel Rate, Power Factor | adj R² = 0.6796 | AIC = 70494.93
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.680
-Model:                            GLS   Adj. R-squared:                  0.680
+Model:                            OLS   Adj. R-squared:                  0.680
 Method:                 Least Squares   F-statistic:                     3495.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -35242.
@@ -387,10 +387,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by PSI, Billing KWH, Power Factor | adj R² = 0.6247 | AIC = 71723.06
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.625
-Model:                            GLS   Adj. R-squared:                  0.625
+Model:                            OLS   Adj. R-squared:                  0.625
 Method:                 Least Squares   F-statistic:                     3676.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -35858.
@@ -418,10 +418,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by PSI, Billing KWH, Fuel Rate, Power Factor | adj R² = 0.6233 | AIC = 70430.98
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.624
-Model:                            GLS   Adj. R-squared:                  0.623
+Model:                            OLS   Adj. R-squared:                  0.623
 Method:                 Least Squares   F-statistic:                     2690.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -35210.
@@ -450,10 +450,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by Billing KWH, Power Factor | adj R² = 0.6181 | AIC = 78782.59
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.618
-Model:                            GLS   Adj. R-squared:                  0.618
+Model:                            OLS   Adj. R-squared:                  0.618
 Method:                 Least Squares   F-statistic:                     5811.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -39388.
@@ -480,10 +480,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by Billing KWH, Fuel Rate, Power Factor | adj R² = 0.6170 | AIC = 77408.23
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.617
-Model:                            GLS   Adj. R-squared:                  0.617
+Model:                            OLS   Adj. R-squared:                  0.617
 Method:                 Least Squares   F-statistic:                     3785.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -38700.
@@ -511,10 +511,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by PSI, Billing KWH, Hours, Water Total | adj R² = 0.3626 | AIC = 78694.84
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.363
-Model:                            GLS   Adj. R-squared:                  0.363
+Model:                            OLS   Adj. R-squared:                  0.363
 Method:                 Least Squares   F-statistic:                     975.7
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -39342.
@@ -543,10 +543,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by PSI, Billing KWH, Hours, Water Total, Fuel Rate | adj R² = 0.3499 | AIC = 74619.91
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.350
-Model:                            GLS   Adj. R-squared:                  0.350
+Model:                            OLS   Adj. R-squared:                  0.350
 Method:                 Least Squares   F-statistic:                     703.9
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -37304.
@@ -576,10 +576,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by Billing KWH, Hours, Water Total | adj R² = 0.3461 | AIC = 79306.35
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.346
-Model:                            GLS   Adj. R-squared:                  0.346
+Model:                            OLS   Adj. R-squared:                  0.346
 Method:                 Least Squares   F-statistic:                     1217.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -39649.
@@ -607,10 +607,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by Billing KWH, Hours, Water Total, Fuel Rate | adj R² = 0.3346 | AIC = 75193.08
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.335
-Model:                            GLS   Adj. R-squared:                  0.335
+Model:                            OLS   Adj. R-squared:                  0.335
 Method:                 Least Squares   F-statistic:                     826.9
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -37592.
@@ -639,10 +639,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by PSI, Hours, Water Total, Fuel Rate | adj R² = 0.3079 | AIC = 75463.90
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.308
-Model:                            GLS   Adj. R-squared:                  0.308
+Model:                            OLS   Adj. R-squared:                  0.308
 Method:                 Least Squares   F-statistic:                     730.6
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -37727.
@@ -671,10 +671,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by PSI, Hours, Water Total, Fuel Rate, Power Factor | adj R² = 0.3048 | AIC = 73866.38
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.305
-Model:                            GLS   Adj. R-squared:                  0.305
+Model:                            OLS   Adj. R-squared:                  0.305
 Method:                 Least Squares   F-statistic:                     566.8
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -36927.
@@ -704,10 +704,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by PSI, Hours, Water Total, Power Factor | adj R² = 0.3042 | AIC = 75291.77
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.305
-Model:                            GLS   Adj. R-squared:                  0.304
+Model:                            OLS   Adj. R-squared:                  0.304
 Method:                 Least Squares   F-statistic:                     720.0
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -37641.
@@ -736,10 +736,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by Hours, Water Total, Fuel Rate | adj R² = 0.2907 | AIC = 76048.41
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.291
-Model:                            GLS   Adj. R-squared:                  0.291
+Model:                            OLS   Adj. R-squared:                  0.291
 Method:                 Least Squares   F-statistic:                     902.8
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -38020.
@@ -767,10 +767,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by PSI, Billing KWH, Water Total | adj R² = 0.2905 | AIC = 80116.99
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.291
-Model:                            GLS   Adj. R-squared:                  0.290
+Model:                            OLS   Adj. R-squared:                  0.290
 Method:                 Least Squares   F-statistic:                     943.9
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -40054.
@@ -798,10 +798,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by Hours, Water Total, Fuel Rate, Power Factor | adj R² = 0.2851 | AIC = 74456.04
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.286
-Model:                            GLS   Adj. R-squared:                  0.285
+Model:                            OLS   Adj. R-squared:                  0.285
 Method:                 Least Squares   F-statistic:                     647.9
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -37223.
@@ -830,10 +830,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by Hours, Water Total, Power Factor | adj R² = 0.2843 | AIC = 75885.83
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.285
-Model:                            GLS   Adj. R-squared:                  0.284
+Model:                            OLS   Adj. R-squared:                  0.284
 Method:                 Least Squares   F-statistic:                     877.2
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -37939.
@@ -861,10 +861,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by PSI, Billing KWH, Water Total, Fuel Rate | adj R² = 0.2717 | AIC = 75980.42
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.272
-Model:                            GLS   Adj. R-squared:                  0.272
+Model:                            OLS   Adj. R-squared:                  0.272
 Method:                 Least Squares   F-statistic:                     615.1
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -37985.
@@ -893,10 +893,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by Billing KWH, Water Total | adj R² = 0.2679 | AIC = 82091.94
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.268
-Model:                            GLS   Adj. R-squared:                  0.268
+Model:                            OLS   Adj. R-squared:                  0.268
 Method:                 Least Squares   F-statistic:                     1290.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -41043.
@@ -923,10 +923,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by PSI, Hours, Water Total | adj R² = 0.2672 | AIC = 80512.34
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.268
-Model:                            GLS   Adj. R-squared:                  0.267
+Model:                            OLS   Adj. R-squared:                  0.267
 Method:                 Least Squares   F-statistic:                     841.2
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -40252.
@@ -954,10 +954,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by Billing KWH, Water Total, Fuel Rate | adj R² = 0.2570 | AIC = 77810.89
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.257
-Model:                            GLS   Adj. R-squared:                  0.257
+Model:                            OLS   Adj. R-squared:                  0.257
 Method:                 Least Squares   F-statistic:                     774.8
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -38901.
@@ -985,10 +985,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by Hours, Water Total | adj R² = 0.2464 | AIC = 81147.45
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.247
-Model:                            GLS   Adj. R-squared:                  0.246
+Model:                            OLS   Adj. R-squared:                  0.246
 Method:                 Least Squares   F-statistic:                     1138.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -40571.
@@ -1015,10 +1015,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by PSI, Water Total, Fuel Rate | adj R² = 0.2258 | AIC = 76820.73
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.226
-Model:                            GLS   Adj. R-squared:                  0.226
+Model:                            OLS   Adj. R-squared:                  0.226
 Method:                 Least Squares   F-statistic:                     644.2
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -38406.
@@ -1046,10 +1046,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by PSI, Water Total, Power Factor | adj R² = 0.2081 | AIC = 76722.68
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.208
-Model:                            GLS   Adj. R-squared:                  0.208
+Model:                            OLS   Adj. R-squared:                  0.208
 Method:                 Least Squares   F-statistic:                     581.5
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -38357.
@@ -1077,10 +1077,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by PSI, Water Total, Fuel Rate, Power Factor | adj R² = 0.2080 | AIC = 75287.54
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.208
-Model:                            GLS   Adj. R-squared:                  0.208
+Model:                            OLS   Adj. R-squared:                  0.208
 Method:                 Least Squares   F-statistic:                     427.8
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -37639.
@@ -1109,10 +1109,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by Water Total, Fuel Rate | adj R² = 0.2062 | AIC = 78719.15
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.206
-Model:                            GLS   Adj. R-squared:                  0.206
+Model:                            OLS   Adj. R-squared:                  0.206
 Method:                 Least Squares   F-statistic:                     876.5
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -39357.
@@ -1139,10 +1139,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by PSI, Water Total | adj R² = 0.1944 | AIC = 81946.23
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.195
-Model:                            GLS   Adj. R-squared:                  0.194
+Model:                            OLS   Adj. R-squared:                  0.194
 Method:                 Least Squares   F-statistic:                     842.6
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -40970.
@@ -1169,10 +1169,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by Billing KWH, Fuel Rate | adj R² = 0.1870 | AIC = 87531.50
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.187
-Model:                            GLS   Adj. R-squared:                  0.187
+Model:                            OLS   Adj. R-squared:                  0.187
 Method:                 Least Squares   F-statistic:                     850.7
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):               0.00
 Time:                        09:09:32   Log-Likelihood:                -43763.
@@ -1199,10 +1199,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by PSI, Billing KWH, Hours, Fuel Rate | adj R² = 0.1843 | AIC = 76116.05
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.185
-Model:                            GLS   Adj. R-squared:                  0.184
+Model:                            OLS   Adj. R-squared:                  0.184
 Method:                 Least Squares   F-statistic:                     369.9
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          1.68e-287
 Time:                        09:09:32   Log-Likelihood:                -38053.
@@ -1231,10 +1231,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by Billing KWH, Hours, Fuel Rate | adj R² = 0.1816 | AIC = 76685.61
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.182
-Model:                            GLS   Adj. R-squared:                  0.182
+Model:                            OLS   Adj. R-squared:                  0.182
 Method:                 Least Squares   F-statistic:                     487.8
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          3.13e-286
 Time:                        09:09:32   Log-Likelihood:                -38339.
@@ -1262,10 +1262,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by Water Total, Power Factor | adj R² = 0.1794 | AIC = 78174.62
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.180
-Model:                            GLS   Adj. R-squared:                  0.179
+Model:                            OLS   Adj. R-squared:                  0.179
 Method:                 Least Squares   F-statistic:                     735.5
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          1.39e-289
 Time:                        09:09:32   Log-Likelihood:                -39084.
@@ -1292,10 +1292,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by Water Total, Fuel Rate, Power Factor | adj R² = 0.1794 | AIC = 76733.53
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.180
-Model:                            GLS   Adj. R-squared:                  0.179
+Model:                            OLS   Adj. R-squared:                  0.179
 Method:                 Least Squares   F-statistic:                     481.3
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          8.21e-283
 Time:                        09:09:32   Log-Likelihood:                -38363.
@@ -1323,10 +1323,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by Water Total | adj R² = 0.1741 | AIC = 83986.54
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.174
-Model:                            GLS   Adj. R-squared:                  0.174
+Model:                            OLS   Adj. R-squared:                  0.174
 Method:                 Least Squares   F-statistic:                     1501.
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          4.75e-298
 Time:                        09:09:32   Log-Likelihood:                -41991.
@@ -1352,10 +1352,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by PSI, Billing KWH, Hours | adj R² = 0.1613 | AIC = 80589.85
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.162
-Model:                            GLS   Adj. R-squared:                  0.161
+Model:                            OLS   Adj. R-squared:                  0.161
 Method:                 Least Squares   F-statistic:                     440.2
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          1.54e-261
 Time:                        09:09:32   Log-Likelihood:                -40291.
@@ -1383,10 +1383,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by PSI, Billing KWH, Fuel Rate | adj R² = 0.1599 | AIC = 76964.40
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.160
-Model:                            GLS   Adj. R-squared:                  0.160
+Model:                            OLS   Adj. R-squared:                  0.160
 Method:                 Least Squares   F-statistic:                     419.0
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          4.03e-249
 Time:                        09:09:32   Log-Likelihood:                -38478.
@@ -1414,10 +1414,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by Billing KWH, Hours | adj R² = 0.1582 | AIC = 81191.83
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.158
-Model:                            GLS   Adj. R-squared:                  0.158
+Model:                            OLS   Adj. R-squared:                  0.158
 Method:                 Least Squares   F-statistic:                     649.6
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          3.25e-259
 Time:                        09:09:32   Log-Likelihood:                -40593.
@@ -1444,10 +1444,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by PSI, Hours, Fuel Rate | adj R² = 0.0899 | AIC = 77274.49
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.090
-Model:                            GLS   Adj. R-squared:                  0.090
+Model:                            OLS   Adj. R-squared:                  0.090
 Method:                 Least Squares   F-statistic:                     217.0
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          3.27e-134
 Time:                        09:09:32   Log-Likelihood:                -38633.
@@ -1475,10 +1475,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by Hours, Fuel Rate | adj R² = 0.0873 | AIC = 77846.58
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.088
-Model:                            GLS   Adj. R-squared:                  0.087
+Model:                            OLS   Adj. R-squared:                  0.087
 Method:                 Least Squares   F-statistic:                     317.2
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          2.95e-132
 Time:                        09:09:32   Log-Likelihood:                -38920.
@@ -1505,10 +1505,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by PSI, Hours | adj R² = 0.0741 | AIC = 82142.40
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.074
-Model:                            GLS   Adj. R-squared:                  0.074
+Model:                            OLS   Adj. R-squared:                  0.074
 Method:                 Least Squares   F-statistic:                     277.9
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          8.60e-117
 Time:                        09:09:32   Log-Likelihood:                -41068.
@@ -1535,10 +1535,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by PSI, Hours, Power Factor | adj R² = 0.0737 | AIC = 77188.28
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.074
-Model:                            GLS   Adj. R-squared:                  0.074
+Model:                            OLS   Adj. R-squared:                  0.074
 Method:                 Least Squares   F-statistic:                     175.6
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          1.61e-109
 Time:                        09:09:32   Log-Likelihood:                -38590.
@@ -1566,10 +1566,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by PSI, Billing KWH | adj R² = 0.0735 | AIC = 82003.45
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.074
-Model:                            GLS   Adj. R-squared:                  0.073
+Model:                            OLS   Adj. R-squared:                  0.073
 Method:                 Least Squares   F-statistic:                     275.2
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          1.03e-115
 Time:                        09:09:32   Log-Likelihood:                -40999.
@@ -1596,10 +1596,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by PSI, Hours, Fuel Rate, Power Factor | adj R² = 0.0733 | AIC = 75735.27
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.074
-Model:                            GLS   Adj. R-squared:                  0.073
+Model:                            OLS   Adj. R-squared:                  0.073
 Method:                 Least Squares   F-statistic:                     128.6
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          7.81e-106
 Time:                        09:09:32   Log-Likelihood:                -37863.
@@ -1628,10 +1628,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by Hours, Power Factor | adj R² = 0.0704 | AIC = 77766.88
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.071
-Model:                            GLS   Adj. R-squared:                  0.070
+Model:                            OLS   Adj. R-squared:                  0.070
 Method:                 Least Squares   F-statistic:                     252.1
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          3.14e-106
 Time:                        09:09:32   Log-Likelihood:                -38880.
@@ -1658,10 +1658,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by Hours, Fuel Rate, Power Factor | adj R² = 0.0699 | AIC = 76299.39
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.070
-Model:                            GLS   Adj. R-squared:                  0.070
+Model:                            OLS   Adj. R-squared:                  0.070
 Method:                 Least Squares   F-statistic:                     163.9
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          2.11e-102
 Time:                        09:09:32   Log-Likelihood:                -38146.
@@ -1689,10 +1689,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by Hours | adj R² = 0.0694 | AIC = 82802.54
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.070
-Model:                            GLS   Adj. R-squared:                  0.069
+Model:                            OLS   Adj. R-squared:                  0.069
 Method:                 Least Squares   F-statistic:                     520.4
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):          3.75e-111
 Time:                        09:09:32   Log-Likelihood:                -41399.
@@ -1718,10 +1718,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by Power Factor | adj R² = 0.0517 | AIC = 85532.10
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.052
-Model:                            GLS   Adj. R-squared:                  0.052
+Model:                            OLS   Adj. R-squared:                  0.052
 Method:                 Least Squares   F-statistic:                     393.6
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           2.56e-85
 Time:                        09:09:32   Log-Likelihood:                -42764.
@@ -1745,10 +1745,10 @@ Notes:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 
 Metered DM explained by Fuel Rate, Power Factor | adj R² = 0.0511 | AIC = 83953.26
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.051
-Model:                            GLS   Adj. R-squared:                  0.051
+Model:                            OLS   Adj. R-squared:                  0.051
 Method:                 Least Squares   F-statistic:                     191.2
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           1.31e-81
 Time:                        09:09:32   Log-Likelihood:                -41974.
@@ -1775,10 +1775,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by Billing KWH | adj R² = 0.0435 | AIC = 93126.99
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.044
-Model:                            GLS   Adj. R-squared:                  0.043
+Model:                            OLS   Adj. R-squared:                  0.043
 Method:                 Least Squares   F-statistic:                     352.0
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           7.64e-77
 Time:                        09:09:32   Log-Likelihood:                -46561.
@@ -1804,10 +1804,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by PSI, Power Factor | adj R² = 0.0067 | AIC = 78239.04
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.007
-Model:                            GLS   Adj. R-squared:                  0.007
+Model:                            OLS   Adj. R-squared:                  0.007
 Method:                 Least Squares   F-statistic:                     23.32
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           8.07e-11
 Time:                        09:09:32   Log-Likelihood:                -39117.
@@ -1834,10 +1834,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by PSI, Fuel Rate, Power Factor | adj R² = 0.0063 | AIC = 76776.60
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.007
-Model:                            GLS   Adj. R-squared:                  0.006
+Model:                            OLS   Adj. R-squared:                  0.006
 Method:                 Least Squares   F-statistic:                     14.80
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           1.34e-09
 Time:                        09:09:32   Log-Likelihood:                -38384.
@@ -1865,10 +1865,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by PSI | adj R² = 0.0047 | AIC = 83464.11
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.005
-Model:                            GLS   Adj. R-squared:                  0.005
+Model:                            OLS   Adj. R-squared:                  0.005
 Method:                 Least Squares   F-statistic:                     33.65
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):           6.90e-09
 Time:                        09:09:32   Log-Likelihood:                -41730.
@@ -1894,10 +1894,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by PSI, Fuel Rate | adj R² = 0.0017 | AIC = 78546.60
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.002
-Model:                            GLS   Adj. R-squared:                  0.002
+Model:                            OLS   Adj. R-squared:                  0.002
 Method:                 Least Squares   F-statistic:                     6.682
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):            0.00126
 Time:                        09:09:32   Log-Likelihood:                -39270.
@@ -1924,10 +1924,10 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 Metered DM explained by Fuel Rate | adj R² = 0.0002 | AIC = 89933.31
-                            GLS Regression Results                            
+                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Metered DM   R-squared:                       0.000
-Model:                            GLS   Adj. R-squared:                  0.000
+Model:                            OLS   Adj. R-squared:                  0.000
 Method:                 Least Squares   F-statistic:                     2.620
 Date:                Wed, 14 Oct 2026   Prob (F-statistic):              0.106
 Time:                        09:09:32   Log-Likelihood:                -44965.
