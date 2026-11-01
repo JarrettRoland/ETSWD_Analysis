@@ -6,7 +6,6 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 
 
@@ -59,7 +58,25 @@ def filter_extremes(in_df: pd.DataFrame, columns: list[str],
     
     return out_df
 
+def calculate_valid_ranges(in_df: pd.DataFrame, k: float = 3) -> dict[str, tuple(float, float)]:
+    """ Calculates the valid range for each numerical column contained within in_df. The valid
+    range is defined as the k * IQR. ASSUMES in_df CONTAINS ONLY NUMERIC COLUMNS."""
+    
+    in_df = in_df[in_df.columns].astype(float)
+    valid_ranges = dict()
+    for col in in_df.columns:
+        
+        q1, q3 = in_df.loc[col > 0, col].quantile([0.25, 0.75])
+         # lower bound for values
+        lower = q1 - k * (q3 - q1)
 
+        # upper bound for values
+        upper = q3 + k * (q3 - q1)
+        valid_ranges[col] = (lower, upper)
+    
+    return valid_ranges
+    
+    
 def clean_attributes(in_df: pd.DataFrame,
                      valid_ranges: dict[str, tuple[float, float]] | None = None,
                      lower_q: float = 0.005, upper_q: float = 0.995) -> pd.DataFrame:
@@ -74,7 +91,7 @@ def clean_attributes(in_df: pd.DataFrame,
     # convert any integer columns to float, because NaN can't be assigned to integer values
     # numpy uses the CPU's own definition of NaN - which is tied to the CPU data model for 
     # floats!
-    out_df = in_df[attributes].astype(float)
+    out_df = in_df[in_df.columns].astype(float)
 
     # valid_ranges is a dictionary of {"attribute": (lower_bound, upper_bound)}
     if len(valid_ranges) > 0:
@@ -103,16 +120,13 @@ def run_pca(in_df: pd.DataFrame) -> dict[str, Any]:
        
        PCA scores are values for how much each row influences each individual principle component. 
        The individual principle component score for each row is determined by the z-score of the attribute
-       multiplied by the weight (component) of that PC."""
-    
-    # NOTE: PCA is sensitive to absolute magnitude differences, so every attribute is
-    #       transformed to z-scores first. We are explaining rather than predicting,
-    #       so the scaler is fit on all of the data.
-    scaler = StandardScaler()
-    Z = scaler.fit_transform(in_df)
+       multiplied by the weight (component) of that PC.
+       
+       NOTE: PCA is sensitive to absolute magnitude differences within data, so it is important to normalize
+       the dataframe before passing it to run_pca()!"""
 
     pca = PCA()
-    scores = pca.fit_transform(Z)
+    scores = pca.fit_transform(in_df)
     pcs = [f"PC{i + 1}" for i in range(X.shape[1])]
 
     variance_df = pd.DataFrame({
@@ -125,6 +139,9 @@ def run_pca(in_df: pd.DataFrame) -> dict[str, Any]:
     loadings_df = pd.DataFrame(pca.components_.T * np.sqrt(pca.explained_variance_),
                                index=in_df.columns, columns=pcs)
     scores_df = pd.DataFrame(scores, columns=pcs)
+
+    # input dataframe with scores attached for each reading
+    out_df = pd.concat([in_df, scores])
 
     return {"pca": pca, "variance": variance_df, "loadings": loadings_df, "scores": scores_df}
 
@@ -142,24 +159,6 @@ def supplementary_corr(in_df: pd.DataFrame, scores_df: pd.DataFrame,
                            index=corr_cols)
 
     return corr_df
-
-
-def group_scores(in_df: pd.DataFrame, scores_df: pd.DataFrame,
-                 group_col: str, n_pcs: int = 4) -> pd.DataFrame:
-    # Mean component scores for each group of a categorical column.
-    pcs = list(scores_df.columns[:n_pcs])
-    temp_df = pd.concat([in_df[[group_col]], scores_df[pcs]], axis=1)
-    group_df = temp_df.groupby(group_col, dropna=False)[pcs].mean()
-    group_df.insert(0, "Rows", temp_df.groupby(group_col, dropna=False).size())
-
-    return group_df
-
-
-def write_pca_summaries(pca_results: dict[str, Any], input_path: str | Path) -> None:
-    # Writes the variance and loadings tables to the given folder.
-    folder = Path(input_path)
-    pca_results["variance"].to_csv(folder / "PCA Explained Variance.csv")
-    pca_results["loadings"].to_csv(folder / "PCA Loadings.csv")
 
 
 def plot_scree(variance_df: pd.DataFrame, input_path: str | Path) -> None:
