@@ -58,7 +58,7 @@ def filter_extremes(in_df: pd.DataFrame, columns: list[str],
     
     return out_df
 
-def calculate_valid_ranges(in_df: pd.DataFrame, k: float = 3) -> dict[str, tuple(float, float)]:
+def calculate_valid_ranges(in_df: pd.DataFrame, k: float = 3) -> dict[str, tuple[float, float]]:
     """ Calculates the valid range for each numerical column contained within in_df. The valid
     range is defined as the k * IQR. ASSUMES in_df CONTAINS ONLY NUMERIC COLUMNS."""
     
@@ -66,7 +66,7 @@ def calculate_valid_ranges(in_df: pd.DataFrame, k: float = 3) -> dict[str, tuple
     valid_ranges = dict()
     for col in in_df.columns:
         
-        q1, q3 = in_df.loc[col > 0, col].quantile([0.25, 0.75])
+        q1, q3 = in_df.loc[in_df[col] >= 0, col].quantile([0.25, 0.75])
          # lower bound for values
         lower = q1 - k * (q3 - q1)
 
@@ -91,7 +91,7 @@ def clean_attributes(in_df: pd.DataFrame,
     # convert any integer columns to float, because NaN can't be assigned to integer values
     # numpy uses the CPU's own definition of NaN - which is tied to the CPU data model for 
     # floats!
-    out_df = in_df[in_df.columns].astype(float)
+    out_df = in_df[[col for col in in_df.columns if col in valid_ranges.keys()]].astype(float)
 
     # valid_ranges is a dictionary of {"attribute": (lower_bound, upper_bound)}
     if len(valid_ranges) > 0:
@@ -99,16 +99,20 @@ def clean_attributes(in_df: pd.DataFrame,
             if col in out_df:
                 # if the acceptable values for the attribute in question are out of bounds
                 # assign NaN
-                out_filter = out_df[col] < low | out_df[col] > high
+                out_filter = (out_df[col] < low) | (out_df[col] > high)
                 out_df.loc[out_filter, col] = np.nan
+                
 
     # clip each column to the bounds defined by lower_q and upper_q
     for col in valid_ranges.keys():
         lower, upper = out_df[col].quantile([lower_q, upper_q])
         out_df[col] = out_df[col].clip(lower, upper)
-        
+
+
+    nan_count = out_df.isna().sum().sum()
     out_df = out_df.fillna(out_df.median())
- 
+    print(f"Total NaN values replaced with the Median: {nan_count}")
+    print(f"Total out_df rows: {len(out_df)}")
     return out_df
 
 
@@ -127,7 +131,7 @@ def run_pca(in_df: pd.DataFrame) -> dict[str, Any]:
 
     pca = PCA()
     scores = pca.fit_transform(in_df)
-    pcs = [f"PC{i + 1}" for i in range(X.shape[1])]
+    pcs = [f"PC{i + 1}" for i in range(in_df.shape[1])]
 
     variance_df = pd.DataFrame({
         "Eigenvalue": pca.explained_variance_,
@@ -141,9 +145,9 @@ def run_pca(in_df: pd.DataFrame) -> dict[str, Any]:
     scores_df = pd.DataFrame(scores, columns=pcs)
 
     # input dataframe with scores attached for each reading
-    out_df = pd.concat([in_df, scores])
+    out_df = pd.concat([in_df, scores_df], axis=1)
 
-    return {"pca": pca, "variance": variance_df, "loadings": loadings_df, "scores": scores_df}
+    return {"pca": pca, "variance": variance_df, "loadings": loadings_df, "scores": scores_df, "output": out_df}
 
 
 def supplementary_corr(in_df: pd.DataFrame, scores_df: pd.DataFrame,
@@ -161,21 +165,24 @@ def supplementary_corr(in_df: pd.DataFrame, scores_df: pd.DataFrame,
     return corr_df
 
 
-def plot_scree(variance_df: pd.DataFrame, input_path: str | Path) -> None:
+def plot_scree(variance_df: pd.DataFrame, input_path: str | Path | os.PathLike) -> None:
+    """ Create scree plot to identify the number of principal components to use 
+    in PCA. """
     fig, ax = plt.subplots(figsize=(6, 4))
     ax.bar(variance_df.index, variance_df["Explained Variance"], label="Per Component")
-    ax.plot(variance_df.index, variance_df["Cumulative"], color="tab:orange", marker="o", label="Cumulative")
+    ax.plot(variance_df.index, variance_df["Cumulative Variance"], color="tab:orange", marker="o", label="Cumulative")
     ax.set_ylabel("Share of Variance")
     ax.set_title("Scree Plot")
     ax.legend()
     plt.xticks(rotation=45)
     fig.tight_layout()
-    fig.savefig(os.path.join(input_path, "PCA Scree.png"), dpi=150)
+    out_path = Path(input_path)
+    fig.savefig(out_path / "PCA Scree Plot.png", dpi=150)
 
 
-def plot_biplot(pca_results: dict[str, Any], groups: pd.Series, input_path: str | Path) -> None:
-    # Plots PC1 vs PC2 scores with the attribute loadings as arrows.
-    # Rows in a group other than "None" (e.g. workover months) are highlighted.
+def plot_biplot(pca_results: dict[str, Any], groups: pd.Series, input_path: str | Path | os.PathLike) -> None:
+    """ Plots PC1 vs PC2 scores with the attribute loadings as arrows.
+    Rows in a group other than "None" (e.g. workover months) are highlighted. """
     scores_df = pca_results["scores"]
     loadings_df = pca_results["loadings"]
     variance_df = pca_results["variance"]
@@ -198,4 +205,5 @@ def plot_biplot(pca_results: dict[str, Any], groups: pd.Series, input_path: str 
     ax.set_title("PCA Biplot")
     ax.legend(fontsize=7)
     fig.tight_layout()
-    fig.savefig(os.path.join(input_path, "PCA Biplot.png"), dpi=150)
+    out_path = Path(input_path)
+    fig.savefig(out_path / "PCA Biplot.png", dpi=150)
