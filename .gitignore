@@ -1,6 +1,7 @@
 # My files
 *.xlsx
 *.csv
+*.pdf
 
 # ==========================================
 # Jupyter Lab & Notebook Specifics

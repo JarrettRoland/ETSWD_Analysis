@@ -5,7 +5,7 @@ from typing import Any
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-
+from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 
 
@@ -58,7 +58,7 @@ def filter_extremes(in_df: pd.DataFrame, columns: list[str],
     
     return out_df
 
-def calculate_valid_ranges(in_df: pd.DataFrame, k: float = 3) -> dict[str, tuple[float, float]]:
+def calculate_valid_ranges(in_df: pd.DataFrame, k: float = 14) -> dict[str, tuple[float, float]]:
     """ Calculates the valid range for each numerical column contained within in_df. The valid
     range is defined as the k * IQR. ASSUMES in_df CONTAINS ONLY NUMERIC COLUMNS."""
     
@@ -109,9 +109,14 @@ def clean_attributes(in_df: pd.DataFrame,
         out_df[col] = out_df[col].clip(lower, upper)
 
 
-    nan_count = out_df.isna().sum().sum()
+    nan_count_series = out_df.isna().sum(axis=1)
+    count=0
+    for row in nan_count_series:
+        if row > 0:
+            count = count + 1
+    nans_count = count
     out_df = out_df.fillna(out_df.median())
-    print(f"Total NaN values replaced with the Median: {nan_count}")
+    print(f"Total NaN values replaced with the Median: {nans_count}")
     print(f"Total out_df rows: {len(out_df)}")
     return out_df
 
@@ -150,6 +155,35 @@ def run_pca(in_df: pd.DataFrame) -> dict[str, Any]:
     return {"pca": pca, "variance": variance_df, "loadings": loadings_df, "scores": scores_df, "output": out_df}
 
 
+def datamine_pca(in_df: pd.DataFrame, pca_vars: list[str],
+                 k_start: int, k_stop: int, out_dir: str) -> None:
+    """ Runs the clean -> scale -> PCA pipeline for each k from k_start to k_stop (inclusive)
+    and writes "PCA Variances K={k}.xlsx" and "PCA Loadings K={k}.xlsx" to out_dir."""
+ 
+    out_dir = Path(out_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
+ 
+    for k in range(k_start, k_stop + 1):
+        valid_ranges = calculate_valid_ranges(in_df[pca_vars], k)
+        cleaned_df = clean_attributes(in_df, valid_ranges)
+    
+    
+        scaled_df = pd.DataFrame(StandardScaler().fit_transform(cleaned_df[pca_vars]),
+                                 columns=pca_vars, index=cleaned_df.index)
+    
+        pca_dict = run_pca(scaled_df)
+        pca_dict["variance"].to_excel(out_dir / f"PCA Variances K={k}.xlsx")
+        pca_dict["loadings"].to_excel(out_dir / f"PCA Loadings K={k}.xlsx")
+ 
+# datamine_pca(main_df, pca_vars, k_start=1, k_stop=20,
+#       out_dir=r"C:\path\to\Workover Analysis\PCA Mining")  # <-- your directory here
+ 
+
+
+
+
+    
+    
 def supplementary_corr(in_df: pd.DataFrame, scores_df: pd.DataFrame,
                        corr_cols: list[str], num_pcs: int = 4) -> pd.DataFrame:
     """ This function correlates columns that were not used in PCA to the created principal components. 
@@ -207,3 +241,4 @@ def plot_biplot(pca_results: dict[str, Any], groups: pd.Series, input_path: str 
     fig.tight_layout()
     out_path = Path(input_path)
     fig.savefig(out_path / "PCA Biplot.png", dpi=150)
+
